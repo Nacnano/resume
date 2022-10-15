@@ -4,44 +4,48 @@ export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg"
 
 export const introData = {
-  name: "Manassarn Manoonchai",
-  nickname: "Noom",
-  phone: "",
-  email: "manassarn@gmail.com",
-  github: "narze",
-  linkedin: "manassarn",
+  name: "Chotpisit Adunsehawat",
+  nickname: "Nac",
+  phone: "(+66)96-189-6046",
+  email: "chotpisit.adu@gmail.com",
+  github: "nacnano",
+  linkedin: "Chotpisit Adunsehawat",
   location: "Bangkok, Thailand",
-  website: "narze.live",
+  // website: "narze.live",
 }
 
 export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).",
+      "C, C++, Python, TypeScript, SQL",
   },
-  {
-    section: "Frameworks:",
-    details:
-      "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
-  },
-  {
-    section: "Tools:",
-    details:
-      "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
-  },
-  {
-    section: "Other:",
-    details:
-      "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
-  },
+  // {
+  //   section: "Frameworks:",
+  //   details:
+  //     "Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap",
+  // },
+  // {
+  //   section: "Tools:",
+  //   details:
+  //     "Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces",
+  // },
+  // {
+  //   section: "Other:",
+  //   details:
+  //     "AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare",
+  // },
 ]
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2007-2010 (GPA 3.45)",
+    details: "Chulalongkorn University, TH. 2022-Present",
   },
+  {
+    head: "High School",
+    details: "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)"
+  }
 ]
 
 export const workExperiences = [
