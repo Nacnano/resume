@@ -136,6 +136,10 @@
     </ul>
   </section>
 
+  <note style="font-size:xx-large">
+    Add more soon...
+  </note>
+
   <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
