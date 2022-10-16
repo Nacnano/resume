@@ -50,10 +50,10 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Developer and Data scientist (Internship)",
+    position: "Developer and Data Scientist (Internship)",
     company: "MonkeyEveryday",
     url: "https://monkeyeveryday.com",
-    years: ["2021", "Current"],
+    years: ["March 2021", "Present"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped dealing with database and data analysis tasks",
