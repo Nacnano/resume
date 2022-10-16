@@ -49,19 +49,19 @@ export const educations = [
 ]
 
 export const workExperiences = [
-  // {
-  //   position: "Senior Infrastructure Software Engineer",
-  //   company: "OPN TH",
-  //   url: "https://opn.ooo/",
-  //   years: ["2021", "Current"],
-  //   details: [
-  //     "Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm",
-  //     "Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store",
-  //     "Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-  //     "Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.",
-  //     "Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store",
-  //   ],
-  // },
+  {
+    position: "Developer and Data scientist (Internship)",
+    company: "MonkeyEveryday",
+    url: "https://monkeyeveryday.com",
+    years: ["2021", "Current"],
+    details: [
+      "Designed, implemented, and maintained the TCAS Ranking services",
+      "Helped dealing with database and data analysis tasks",
+      "Implemented end-to-end test using cypress",
+      "Maintained Monkey Monkey websites (both frontend and backend)",
+      "Learned basic for everything that required for being a developer",
+    ],
+  },
 ]
 
 export const projects = [
