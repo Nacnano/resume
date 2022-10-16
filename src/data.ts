@@ -58,19 +58,19 @@ export const workExperiences = [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped dealing with database and data analysis tasks",
       "Implemented end-to-end test using cypress",
-      "Maintained Monkey Monkey websites (both frontend and backend)",
+      "Maintained Monkey Monkey websites for both frontend and backend",
       "Learned basic for everything that required for being a developer",
     ],
   },
 ]
 
 export const projects = [
-  // {
-  //   name: "Manoonchai",
-  //   details:
-  //     "Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte",
-  //   url: "manoonchai.com",
-  // },
+  {
+    name: "High School Computer Science Project",
+    details:
+      "usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse and predict multimedia efficiency of students' self learning using dataset from my friends' school humanities project",
+    url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
+  },
 ]
 
 export const interests = [
