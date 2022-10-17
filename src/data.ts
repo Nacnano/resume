@@ -74,10 +74,10 @@ export const projects = [
 ]
 
 export const interests = [
-  // "Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards",
-  // "Typing : 120+ words per minute (Colemak Mod-DH layout)",
+  "Areas : Coding, Anime, Gaming, Physics, Philosophy",
+  "Typing : 80 words per minute",
   "Games : Rhythm, Puzzle, Strategy",
-  // "Music : EDM, Rock, Japanese",
+  "Music : Pop, EDM, Rock, Classical",
   // "Remote working is a OK. I extensively use self time tracking app for all my works.",
   // "Pets : I have 3 dogs",
 ]
