@@ -77,7 +77,7 @@ export const interests = [
   "Areas : Coding, Anime, Gaming, Physics, Philosophy",
   "Typing : 80 words per minute",
   "Games : Rhythm, Puzzle, Strategy",
-  "Music : Pop, EDM, Rock, Classical",
+  "Music : Pop, EDM, Rock, Classical, Jazz",
   // "Remote working is a OK. I extensively use self time tracking app for all my works.",
   // "Pets : I have 3 dogs",
 ]
