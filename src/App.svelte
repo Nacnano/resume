@@ -94,6 +94,22 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Achievements and Activities</h2>
+    <hr />
+
+    <!-- {#each workExperiences as exp}
+      <Work {...exp} />
+    {/each} -->
+
+    <note style="font-size:xx-large">
+      Add more soon...
+    </note>
+  </section>
+
+  
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
@@ -136,9 +152,7 @@
     </ul>
   </section>
 
-  <note style="font-size:xx-large">
-    Add more soon...
-  </note>
+  
 
   <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
