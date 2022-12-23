@@ -52,6 +52,13 @@ export const educations = [
   },
 ]
 
+export const achievements = [
+  {
+    name: "",
+    description: "",
+  },
+]
+
 export const workExperiences = [
   {
     position: "Junior Developer and Data Scientist",
