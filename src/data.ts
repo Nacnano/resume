@@ -52,17 +52,12 @@ export const educations = [
   },
 ]
 
-export const achievements = [
-  {
-    name: "",
-    description: "",
-  },
-]
+
 
 export const workExperiences = [
   {
     position: "Junior Developer and Data Scientist",
-    company: "MonkeyEveryday",
+    company: "MonkeyEveryday (Startup)",
     url: "https://monkeyeveryday.com",
     years: ["March 2021", "Present"],
     details: [
@@ -72,6 +67,17 @@ export const workExperiences = [
       "Maintained Monkey Monkey websites for both frontend and backend",
       "Learned basics for everything that required for being a developer",
     ],
+  },
+]
+
+export const achievements = [
+  {
+    name: "POSN Computer Olympiad Second Camp",
+    details: "Qualified to Computer Olympiad Camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
+  },
+  {
+    name: "POSN Computer Olympiad Second Camp",
+    details: "Qualified to Computer Olympiad Camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
   },
 ]
 

@@ -13,6 +13,7 @@
     sourceLink,
     technologies,
     workExperiences,
+    achievements,
   } from "./data"
 
   let editMode = false
@@ -94,28 +95,33 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Achievements and Activities</h2>
-    <hr />
-
-    <!-- {#each workExperiences as exp}
-      <Work {...exp} />
-    {/each} -->
-
-    <note style="font-size:xx-large">
-      Add more soon...
-    </note>
-  </section>
-
-  
-
-  <section>
-    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
     {#each workExperiences as exp}
       <Work {...exp} />
     {/each}
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Achievements</h2>
+    <hr />
+
+    {#each achievements as ach}
+    <li>
+      <HideToggle />
+      <strong>{ach.name}</strong>
+      - {ach.details}
+      <!-- <a href="https://{project.url}" target="_blank" rel="noreferrer"
+        ><strong>{project.url}</strong></a
+      > -->
+    </li>
+    {/each}
+
+    <!-- <note style="font-size:xx-large">
+      Add more soon...
+    </note> -->
   </section>
 
   <section>
