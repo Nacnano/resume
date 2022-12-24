@@ -72,22 +72,16 @@ export const workExperiences = [
 
 export const achievements = [
   {
-    name: "POSN Computer Olympiad Second Camp",
-    details: "Qualified to Computer Olympiad Camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
+    name: "Computer Olympiad Camp",
+    details: "Qualified to POSN Computer Olympiad second camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
   },
   {
-    name: "POSN Computer Olympiad Second Camp",
-    details: "Qualified to Computer Olympiad Camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
+    name: "Google Codejam",
+    details: "Qualified to Google Codejam Round 2",
   },
 ]
 
 export const projects = [
-  {
-    name: "High School Computer Science Project",
-    details:
-      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse and predict multimedia effects on efficiency of students' self learning using dataset from my friends' school humanities project",
-    url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
-  },
   {
     name: "CUGetRekt",
     details:
@@ -95,11 +89,18 @@ export const projects = [
     url: "https://github.com/Nacnano/cugetrekt",
   },
   {
+    name: "High School Computer Science Project",
+    details:
+      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse and predict multimedia effects on efficiency of students' self learning using dataset from my friends' school humanities project",
+    url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
+  },
+  {
     name: "GOATFinder",
     details:
       "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major tournament data. This is for the qualification for participating in the International Mathematical Model Competition 2021",
     url: "https://github.com/Nacnano/IMMC-2021",
   },
+  
 ]
 
 export const interests = [
@@ -107,6 +108,5 @@ export const interests = [
   "Typing : 60-80 words per minute",
   "Games : Rhythm, Puzzle, Strategy",
   "Music : Pop, EDM, Rock, Classical, Jazz",
-  // "Remote working is a OK. I extensively use self time tracking app for all my works.",
-  // "Pets : I have 3 dogs",
+  "Both onsite and remote working are fine to me.",
 ]
