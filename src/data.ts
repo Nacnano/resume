@@ -23,7 +23,7 @@ export const technologies = [
   {
     section: "Libraries and Frameworks:",
     details:
-      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS, Mongoose, Prisma",
+      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS, Prisma",
   },
   {
     section: "Tools:",
@@ -76,8 +76,12 @@ export const achievements = [
     details: "Qualified to POSN Computer Olympiad second camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
   },
   {
+    name: "Meta Hacker Cup",
+    details: "Qualified to the second round of Meta Hacker Cup 2022",
+  },
+  {
     name: "Google Codejam",
-    details: "Qualified to Google Codejam Round 2",
+    details: "Qualified to the first round of Google Codejam 2021",
   },
 ]
 
