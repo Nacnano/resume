@@ -23,7 +23,7 @@ export const technologies = [
   {
     section: "Libraries and Frameworks:",
     details:
-      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS, Prisma",
+      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS",
   },
   {
     section: "Tools:",
@@ -72,16 +72,20 @@ export const workExperiences = [
 
 export const achievements = [
   {
-    name: "Computer Olympiad Camp",
-    details: "Qualified to POSN Computer Olympiad second camps at Kasetsart University and Mahidol Wittayansorn School. I got the first reserved to be participate in Thailand Olympiad in Informatics.",
+    name: "Thinc's 10 Days in 10 Years Project (2022)",
+    details: "Winning Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 days ",
   },
   {
-    name: "Meta Hacker Cup",
+    name: "National Computer Olympiad Camp (2019-2022)",
+    details: "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). I got the first reserved to be participating in the 17th Thailand Olympiad in Informatics.",
+  },
+  {
+    name: "Meta Hacker Cup (2022)",
     details: "Qualified to the second round of Meta Hacker Cup 2022",
   },
   {
-    name: "Google Codejam",
-    details: "Qualified to the first round of Google Codejam 2021",
+    name: "Google Codejam (2020, 2021)",
+    details: "Qualified to the first round of Google Codejam 2020 and 2021",
   },
 ]
 
@@ -89,13 +93,19 @@ export const projects = [
   {
     name: "CUGetRekt",
     details:
-      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using the automated pdf generator and score prediction features. My role is deve",
+      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using the automated pdf generator and score prediction features. My role is developing and maintaining its backend",
     url: "https://github.com/Nacnano/cugetrekt",
+  },
+  {
+    name: "CU Get Reg",
+    details:
+      "Thinc's website to provide courses data to Chulalongkorn students and plan their enrollments. As a new member, I was assigned simple tasks for both frontend and backend",
+    url: "https://github.com/thinc-org/cugetreg",
   },
   {
     name: "High School Computer Science Project",
     details:
-      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse and predict multimedia effects on efficiency of students' self learning using dataset from my friends' school humanities project",
+      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on  students' learning efficiency",
     url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
   },
   {
@@ -108,9 +118,7 @@ export const projects = [
 ]
 
 export const interests = [
-  "Areas : Coding, Anime, Gaming, Math, Physics, Philosophy",
-  "Typing : 60-80 words per minute",
+  "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
   "Games : Rhythm, Puzzle, Strategy",
-  "Music : Pop, EDM, Rock, Classical, Jazz",
-  "Both onsite and remote working are fine to me.",
+  "Music : Classical, Jazz, Pop, EDM, Rock",
 ]
