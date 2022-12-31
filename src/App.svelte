@@ -55,7 +55,7 @@
 </header>
 
 <main
-  class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl {editMode
+  class="text-center flex flex-col p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl {editMode
     ? 'edit-mode'
     : 'display-mode'}"
 >
@@ -71,7 +71,7 @@
       {#each technologies as tech}
         <li>
           <HideToggle />
-          <span class="w-28 inline-block">{tech.section}</span>
+          <span class="w-40 inline-block">{tech.section}</span>
           <span>{tech.details}</span>
         </li>
       {/each}
@@ -108,23 +108,24 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Achievements</h2>
     <hr />
 
+    <ul class="text-left list-disc pl-8">
     {#each achievements as ach}
     <li>
       <HideToggle />
       <strong>{ach.name}</strong>
       - {ach.details}
-      <!-- <a href="https://{project.url}" target="_blank" rel="noreferrer"
-        ><strong>{project.url}</strong></a
-      > -->
     </li>
     {/each}
-
+  </ul>
     
   </section>
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+    <div class="flex items-center">
+    <h2 class="text-2xl print:text-4xl uppercase text-left mr-1">Projects</h2>
+    <h3 class="text-1xl print:text-2xl uppoercase text-left items-center"> (Available on GitHub) </h3>
+    </div>
     <hr />
 
     <ul class="text-left list-disc pl-8">
@@ -133,7 +134,7 @@
           <HideToggle />
           <strong>{project.name}</strong>
           - {project.details}
-          <a href="https://{project.url}" target="_blank" rel="noreferrer"
+          <a class="print:hidden" href="https://{project.url}" target="_blank" rel="noreferrer"
             ><strong>{project.url}</strong></a
           >
         </li>
@@ -143,7 +144,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Others</h2>
     <hr />
 
     <ul class="text-left list-disc pl-8">
@@ -156,19 +157,26 @@
     </ul>
   </section>
 
-  <note style="font-size:xx-large">
+  <!-- <note style="font-size:xx-large">
       Add more soon...
-    </note>
+    </note> -->
 
-  <footer class="print-only">
+  <!-- <footer class="print-only print:hidden">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
     >
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-  </footer>
+  </footer> -->
 </main>
 
 <style>
+  @page { 
+    size: auto;  
+    margin: 5mm;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
   main {
     overflow-x: hidden;
   }
@@ -226,6 +234,7 @@
     main {
       margin: 0 0;
       padding: 0;
+      size: auto;  
     }
   }
 </style>

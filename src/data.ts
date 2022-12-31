@@ -18,17 +18,17 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "C, C++, Python, HTML, CSS, Javascript, TypeScript",
+      "C, C++, Python, HTML, CSS, Javascript, TypeScript, SQl",
   },
   {
     section: "Libraries and Frameworks:",
     details:
-      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS",
+      "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS, scikit-learn",
   },
   {
     section: "Tools:",
     details:
-      "Git, Docker, Selenium, Cypress",
+      "Git, Docker",
   },
   {
     section: "Others:",
@@ -40,7 +40,7 @@ export const technologies = [
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2022-Present",
+    details: "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00)",
   },
   {
     head: "High School",
@@ -56,7 +56,7 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Junior Developer and Data Scientist",
+    position: "Developer and Data Scientist (Internship)",
     company: "MonkeyEveryday (Startup)",
     url: "https://monkeyeveryday.com",
     years: ["March 2021", "Present"],
@@ -91,9 +91,9 @@ export const achievements = [
 
 export const projects = [
   {
-    name: "CUGetRekt",
+    name: "CU Get Rekt",
     details:
-      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using the automated pdf generator and score prediction features. My role is developing and maintaining its backend",
+      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using the automated pdf generator and score prediction features. My role was developing and maintaining its backend using Nestjs and Prisma",
     url: "https://github.com/Nacnano/cugetrekt",
   },
   {
@@ -111,14 +111,14 @@ export const projects = [
   {
     name: "GOATFinder",
     details:
-      "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major tournament data. This is for the qualification for participating in the International Mathematical Model Competition 2021",
+      "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
     url: "https://github.com/Nacnano/IMMC-2021",
   },
   
 ]
 
 export const interests = [
+  "Langauges: Thai(Native), English(Proficient)",
   "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
-  "Games : Rhythm, Puzzle, Strategy",
-  "Music : Classical, Jazz, Pop, EDM, Rock",
+  "Working: Onsite and Online",
 ]
