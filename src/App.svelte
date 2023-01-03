@@ -182,7 +182,8 @@
   }
 
   a {
-    text-decoration: underline;
+    color: rgb(56, 76, 255);
+    /* text-decoration: underline; */
   }
 
   section {
