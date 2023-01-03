@@ -39,18 +39,19 @@
         >{website}</a
       >
     </p> -->
-    <!-- <p>
+    <p>
       <a
         href={`https://linkedin.com/in/${linkedin}`}
         target="_blank"
         rel="noreferrer">Linkedin</a
       >
-    </p> -->
+    </p>
   </div>
 </div>
 
 <style>
   a {
+    color: rgb(56, 76, 255);
     /* text-decoration: underline; */
   }
 </style>
