@@ -1,9 +1,9 @@
 <script lang="ts">
   import Tailwind from "./Tailwind.svelte"
-  import Intro from "./Intro.svelte"
-  import Work from "./Work.svelte"
+  import Intro from "./components/Intro.svelte"
+  import Work from "./components/Work.svelte"
   import Kofi from "./Kofi.svelte"
-  import HideToggle from "./HideToggle.svelte"
+  import HideToggle from "./components/HideToggle.svelte"
   import {
     educations,
     fullVersionLink,
