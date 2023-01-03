@@ -33,7 +33,7 @@ export const technologies = [
   {
     section: "Others:",
     details:
-      "Google Cloud Platform, Firebase, Vercel, Github Actions",
+      "Google Cloud Platform, Firebase, Vercel, Netlify, Github Actions",
   },
 ]
 
