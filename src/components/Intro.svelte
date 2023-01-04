@@ -13,9 +13,8 @@
   class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base"
 >
   <div class="flex-1 text-left sm:py-4 w-48">
-    <p>{phone}></p>
+    <p>{phone}</p>
     <p>{email}</p>
-    
     <p>{location}</p>
     
   </div>

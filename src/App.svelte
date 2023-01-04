@@ -7,7 +7,7 @@
   import {
     educations,
     fullVersionLink,
-    interests,
+    others,
     introData,
     projects,
     sourceLink,
@@ -71,7 +71,7 @@
       {#each technologies as tech}
         <li>
           <HideToggle />
-          <span class="w-40 inline-block">{tech.section}</span>
+          <span class="w-48 inline-block">{tech.section}</span>
           <span>{tech.details}</span>
         </li>
       {/each}
@@ -80,7 +80,7 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Educations</h2>
     <hr />
 
     <ul class="text-left list-disc pl-8">
@@ -148,10 +148,10 @@
     <hr />
 
     <ul class="text-left list-disc pl-8">
-      {#each interests as interest}
+      {#each others as other}
         <li>
           <HideToggle />
-          {interest}
+          {other}
         </li>
       {/each}
     </ul>

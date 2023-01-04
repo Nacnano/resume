@@ -21,22 +21,23 @@ export const technologies = [
   },
   {
     section: "Libraries and Frameworks:",
-    details: "ReactJS, NextJS, NestJS, VueJS,  TailwindCSS, scikit-learn",
+    details: "ReactJS, NextJS, NestJS, VueJS, TailwindCSS, scikit-learn",
   },
   {
     section: "Tools:",
-    details: "Git, Docker",
+    details: "Git, Docker, Github Actions",
   },
   {
     section: "Others:",
-    details: "Google Cloud Platform, Firebase, Vercel, Netlify, Github Actions",
+    details: "Google Cloud Platform, Firebase, Vercel, Netlify",
   },
 ];
 
 export const educations = [
   {
     head: "B.Eng. Computer Engineering",
-    details: "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00)",
+    details:
+      "Chulalongkorn University, TH. 2022-Present (GPA 4.00, 1 semester)",
   },
   {
     head: "High School",
@@ -50,7 +51,7 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Developer and Data Scientist (Internship)",
+    position: "Developer and Data Scientist, Internship",
     company: "MonkeyEveryday (Startup)",
     url: "https://monkeyeveryday.com",
     years: ["March 2021", "Present"],
@@ -112,7 +113,7 @@ export const projects = [
   },
 ];
 
-export const interests = [
+export const others = [
   "Langauges: Thai(Native), English(Proficient)",
   "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
   "Working: Onsite and Online",
