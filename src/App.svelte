@@ -132,11 +132,11 @@
       {#each projects as project}
         <li>
           <HideToggle />
-          <strong>{project.name}</strong>
+          <strong><a href="https://{project.url}" target="_blank" rel="noreferrer">{project.name}</a></strong>
           - {project.details}
-          <a class="print:hidden" href="https://{project.url}" target="_blank" rel="noreferrer"
+          <!-- <a class="print:hidden" href="https://{project.url}" target="_blank" rel="noreferrer"
             ><strong>{project.url}</strong></a
-          >
+          > -->
         </li>
       {/each}
     </ul>
@@ -182,7 +182,7 @@
   }
 
   a {
-    color: rgb(56, 76, 255);
+    color: rgb(85, 102, 255);
     /* text-decoration: underline; */
   }
 

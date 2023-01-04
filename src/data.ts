@@ -28,7 +28,7 @@ export const technologies = [
     details: "Git, Docker, Github Actions",
   },
   {
-    section: "Others:",
+    section: "Services:",
     details: "Google Cloud Platform, Firebase, Vercel, Netlify",
   },
 ];
@@ -72,9 +72,9 @@ export const achievements = [
       "Winning Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 days ",
   },
   {
-    name: "National Computer Olympiad Camp (2019-2022)",
+    name: "Computer Olympiad Camp (2019-2022)",
     details:
-      "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). I got the first reserved to be participating in the 17th Thailand Olympiad in Informatics.",
+      "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved to be participating in the 17th Thailand Olympiad in Informatics.",
   },
   {
     name: "Meta Hacker Cup (2022)",
@@ -96,13 +96,13 @@ export const projects = [
   {
     name: "CU Get Reg",
     details:
-      "Thinc's website to provide courses data to Chulalongkorn students and plan their enrollments. As a new member, I was assigned simple tasks for both frontend and backend",
+      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed to simple tasks for both frontend and backend",
     url: "https://github.com/thinc-org/cugetreg",
   },
   {
-    name: "High School Computer Science Project",
+    name: "School Computer Project",
     details:
-      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on  students' learning efficiency",
+      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on students' learning efficiency",
     url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
   },
   {
@@ -114,7 +114,7 @@ export const projects = [
 ];
 
 export const others = [
-  "Langauges: Thai(Native), English(Proficient)",
-  "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
-  "Working: Onsite and Online",
+  "Langauges: Thai (Native), English (Proficient)",
+  // "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
+  "Non-tech-related working experience: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)"
 ];
