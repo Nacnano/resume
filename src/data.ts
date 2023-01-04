@@ -17,7 +17,7 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "C, C++, Python, HTML, CSS, Javascript, TypeScript, SQl",
+    details: "C, C++, Python, HTML, CSS, Javascript, TypeScript, SQL",
   },
   {
     section: "Libraries and Frameworks:",
@@ -57,9 +57,9 @@ export const workExperiences = [
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped dealing with database and data analysis tasks",
-      "Implemented end-to-end test using cypress",
-      "Maintained Monkey Monkey websites for both frontend and backend",
-      "Learned basics for everything that required for being a developer",
+      "Implemented end-to-end test using Cypress",
+      "Maintained Monkey-Monkey websites for both frontend and backend",
+      "Learned basics for everything that are required for being a developer",
     ],
   },
 ];
@@ -89,7 +89,7 @@ export const projects = [
   {
     name: "CU Get Rekt",
     details:
-      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using the automated pdf generator and score prediction features. My role was developing and maintaining its backend using Nestjs and Prisma",
+      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was developing and maintaining its backend using Nestjs and Prisma",
     url: "https://github.com/Nacnano/cugetrekt",
   },
   {
@@ -105,7 +105,7 @@ export const projects = [
     url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
   },
   {
-    name: "GOATFinder",
+    name: "GFinder",
     details:
       "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
     url: "https://github.com/Nacnano/IMMC-2021",
