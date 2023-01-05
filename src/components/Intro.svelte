@@ -21,10 +21,10 @@
     
 
   <h2
-    class="flex-none order-first sm:order-none print:order-none text-3xl sm:text-2xl md:text-3xl lg:text-6xl text-center p-4 print:pt-0"
+    class="flex-none order-first sm:order-none print:order-none text-center p-4 print:pt-0"
   >
-    {name}
-    <span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+    <span class="text-3xl sm:text-2xl md:text-3xl lg:text-6xl"> {name} </span>
+    <span class="block -mt-1 text-base text-1xl sm:text-1xl md:text-2xl lg:text-3xl">({nickname})</span>
   </h2>
 
   <div

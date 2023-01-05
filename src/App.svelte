@@ -134,9 +134,6 @@
           <HideToggle />
           <strong><a href="https://{project.url}" target="_blank" rel="noreferrer">{project.name}</a></strong>
           - {project.details}
-          <!-- <a class="print:hidden" href="https://{project.url}" target="_blank" rel="noreferrer"
-            ><strong>{project.url}</strong></a
-          > -->
         </li>
       {/each}
     </ul>

@@ -54,7 +54,7 @@ export const workExperiences = [
     position: "Developer and Data Scientist, Internship",
     company: "MonkeyEveryday (Startup)",
     url: "https://monkeyeveryday.com",
-    years: ["March 2021", "Present"],
+    years: ["March, 2021", "Present"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped dealing with database and data analysis tasks",
@@ -108,7 +108,7 @@ export const projects = [
   {
     name: "GFinder",
     details:
-      "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
+      "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
     url: "https://github.com/Nacnano/IMMC-2021",
   },
 ];
