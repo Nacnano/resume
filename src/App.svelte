@@ -71,8 +71,14 @@
       {#each technologies as tech}
         <li>
           <HideToggle />
-          <span class="w-48 inline-block">{tech.section}</span>
-          <span>{tech.details}</span>
+          <div class="flex">
+            <span class="w-32 inline-block">{tech.section}</span>
+            <span>
+              {#each tech.details as detail}
+                <div class="">{detail}</div>
+              {/each}
+            </span>
+          </div>
         </li>
       {/each}
     </ul>

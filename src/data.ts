@@ -17,23 +17,24 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: "C, C++, Python, HTML, CSS, Javascript, TypeScript, SQL",
+    details: ["C, C++, Python, HTML, CSS, Javascript, TypeScript, SQL"],
   },
   {
     section: "Frameworks:",
     details: [
-      "Frontend: ReactJS, NextJS, VueJS, TailwindCSS",
-      "Backend: NestJS, ExpressJS, Prisma",
-      "Data Science: Pandas, Numpy, scikit-learn",
+      // { head: "Frontend", list: "ReactJS, NextJS, VueJS, TailwindCSS" },
+      "Frontend : ReactJS, NextJS, VueJS, TailwindCSS",
+      "Backend : NestJS, ExpressJS, Prisma",
+      "Data Science : Pandas, Numpy, scikit-learn",
     ],
   },
   {
     section: "Tools:",
-    details: "Git, GitHub, Docker",
+    details: ["Git, GitHub, Docker"],
   },
   {
     section: "Services:",
-    details: "GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB",
+    details: ["GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB"],
   },
 ];
 

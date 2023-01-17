@@ -6,7 +6,7 @@
   export let github: string = ""
   export let linkedin: string = ""
   export let location: string = ""
-  export let website: string = ""
+  // export let website: string = ""
 </script>
 
 <div
