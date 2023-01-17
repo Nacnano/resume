@@ -30,7 +30,7 @@ export const technologies = [
   },
   {
     section: "Tools:",
-    details: ["Git, GitHub, Docker"],
+    details: ["Git, GitHub, Docker, Selenium, Cypress"],
   },
   {
     section: "Services:",
