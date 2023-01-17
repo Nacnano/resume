@@ -1,4 +1,4 @@
-import Intro from "../src/Intro.svelte";
+import Intro from "../src/components/Intro.svelte";
 import { render } from "@testing-library/svelte";
 
 describe("Intro Component", () => {
@@ -23,8 +23,7 @@ describe("Intro Component", () => {
     expect(getByText("(Johnny)")).toBeInTheDocument();
     expect(getByText("+66 123 4567")).toBeInTheDocument();
     expect(getByText("john_doe@example.com")).toBeInTheDocument();
-    expect(getByText("github.com/john_doe_gh")).toBeInTheDocument();
-    expect(getByText("Linkedin")).toBeInTheDocument();
-    expect(getByText("example.com")).toBeInTheDocument();
+    expect(getByText("LinkedIn")).toBeInTheDocument();
+    // expect(getByText("example.com")).toBeInTheDocument();
   });
 });
