@@ -10,12 +10,12 @@
 
 <div class="work-experience">
   <HideToggle />
-  <div class="flex font-bold mb-2 print:mb-1">
-    <div class="flex-1 text-left">{position}</div>
-    <div class="flex-0">
+  <div class="flex flex-row font-bold mb-2 print:mb-1 items-baseline">
+    <span class="pr-3 text-lg ">{position}, </span>
+    <span class="pr-3">
       <a href={url} target="_blank" rel="noreferrer">{company}</a>
-    </div>
-    <div class="flex-1 text-right">{years.join(" - ")}</div>
+    </span>
+    <span class="">{years.join(" - ")}</span>
   </div>
   <ul class="text-left list-disc pl-8 print:pl-6">
     {#each details as detail}

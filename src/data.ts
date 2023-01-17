@@ -51,7 +51,7 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Developer and Data Scientist, Internship",
+    position: "Developer and Data Scientist (Intern)",
     company: "MonkeyEveryday (Startup)",
     url: "https://monkeyeveryday.com",
     years: ["March, 2021", "Present"],
@@ -116,5 +116,5 @@ export const projects = [
 export const others = [
   "Langauges: Thai (Native), English (Proficient)",
   // "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
-  "Non-tech-related working experience: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)"
+  "Non-tech-related working experience: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)",
 ];
