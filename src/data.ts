@@ -20,16 +20,20 @@ export const technologies = [
     details: "C, C++, Python, HTML, CSS, Javascript, TypeScript, SQL",
   },
   {
-    section: "Libraries and Frameworks:",
-    details: "ReactJS, NextJS, NestJS, VueJS, TailwindCSS, scikit-learn",
+    section: "Frameworks:",
+    details: [
+      "Frontend: ReactJS, NextJS, VueJS, TailwindCSS",
+      "Backend: NestJS, ExpressJS, Prisma",
+      "Data Science: Pandas, Numpy, scikit-learn",
+    ],
   },
   {
     section: "Tools:",
-    details: "Git, Docker, Github Actions",
+    details: "Git, GitHub, Docker",
   },
   {
     section: "Services:",
-    details: "Google Cloud Platform, Firebase, Vercel, Netlify",
+    details: "GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB",
   },
 ];
 
@@ -43,10 +47,6 @@ export const educations = [
     head: "High School",
     details: "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
   },
-  {
-    head: "Middle School",
-    details: "Suan Kularb Wittayalai School, TH, 2016-2019 (GPA 3.56)",
-  },
 ];
 
 export const workExperiences = [
@@ -57,7 +57,7 @@ export const workExperiences = [
     years: ["March, 2021", "Present"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
-      "Helped dealing with database and data analysis tasks",
+      "Helped dealing with database and data analysis tasks using MySQL and PostgreSQL",
       "Implemented end-to-end test using Cypress",
       "Maintained Monkey-Monkey websites for both frontend and backend",
       "Learned basics for everything that are required for being a developer",
@@ -115,6 +115,5 @@ export const projects = [
 
 export const others = [
   "Langauges: Thai (Native), English (Proficient)",
-  // "Areas : Coding, Math, Physics, Philosophy, Anime, Gaming",
-  "Non-tech-related working experience: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)",
+  "Non-tech-related working experiences: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)",
 ];
