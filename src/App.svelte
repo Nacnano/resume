@@ -160,10 +160,6 @@
     </ul>
   </section>
 
-  <!-- <note style="font-size:xx-large">
-      Add more soon...
-    </note> -->
-
   <!-- <footer class="print-only print:hidden">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
@@ -185,7 +181,8 @@
   }
 
   a {
-    color: rgb(85, 102, 255);
+    font-weight: 450;
+    color: rgb(30, 42, 148);
     /* text-decoration: underline; */
   }
 

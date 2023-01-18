@@ -23,9 +23,9 @@ export const technologies = [
     section: "Frameworks:",
     details: [
       // { head: "Frontend", list: "ReactJS, NextJS, VueJS, TailwindCSS" },
-      "Frontend : ReactJS, NextJS, VueJS, TailwindCSS",
-      "Backend : NestJS, ExpressJS, Prisma",
-      "Data Science : Pandas, Numpy, scikit-learn",
+      "(Frontend) ReactJS, NextJS, VueJS, TailwindCSS",
+      "(Backend) NestJS, ExpressJS, Prisma",
+      "(Data Science) Pandas, Numpy, scikit-learn",
     ],
   },
   {
@@ -101,7 +101,18 @@ export const projects = [
     url: "https://github.com/thinc-org/cugetreg",
   },
   {
-    name: "School Computer Project",
+    name: "E-learning Website",
+    details:
+      "Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. My role was developing its backend using Nestjs and Prisma and deploying the project using Docker and Google Cloud Run",
+    url: "https://github.com/thinc-org/hacktoschool-fryingchicken",
+  },
+  {
+    name: "MWIT29 Archive",
+    details: "A website for archive",
+    url: "",
+  },
+  {
+    name: "School Computer Science Project",
     details:
       "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on students' learning efficiency",
     url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",

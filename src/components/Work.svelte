@@ -11,7 +11,7 @@
 <div class="work-experience">
   <HideToggle />
   <div class="flex flex-row font-bold mb-2 items-baseline print:mb-1">
-    <span class="pl-4 print:pl-3 pr-3 text-lg text-left print:text-xs">{position}, </span>
+    <span class="pl-4 print:pl-3 pr-3 text-lg text-left print:text-xs">{position} </span>
     <span class="pr-3">
       <a href={url} target="_blank" rel="noreferrer">{company}</a>
     </span>
