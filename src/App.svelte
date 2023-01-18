@@ -181,7 +181,7 @@
   }
 
   a {
-    font-weight: 450;
+    font-weight: 500;
     color: rgb(30, 42, 148);
     /* text-decoration: underline; */
   }

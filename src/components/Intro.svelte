@@ -53,7 +53,7 @@
 
 <style>
   a {
-    font-weight: 400;
+    font-weight: 500;
     color: rgb(30, 42, 148);
     /* text-decoration: underline; */
   }
