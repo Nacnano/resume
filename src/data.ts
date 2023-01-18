@@ -30,7 +30,7 @@ export const technologies = [
   },
   {
     section: "Tools:",
-    details: ["Git, GitHub, Docker"],
+    details: ["Git, GitHub, Docker, Selenium, Cypress"],
   },
   {
     section: "Services:",
@@ -70,7 +70,7 @@ export const achievements = [
   {
     name: "Thinc's 10 Days in 10 Years Project (2022)",
     details:
-      "Winning Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 days ",
+      "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 days ",
   },
   {
     name: "Computer Olympiad Camp (2019-2022)",
