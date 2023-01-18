@@ -109,7 +109,7 @@ export const projects = [
   {
     name: "MWIT29 Archive",
     details:
-      "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Cloud Storage (Working in Process)",
+      "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)",
     url: "https://github.com/nacnano/mwit29-archive",
   },
   {
