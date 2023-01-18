@@ -33,7 +33,8 @@
   }
 
   a {
-    color: rgb(85, 102, 255);
+    font-weight: 650;
+    color: rgb(30, 42, 148);
     /* text-decoration: underline; */
   }
 
