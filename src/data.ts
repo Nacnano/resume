@@ -109,7 +109,7 @@ export const projects = [
   {
     name: "MWIT29 Archive",
     details: "A website for archive",
-    url: "",
+    url: "https://github.com/nacnano/mwit29-archive",
   },
   {
     name: "School Computer Science Project",

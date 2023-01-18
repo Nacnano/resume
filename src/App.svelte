@@ -71,7 +71,7 @@
       {#each technologies as tech}
         <li>
           <HideToggle />
-          <div class="flex">
+          <div class="flex mb-1">
             <span class="w-32 inline-block">{tech.section}</span>
             <span>
               {#each tech.details as detail}
