@@ -23,8 +23,7 @@ export const technologies = [
     section: "Frameworks:",
     details: [
       // { head: "Frontend", list: "ReactJS, NextJS, VueJS, TailwindCSS" },
-      "(Frontend) ReactJS, NextJS, VueJS, TailwindCSS",
-      "(Backend) NestJS, ExpressJS, Prisma",
+      "(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL",
       "(Data Science) Pandas, Numpy, scikit-learn",
     ],
   },
