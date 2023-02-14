@@ -61,7 +61,6 @@ export const workExperiences = [
       "Automated bots for updating users's data using Selenium",
       "Implemented end-to-end test using Cypress",
       "Maintained Monkey-Monkey websites for both frontend and backend",
-      "Learned basics for everything that are required for being a developer",
     ],
   },
 ];
