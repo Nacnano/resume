@@ -91,7 +91,7 @@ export const projects = [
   {
     name: "CU Get Reg",
     details:
-      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed to creating its Backoffice backend backend service using NestJS and GraphQL for managing admin's tasks",
+      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed by developing its Backoffice backend service using NestJS and GraphQL for managing admin's tasks",
       url: "https://github.com/thinc-org/cugetreg",
   },
   {
