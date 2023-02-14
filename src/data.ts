@@ -57,7 +57,8 @@ export const workExperiences = [
     years: ["March, 2021", "Present"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
-      "Helped dealing with database and data analysis tasks using MySQL and PostgreSQL",
+      "Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
+      "Automated bots for updating users's data using Selenium",
       "Implemented end-to-end test using Cypress",
       "Maintained Monkey-Monkey websites for both frontend and backend",
       "Learned basics for everything that are required for being a developer",
