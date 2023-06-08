@@ -52,10 +52,10 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Developer and Data Scientist (Intern)",
-    company: "MonkeyEveryday (Startup)",
+    position: "Developer and Data Scientist (Internship)",
+    company: "MonkeyEveryday",
     url: "https://monkeyeveryday.com",
-    years: ["March, 2021", "Present"],
+    years: ["March, 2021", "August, 2021"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped dealing with database and data analysis tasks using MySQL and PostgreSQL",
@@ -63,6 +63,13 @@ export const workExperiences = [
       "Maintained Monkey-Monkey websites for both frontend and backend",
       "Learned basics for everything that are required for being a developer",
     ],
+  },
+  {
+    position: "Full Stack Developer (Internship)",
+    company: "Wang Data Market",
+    url: "https://wang.in.th",
+    years: ["June, 2023", "Present"],
+    details: ["Currently ongoing"],
   },
 ];
 
