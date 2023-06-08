@@ -23,9 +23,8 @@ export const technologies = [
     section: "Frameworks:",
     details: [
       // { head: "Frontend", list: "ReactJS, NextJS, VueJS, TailwindCSS" },
-      "(Frontend) ReactJS, NextJS, VueJS, TailwindCSS",
-      "(Backend) NestJS, ExpressJS, Prisma",
-      "(Data Science) Pandas, Numpy, scikit-learn",
+      "(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL",
+      "(Data Science) Pandas, Numpy, scikit-learn, TensorFlow",
     ],
   },
   {
@@ -58,10 +57,10 @@ export const workExperiences = [
     years: ["March, 2021", "August, 2021"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
-      "Helped dealing with database and data analysis tasks using MySQL and PostgreSQL",
+      "Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
+      "Automated bots for updating users's data using Selenium",
       "Implemented end-to-end test using Cypress",
       "Maintained Monkey-Monkey websites for both frontend and backend",
-      "Learned basics for everything that are required for being a developer",
     ],
   },
   {
@@ -96,16 +95,16 @@ export const achievements = [
 
 export const projects = [
   {
+    name: "CU Get Reg",
+    details:
+      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed by developing its Backoffice backend service using NestJS and GraphQL for managing admin's tasks",
+      url: "https://github.com/thinc-org/cugetreg",
+  },
+  {
     name: "CU Get Rekt",
     details:
       "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was developing and maintaining its backend using Nestjs and Prisma",
     url: "https://github.com/Nacnano/cugetrekt",
-  },
-  {
-    name: "CU Get Reg",
-    details:
-      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed to simple tasks for both frontend and backend",
-    url: "https://github.com/thinc-org/cugetreg",
   },
   {
     name: "E-learning Website",

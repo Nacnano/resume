@@ -138,7 +138,7 @@
       {#each projects as project}
         <li>
           <HideToggle />
-          <strong><a href="https://{project.url}" target="_blank" rel="noreferrer">{project.name}</a></strong>
+          <strong><a href="{project.url}" target="_blank" rel="noreferrer">{project.name}</a></strong>
           - {project.details}
         </li>
       {/each}
