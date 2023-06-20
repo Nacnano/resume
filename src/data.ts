@@ -41,7 +41,7 @@ export const educations = [
   {
     head: "B.Eng. Computer Engineering",
     details:
-      "Chulalongkorn University, TH. 2022-Present (GPA 4.00, 1 semester)",
+      "Chulalongkorn University, TH. 2022-Present (GPA 4.00, 2 semester)",
   },
   {
     head: "High School",
