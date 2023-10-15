@@ -86,7 +86,7 @@ export const achievements = [
   {
     name: "Computer Olympiad Camp (2019-2022)",
     details:
-      "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved to be participating in the 17th Thailand Olympiad in Informatics.",
+      "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved (สำรองอันดับหนึ่ง) to be participating in the 17th Thailand Olympiad in Informatics. I attempted the competition unofficially with the same problemset and time control and scored between Silver to Gold medal award.",
   },
   {
     name: "Meta Hacker Cup (2022)",
@@ -95,6 +95,11 @@ export const achievements = [
   {
     name: "Google Codejam (2020, 2021)",
     details: "Qualified to the first round of Google Codejam 2020 and 2021",
+  },
+  {
+    name: "KU01 Coding Competition (2019)",
+    details:
+      "Achieved the perfect score and first place from the competition at Kasetsart University",
   },
 ];
 
@@ -108,7 +113,7 @@ export const projects = [
   {
     name: "CU Get Rekt",
     details:
-      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was developing and maintaining its backend using Nestjs and Prisma",
+      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was designing, developing, deploying, and maintaining its backend using Nestjs and Prisma.",
     url: "https://github.com/Nacnano/cugetrekt",
   },
   {
@@ -138,6 +143,7 @@ export const projects = [
 ];
 
 export const others = [
-  "Langauges: Thai (Native), English (Proficient)",
-  "Non-tech-related working experiences: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022, Academic Tutor (Math/Physics)",
+  "Langauges: Thai (Native), English (Working Proficient), Chinese (Elementary)",
+  "Non-tech-related working experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Bio/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science, Got accepted to Faculty of Medicine, Chulalongkorn University",
+  "Extra curricular activities: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022",
 ];
