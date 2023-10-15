@@ -41,7 +41,7 @@ export const educations = [
   {
     head: "B.Eng. Computer Engineering",
     details:
-      "Chulalongkorn University, TH. 2022-Present (GPA 4.00, 1 semester)",
+      "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 2 semesters)",
   },
   {
     head: "High School",
@@ -51,15 +51,15 @@ export const educations = [
 
 export const workExperiences = [
   {
-    position: "Developer and Data Scientist (Internship)",
+    position: "Full Stack Developer and Data Scientist (Internship)",
     company: "MonkeyEveryday",
     url: "https://monkeyeveryday.com",
-    years: ["March, 2021", "August, 2021"],
+    years: ["March, 2022", "August, 2022"],
     details: [
       "Designed, implemented, and maintained the TCAS Ranking services",
       "Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
       "Automated bots for updating users's data using Selenium",
-      "Implemented end-to-end test using Cypress",
+      "Implemented end-to-end tests using Cypress",
       "Maintained Monkey-Monkey websites for both frontend and backend",
     ],
   },
@@ -67,8 +67,12 @@ export const workExperiences = [
     position: "Full Stack Developer (Internship)",
     company: "Wang Data Market",
     url: "https://wang.in.th",
-    years: ["June, 2023", "Present"],
-    details: ["Currently ongoing"],
+    years: ["June, 2023", "August, 2023"],
+    details: [
+      "Implemented new input types for its form features",
+      "Designed, and developed new pages and base structures for an upcoming AI tasks",
+      "Learned new React concepts for maintaining complex project e.g. Redux, Debounce, etc.",
+    ],
   },
 ];
 
@@ -98,7 +102,7 @@ export const projects = [
     name: "CU Get Reg",
     details:
       "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed by developing its Backoffice backend service using NestJS and GraphQL for managing admin's tasks",
-      url: "https://github.com/thinc-org/cugetreg",
+    url: "https://github.com/thinc-org/cugetreg",
   },
   {
     name: "CU Get Rekt",
