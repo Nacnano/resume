@@ -17,19 +17,21 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages:",
-    details: ["C, C++, Python, HTML, CSS, Javascript, TypeScript, Java, SQL"],
+    details: [
+      "C, C++, Python, HTML, CSS, Javascript, TypeScript, Node.js, Java, SQL",
+    ],
   },
   {
     section: "Frameworks:",
     details: [
       // { head: "Frontend", list: "ReactJS, NextJS, VueJS, TailwindCSS" },
-      "(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL",
+      "(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL, JavaFX",
       "(Data Science) Pandas, Numpy, scikit-learn, TensorFlow",
     ],
   },
   {
     section: "Tools:",
-    details: ["Git, GitHub, Docker, Selenium, Cypress"],
+    details: ["Git, GitHub, Docker, Selenium, Cypress, Markdown"],
   },
   {
     section: "Services:",
@@ -70,7 +72,7 @@ export const workExperiences = [
     details: [
       "Implemented new input types for its form features",
       "Designed, and developed new pages and base structures for an upcoming AI tasks",
-      "Learned new React concepts for maintaining complex project e.g. Redux, Debounce, etc.",
+      "Learned new React concepts for maintaining complex projects",
     ],
   },
 ];
