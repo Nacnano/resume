@@ -48,9 +48,24 @@ export const educations = [
     head: "High School",
     details: "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
   },
+  {
+    head: "Middle School",
+    details: "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
+  },
 ];
 
 export const workExperiences = [
+  {
+    position: "Full Stack Developer (Internship)",
+    company: "Wang Data Market",
+    url: "https://wang.in.th",
+    years: ["June, 2023", "August, 2023"],
+    details: [
+      "Implemented new input types for its form features",
+      "Helped designing and developing new base structures for an upcoming AI features",
+      "Learned new React concepts for maintaining complex projects",
+    ],
+  },
   {
     position: "Full Stack Developer and Data Scientist (Internship)",
     company: "MonkeyEveryday",
@@ -64,29 +79,18 @@ export const workExperiences = [
       "Maintained Monkey-Monkey websites for both frontend and backend",
     ],
   },
-  {
-    position: "Full Stack Developer (Internship)",
-    company: "Wang Data Market",
-    url: "https://wang.in.th",
-    years: ["June, 2023", "August, 2023"],
-    details: [
-      "Implemented new input types for its form features",
-      "Designed, and developed new pages and base structures for an upcoming AI tasks",
-      "Learned new React concepts for maintaining complex projects",
-    ],
-  },
 ];
 
 export const achievements = [
   {
     name: "Thinc's 10 Days in 10 Years Project (2022)",
     details:
-      "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 days ",
+      "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 day ",
   },
   {
     name: "Computer Olympiad Camp (2019-2022)",
     details:
-      "Qualified to POSN Computer Olympiad second camps at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved (สำรองอันดับหนึ่ง) to be participating in the 17th Thailand Olympiad in Informatics. I attempted the competition unofficially with the same problemset and time control and scored between Silver to Gold medal award.",
+      "Qualified to the POSN Computer Olympiad second camp at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved (สำรองอันดับหนึ่ง) to be participating in the 17th Thailand Olympiad in Informatics. I attempted the competition unofficially with the same problemset and time control and scored between Silver to Gold medal award.",
   },
   {
     name: "Meta Hacker Cup (2022)",
