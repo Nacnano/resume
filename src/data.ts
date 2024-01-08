@@ -6,12 +6,12 @@ export const ogImageUrl =
 export const introData = {
   name: "Chotpisit Adunsehawat",
   nickname: "Nac",
-  phone: "(+66)96-189-6046",
   email: "chotpisit.adu@gmail.com",
   github: "nacnano",
   linkedin: "chotpisit-adunsehawat-b68912210",
   location: "Bangkok, Thailand",
-  // website: "nacnano.dev",
+  website: "nacnano.dev",
+  phone: process.env.PHONE_NUMBER,
 };
 
 export const technologies = [

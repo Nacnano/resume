@@ -6,7 +6,7 @@
   export let github: string = ""
   export let linkedin: string = ""
   export let location: string = ""
-  // export let website: string = ""
+  export let website: string = ""
 </script>
 
 <div
@@ -30,11 +30,11 @@
   <div
     class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base"
   >
-  <!-- <p>
+  <p>
       <a href={`https://${website}`} target="_blank" rel="noreferrer"
         >{website}</a
       >
-    </p> -->
+    </p>
     <p>
       <a
         href={`https://linkedin.com/in/${linkedin}`}

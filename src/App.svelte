@@ -2,7 +2,6 @@
   import Tailwind from "./Tailwind.svelte"
   import Intro from "./components/Intro.svelte"
   import Work from "./components/Work.svelte"
-  import Kofi from "./Kofi.svelte"
   import HideToggle from "./components/HideToggle.svelte"
   import {
     educations,
@@ -22,12 +21,6 @@
     editMode = !editMode
   }
 </script>
-
-<!-- Remove this is you does not want Kofi widget on your site -->
-{#if introData.github == "narze"}
-  <Kofi name={introData.github} />
-{/if}
-
 <Tailwind />
 
 <header
