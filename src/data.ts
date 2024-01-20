@@ -11,7 +11,6 @@ export const introData = {
   linkedin: "chotpisit-adunsehawat-b68912210",
   location: "Bangkok, Thailand",
   website: "nacnano.dev",
-  // phone: process.env.PHONE_NUMBER,
   phone: "(+66)96-189-6046",
 };
 

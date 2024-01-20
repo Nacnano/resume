@@ -1,41 +1,38 @@
 <script lang="ts">
-  import HideToggle from "./HideToggle.svelte"
+  import type { Experience } from "@daydream-cafe/data";
 
-  export let position: string = ""
-  export let company: string = ""
-  export let url: string = ""
-  export let years: string[] = []
-  export let details: string[] = []
+  export let data: Experience;
+  $: ({ company, duration, positions } = data);
 </script>
 
 <div class="work-experience">
-  <HideToggle />
-  <div class="flex flex-row font-bold mb-2 items-baseline print:mb-1">
-    <span class="pl-4 print:pl-3 pr-3 text-lg text-left print:text-xs">{position} </span>
-    <span class="pr-3">
-      <a href={url} target="_blank" rel="noreferrer">{company}</a>
-    </span>
-    <span class="">{years.join(" - ")}</span>
+  <div class="mb-2 flex justify-start gap-4 font-bold print:mb-1">
+    <p>{company}</p>
+    <p>{duration}</p>
   </div>
-  <ul class="text-left list-disc pl-8 print:pl-6">
-    {#each details as detail}
+  <ul class="list-disc pl-8 text-left print:pl-6">
+    {#each positions as position}
       <li>
-        <HideToggle />
-        {detail}
+        <p>
+          <strong>{position.name}</strong>
+          <span>{position.period}</span>
+        </p>
+
+        <p>Technologies: {position.technologies.join(", ")}</p>
+
+        <ul class="list-disc pl-8 print:pl-6">
+          {#each position.jobs as job}
+            <li>{job}</li>
+          {/each}
+        </ul>
       </li>
     {/each}
   </ul>
 </div>
 
-<style>
+<style lang="postcss">
   .work-experience {
     @apply my-4;
-  }
-
-  a {
-    font-weight: 650;
-    color: rgb(30, 42, 148);
-    /* text-decoration: underline; */
   }
 
   @media print {

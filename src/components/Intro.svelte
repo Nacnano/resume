@@ -1,60 +1,57 @@
 <script lang="ts">
-  export let name: string = "Foo"
-  export let nickname: string = ""
-  export let phone: string = ""
-  export let email: string = ""
-  export let github: string = ""
-  export let linkedin: string = ""
-  export let location: string = ""
-  export let website: string = ""
+  export let name = "";
+  export let nickname = "";
+  export let phone = "";
+  export let email = "";
+  export let github = "";
+  export let linkedin = "";
+  export let location = "";
+  export let website = "";
 </script>
 
 <div
-  class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base"
+  class="flex flex-col flex-wrap text-sm sm:flex-row sm:text-base print:flex-row"
 >
-  <div class="flex-1 text-left sm:py-4 w-48">
-    <p>{phone}</p>
-    <p>{email}</p>
+  <div class="w-48 flex-1 text-left sm:py-4">
+    <p><a href="tel:{phone}">{phone}</a></p>
+    <p><a href="mailto:{email}">{email}</a></p>
     <p>{location}</p>
-    
   </div>
-    
 
   <h2
-    class="flex-none order-first sm:order-none print:order-none text-center p-4 print:pt-0"
+    class="order-first flex-none p-4 text-center text-4xl sm:order-none sm:text-2xl md:text-3xl lg:text-6xl print:order-none print:pt-0 print:text-[1.7rem]"
   >
-    <span class="text-3xl sm:text-2xl md:text-3xl lg:text-6xl"> {name} </span>
-    <span class="block -mt-1 text-base text-1xl sm:text-1xl md:text-2xl lg:text-3xl">({nickname})</span>
+    {name}
+    <span class="block text-base lg:text-2xl">({nickname})</span>
   </h2>
 
   <div
-    class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base"
+    class="w-48 flex-1 text-left text-sm sm:py-4 sm:text-right sm:text-base print:text-right"
   >
-  <p>
-      <a href={`https://${website}`} target="_blank" rel="noreferrer"
-        >{website}</a
-      >
+    <p>
+      <a href="https://github.com/{github}" target="_blank" rel="noreferrer">
+        github.com/{github}
+      </a>
+    </p>
+    <p>
+      <a href="https://{website}" target="_blank" rel="noreferrer">
+        {website}
+      </a>
     </p>
     <p>
       <a
-        href={`https://linkedin.com/in/${linkedin}`}
+        href="https://linkedin.com/in/{linkedin}"
         target="_blank"
-        rel="noreferrer">LinkedIn</a
+        rel="noreferrer"
       >
+        Linkedin
+      </a>
     </p>
-    <p>
-      <a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
-        >GitHub</a
-      >
-    </p>
-
   </div>
 </div>
 
 <style>
   a {
-    font-weight: 500;
-    color: rgb(30, 42, 148);
-    /* text-decoration: underline; */
+    text-decoration: underline;
   }
 </style>
