@@ -1,46 +1,46 @@
 <script lang="ts">
-  import HideToggle from "./HideToggle.svelte"
+	import Hideable from './Hideable.svelte';
 
-  export let position: string = ""
-  export let company: string = ""
-  export let url: string = ""
-  export let years: string[] = []
-  export let details: string[] = []
+	export let position: string = '';
+	export let company: string = '';
+	export let url: string = '';
+	export let years: string[] = [];
+	export let details: string[] = [];
 </script>
 
 <div class="work-experience">
-  <HideToggle />
-  <div class="flex flex-row font-bold mb-2 items-baseline print:mb-1">
-    <span class="pl-4 print:pl-3 pr-3 text-lg text-left print:text-xs">{position} </span>
-    <span class="pr-3">
-      <a href={url} target="_blank" rel="noreferrer">{company}</a>
-    </span>
-    <span class="">{years.join(" - ")}</span>
-  </div>
-  <ul class="text-left list-disc pl-8 print:pl-6">
-    {#each details as detail}
-      <li>
-        <HideToggle />
-        {detail}
-      </li>
-    {/each}
-  </ul>
+	<Hideable>
+		<div class="flex font-bold mb-2 print:mb-1">
+			<div class="flex-1 text-left">{position}</div>
+			<div class="flex-0">
+				<a href={url} target="_blank" rel="noreferrer">{company}</a>
+			</div>
+			<div class="flex-1 text-right">{years.join('-')}</div>
+		</div>
+		<ul class="text-left list-disc pl-8 print:pl-6">
+			{#each details as detail}
+				<Hideable>
+					<li>
+						{detail}
+					</li>
+				</Hideable>
+			{/each}
+		</ul>
+	</Hideable>
 </div>
 
-<style>
-  .work-experience {
-    @apply my-4;
-  }
+<style lang="postcss">
+	.work-experience {
+		@apply my-4;
+	}
 
-  a {
-    font-weight: 650;
-    color: rgb(30, 42, 148);
-    /* text-decoration: underline; */
-  }
+	a {
+		text-decoration: underline;
+	}
 
-  @media print {
-    .work-experience {
-      @apply my-1;
-    }
-  }
+	@media print {
+		.work-experience {
+			@apply my-1;
+		}
+	}
 </style>
