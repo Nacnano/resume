@@ -28,9 +28,6 @@
 </script>
 
 <!-- Remove this is you does not want Kofi widget on your site -->
-{#if intro.github == 'narze'}
-	<Kofi name={intro.github} />
-{/if}
 
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
 	<h1 class="text-4xl">Resumette</h1>
