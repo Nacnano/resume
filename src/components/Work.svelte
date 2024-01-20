@@ -1,43 +1,46 @@
 <script lang="ts">
-  import type { Experience } from "@daydream-cafe/data";
+	import Hideable from './Hideable.svelte';
 
-  export let data: Experience;
-  $: ({ company, duration, positions } = data);
+	export let position: string = '';
+	export let company: string = '';
+	export let url: string = '';
+	export let years: string[] = [];
+	export let details: string[] = [];
 </script>
 
 <div class="work-experience">
-  <div class="mb-2 flex justify-start gap-4 font-bold print:mb-1">
-    <p>{company}</p>
-    <p>{duration}</p>
-  </div>
-  <ul class="list-disc pl-8 text-left print:pl-6">
-    {#each positions as position}
-      <li>
-        <p>
-          <strong>{position.name}</strong>
-          <span>{position.period}</span>
-        </p>
-
-        <p>Technologies: {position.technologies.join(", ")}</p>
-
-        <ul class="list-disc pl-8 print:pl-6">
-          {#each position.jobs as job}
-            <li>{job}</li>
-          {/each}
-        </ul>
-      </li>
-    {/each}
-  </ul>
+	<Hideable>
+		<div class="flex font-bold mb-2 print:mb-1">
+			<div class="flex-1 text-left">{position}</div>
+			<div class="flex-0">
+				<a href={url} target="_blank" rel="noreferrer">{company}</a>
+			</div>
+			<div class="flex-1 text-right">{years.join('-')}</div>
+		</div>
+		<ul class="text-left list-disc pl-8 print:pl-6">
+			{#each details as detail}
+				<Hideable>
+					<li>
+						{detail}
+					</li>
+				</Hideable>
+			{/each}
+		</ul>
+	</Hideable>
 </div>
 
 <style lang="postcss">
-  .work-experience {
-    @apply my-4;
-  }
+	.work-experience {
+		@apply my-4;
+	}
 
-  @media print {
-    .work-experience {
-      @apply my-1;
-    }
-  }
+	a {
+		text-decoration: underline;
+	}
+
+	@media print {
+		.work-experience {
+			@apply my-1;
+		}
+	}
 </style>

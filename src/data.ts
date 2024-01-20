@@ -1,153 +1,209 @@
-export const fullVersionLink = "https://resume.narze.live";
-export const sourceLink = "https://github.com/nacnano/resume";
+export const fullVersionLink = 'https://resume.narze.live';
+export const sourceLink = 'https://github.com/narze/resume';
 export const ogImageUrl =
-  "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
+	'https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
 
-export const introData = {
-  name: "Chotpisit Adunsehawat",
-  nickname: "Nac",
-  email: "chotpisit.adu@gmail.com",
-  github: "nacnano",
-  linkedin: "chotpisit-adunsehawat-b68912210",
-  location: "Bangkok, Thailand",
-  website: "nacnano.dev",
-  phone: "(+66)96-189-6046",
-};
+// export const introData = {
+// 	name: 'Manassarn Manoonchai',
+// 	nickname: 'Noom',
+// 	phone: '',
+// 	email: 'manassarn@gmail.com',
+// 	github: 'narze',
+// 	linkedin: 'manassarn',
+// 	location: 'Bangkok, Thailand',
+// 	website: 'narze.live'
+// };
 
-export const technologies = [
-  {
-    section: "Languages:",
-    details: [
-      "C, C++, Python, HTML, CSS, Javascript, TypeScript, Node.js, Java, SQL",
-    ],
-  },
-  {
-    section: "Frameworks:",
-    details: [
-      "(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL, JavaFX",
-      "(Data Science) Pandas, Numpy, scikit-learn, TensorFlow",
-    ],
-  },
-  {
-    section: "Tools:",
-    details: ["Git, GitHub, Docker, Selenium, Cypress, Markdown"],
-  },
-  {
-    section: "Services:",
-    details: ["GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB"],
-  },
-];
+// export const technologies = [
+// 	{
+// 		section: 'Languages:',
+// 		details: 'Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).'
+// 	},
+// 	{
+// 		section: 'Frameworks:',
+// 		details: 'Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap'
+// 	},
+// 	{
+// 		section: 'Tools:',
+// 		details:
+// 			'Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces'
+// 	},
+// 	{
+// 		section: 'Other:',
+// 		details:
+// 			'AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare'
+// 	}
+// ];
 
-export const educations = [
-  {
-    head: "B.Eng. Computer Engineering",
-    details:
-      "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
-  },
-  {
-    head: "High School",
-    details: "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
-  },
-  {
-    head: "Middle School",
-    details: "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
-  },
-];
+// export const educations = [
+// 	{
+// 		head: 'B.Eng. Computer Engineering',
+// 		details: 'Chulalongkorn University, TH. 2007-2010 (GPA 3.45)'
+// 	}
+// ];
 
-export const workExperiences = [
-  {
-    position: "Full Stack Developer (Internship)",
-    company: "Wang Data Market",
-    url: "https://wang.in.th",
-    years: ["June, 2023", "August, 2023"],
-    details: [
-      "Implemented new input types for its form features",
-      "Helped designing and developing new base structures for an upcoming AI features",
-      "Learned new React concepts for maintaining complex projects",
-    ],
-  },
-  {
-    position: "Full Stack Developer and Data Scientist (Internship)",
-    company: "MonkeyEveryday",
-    url: "https://monkeyeveryday.com",
-    years: ["March, 2022", "August, 2022"],
-    details: [
-      "Designed, implemented, and maintained the TCAS Ranking services",
-      "Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
-      "Automated bots for updating users's data using Selenium",
-      "Implemented end-to-end tests using Cypress",
-      "Maintained Monkey-Monkey websites for both frontend and backend",
-    ],
-  },
-];
+// export const workExperiences = [
+// 	{
+// 		position: 'Full-stack Developer, Co-founder',
+// 		company: 'EventPop',
+// 		url: 'https://eventpop.me',
+// 		years: ['2015', 'Current'],
+// 		details: [
+// 			'Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years',
+// 			'Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform',
+// 			'Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.',
+// 			'Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale',
+// 			'Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB',
+// 			'Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges'
+// 		]
+// 	},
+// 	{
+// 		position: 'Senior Infrastructure Software Engineer',
+// 		company: 'OPN TH',
+// 		url: 'https://opn.ooo/',
+// 		years: ['2021', 'Current'],
+// 		details: [
+// 			'Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm',
+// 			'Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store',
+// 			'Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt',
+// 			'Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.',
+// 			'Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store'
+// 		]
+// 	},
+// 	{
+// 		position: 'Maker, Co-founder',
+// 		company: 'Maker Zoo',
+// 		url: 'https://fb.me/makerzoo',
+// 		years: ['2014', '2016'],
+// 		details: [
+// 			'Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand',
+// 			'Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.',
+// 			'Developed hardware-related products for 3-5 clients and startups',
+// 			'Developed smart door lock system for Hubba, first co-working space in Bangkok',
+// 			'Provided 3D-printing service & consultant to more than 50 clients',
+// 			'Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand'
+// 		]
+// 	},
+// 	{
+// 		position: 'Web / IoT Developer (Contract)',
+// 		company: 'Box24',
+// 		url: 'https://washbox24.com',
+// 		years: ['2015', '2016'],
+// 		details: [
+// 			'Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)',
+// 			'Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment'
+// 		]
+// 	},
+// 	{
+// 		position: 'Web Developer',
+// 		company: 'Figabyte',
+// 		url: 'https://www.facebook.com/figabyte',
+// 		years: ['2011', '2014'],
+// 		details: [
+// 			'Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API',
+// 			'Developed web platform using Ruby on Rails 3 & 4',
+// 			'Made iOS apps for several clients using PhoneGap and RubyMotion'
+// 		]
+// 	},
+// 	{
+// 		position: 'Part-time Web Developer',
+// 		company: 'Wongnai Media (wongnai.com)',
+// 		url: 'https://wongnai.com',
+// 		years: ['2010'],
+// 		details: [
+// 			'Developed a small part of website using Java with Spring MVC Framework built with Apache Maven',
+// 			'Learned TDD practice & making early-stage startup'
+// 		]
+// 	}
+// ];
 
-export const achievements = [
-  {
-    name: "Thinc's 10 Days in 10 Years Project (2022)",
-    details:
-      "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 day ",
-  },
-  {
-    name: "Computer Olympiad Camp (2019-2022)",
-    details:
-      "Qualified to the POSN Computer Olympiad second camp at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved (สำรองอันดับหนึ่ง) to be participating in the 17th Thailand Olympiad in Informatics. I attempted the competition unofficially with the same problemset and time control and scored between Silver to Gold medal award.",
-  },
-  {
-    name: "Meta Hacker Cup (2022)",
-    details: "Qualified to the second round of Meta Hacker Cup 2022",
-  },
-  {
-    name: "Google Codejam (2020, 2021)",
-    details: "Qualified to the first round of Google Codejam 2020 and 2021",
-  },
-  {
-    name: "KU01 Coding Competition (2019)",
-    details:
-      "Achieved the perfect score and first place from the competition at Kasetsart University",
-  },
-];
+// export const projects = [
+// 	{
+// 		name: 'ChatOS',
+// 		details: 'Hackable chatbot web application',
+// 		url: 'chat.narze.live',
+// 		hide: false
+// 	},
+// 	{
+// 		name: 'Digital Garden',
+// 		details: 'My notes & stuff (Second Brain)',
+// 		url: 'garden.narze.live',
+// 		hide: false
+// 	},
+// 	{
+// 		name: 'Manoonchai',
+// 		details:
+// 			'Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte',
+// 		url: 'manoonchai.com',
+// 		hide: false
+// 	},
+// 	{
+// 		name: 'Dotfiles',
+// 		details:
+// 			'macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)',
+// 		url: 'github.com/narze/dotfiles',
+// 		hide: false
+// 	},
+// 	{
+// 		name: 'Resumette',
+// 		details:
+// 			'Interactive & printable résumé with tailored skills fitted in single letter page (This page!)',
+// 		url: 'resume.narze.live',
+// 		hide: false
+// 	},
+// 	{
+// 		name: 'Thwordle',
+// 		details: 'Thai language Wordle clone.',
+// 		url: 'thwordle.narze.live',
+// 		hide: false
+// 	},
+// 	{
+// 		name: '9armbot (Contributor)',
+// 		details:
+// 			'Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma',
+// 		url: 'github.com/thananon/twitch_tools',
+// 		hide: true
+// 	},
+// 	{
+// 		name: '#100DaysOfCode',
+// 		details:
+// 			'My take on practicing modern frontend development by building small projects in 100 days',
+// 		url: '100daysofcode-narze.vercel.app',
+// 		hide: true
+// 	},
+// 	{
+// 		name: 'Baht.rb',
+// 		details: 'Ruby gem to convert number to Thai Baht format',
+// 		url: 'rubygems.org/gems/baht',
+// 		hide: true
+// 	},
+// 	{
+// 		name: 'Baht.js',
+// 		details: 'Convert number to Thai Baht format, but 10x faster & fully typed.',
+// 		url: 'npmjs.com/package/baht',
+// 		hide: true
+// 	},
+// 	{
+// 		name: 'Popyut',
+// 		details:
+// 			'Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week',
+// 		url: 'github.com/popyut/popyut',
+// 		hide: true
+// 	},
+// 	{
+// 		name: 'Resound',
+// 		details:
+// 			'Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.',
+// 		url: 'github.com/narze/resound',
+// 		hide: true
+// 	}
+// ];
 
-export const projects = [
-  {
-    name: "CU Get Reg",
-    details:
-      "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed by developing its Backoffice backend service using NestJS and GraphQL for managing admin's tasks",
-    url: "https://github.com/thinc-org/cugetreg",
-  },
-  {
-    name: "CU Get Rekt",
-    details:
-      "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was designing, developing, deploying, and maintaining its backend using Nestjs and Prisma.",
-    url: "https://github.com/Nacnano/cugetrekt",
-  },
-  {
-    name: "E-learning Website",
-    details:
-      "Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. My role was developing its backend using Nestjs and Prisma and deploying the project using Docker and Google Cloud Run",
-    url: "https://github.com/thinc-org/hacktoschool-fryingchicken",
-  },
-  {
-    name: "MWIT29 Archive",
-    details:
-      "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)",
-    url: "https://github.com/nacnano/mwit29-archive",
-  },
-  {
-    name: "School Computer Science Project",
-    details:
-      "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on students' learning efficiency",
-    url: "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
-  },
-  {
-    name: "GFinder",
-    details:
-      "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
-    url: "https://github.com/Nacnano/IMMC-2021",
-  },
-];
-
-export const others = [
-  "Langauges: Thai (Native), English (Working Proficient), Chinese (Elementary)",
-  "Non-tech-related working experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Bio/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science, Got accepted to Faculty of Medicine, Chulalongkorn University",
-  "Extra curricular activities: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022",
-];
+// export const interests = [
+// 	'Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards',
+// 	'Typing : 120+ words per minute (Colemak Mod-DH layout)',
+// 	'Games : Music games, FPS, MOBA, Puzzle',
+// 	'Music : EDM, Rock, Japanese',
+// 	'Remote working is a OK. I extensively use self time tracking app for all my works.',
+// 	'Pets : I have 3 dogs'
+// ];
