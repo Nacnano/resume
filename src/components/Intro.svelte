@@ -3,7 +3,7 @@
 	export let phone: string = '(+66)96-189-6046';
 	export let email: string = 'chotpisit.adu@gmail.com';
 	export let github: string = 'nacnano';
-	export let linkedin: string = 'chotpisit-adunsehawat-b68912210';
+	export let linkedin: string = 'chotpisit-adunsehawat';
 	export let location: string = 'Bangkok, Thailand';
 	export let website: string = 'nacnano.dev';
 </script>
