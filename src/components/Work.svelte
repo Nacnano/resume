@@ -3,6 +3,7 @@
 
 	export let position: string = '';
 	export let company: string = '';
+	export let location: string = '';
 	export let url: string = '';
 	export let years: string[] = [];
 	export let details: string[] = [];
@@ -12,8 +13,9 @@
 	<Hideable>
 		<div class="flex font-bold mb-2 print:mb-1">
 			<div class="flex-1 text-left">{position}</div>
-			<div class="flex-0">
+			<div class="flex flex-wrap gap-2">
 				<a href={url} target="_blank" rel="noreferrer">{company}</a>
+				<p class="font-normal">{location}</p>
 			</div>
 			<div class="flex-1 text-right">{years.join('-')}</div>
 		</div>
