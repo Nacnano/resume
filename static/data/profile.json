@@ -97,16 +97,17 @@
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"details": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)"
+			"school": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
+			"details": ["Coursework: ", "Participated in exchange program"]
 		},
 		{
 			"head": "High School",
-			"details": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
+			"school": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
 			"hide": true
 		},
 		{
 			"head": "Middle School",
-			"details": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
+			"school": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
 			"hide": true
 		}
 	],

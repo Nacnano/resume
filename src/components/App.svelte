@@ -4,6 +4,7 @@
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
 	import Work from './Work.svelte';
+	import Education from './Education.svelte';
 
 	let profile: IProfileResp;
 
@@ -78,11 +79,12 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each educations as edu}
-					<Hideable hide={edu.hide}>
+					<Education {...edu} />
+					<!-- <Hideable hide={edu.hide}>
 						<li>
 							<strong>{edu.head}</strong>, {edu.details}
 						</li>
-					</Hideable>
+					</Hideable> -->
 				{/each}
 			</ul>
 		</Hideable>

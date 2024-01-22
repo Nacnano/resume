@@ -47,7 +47,8 @@ export interface IWorkExperience {
 
 export interface IEducation {
 	head: string;
-	details: string;
+	school: string;
+	details: string[];
 	hide: boolean;
 }
 
