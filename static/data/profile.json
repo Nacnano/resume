@@ -8,25 +8,28 @@
 		"website": "nacnano.dev",
 		"phone": "(+66)96-189-6046"
 	},
-	"objective": "Adaptive student specializing in programming, mathematics, and project coordination. Experienced in backend development and project management, as demonstrated in projects. Eager to advance my studies in computer engineering for contributing innovative solutions. Seeking to leverage skills and knowledge to make impactful contributions in the technology sector.",
+	"objective": "An adaptive student specializing in programming, mathematics, and project coordination. Experienced in full stack development, infrastructure, and project management. Eager to advance my studies in computer engineering for resolving more complex and challenging problems. Seeking to leverage skills and knowledge to make impactful contributions in the technology world.",
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"school": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
+			"school": "Chulalongkorn University, Thailand. 2022-Present (Expected June 2026)",
 			"details": [
+				"Achieved 4.00 GPA for 3 semesters",
 				"Participated in an exchange program with Guangxi University, China",
-				"Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition"
+				"Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition"
 			]
 		},
 		{
 			"head": "High School",
-			"school": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
-			"details": "Participated in many exchange programs and international symposiums and competitions",
+			"school": "Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)",
+			"details": [
+				"Participated in many exchange programs and international symposiums and competitions"
+			],
 			"hide": true
 		},
 		{
 			"head": "Middle School",
-			"school": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
+			"school": "Suankularb Wittayalai School, Thailand. 2016-2019 (GPA 3.56)",
 			"hide": true
 		}
 	],
@@ -38,9 +41,8 @@
 			"url": "https://wang.in.th",
 			"years": ["June, 2023", "August, 2023"],
 			"details": [
-				"Implemented new input types for its form features",
-				"Helped designing and developing new base structures for an upcoming AI features",
-				"Learned new React concepts for maintaining complex projects"
+				"Implemented various input types for its form feature using React and creating new API endpoints using ExpressJS",
+				"Helped designing and developing new base structures for an upcoming main AI feature"
 			]
 		},
 		{
@@ -50,38 +52,32 @@
 			"url": "https://monkeyeveryday.com",
 			"years": ["March, 2022", "August, 2022"],
 			"details": [
-				"Designed, implemented, and maintained the TCAS Ranking services",
-				"Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
+				"Designed, implemented, and maintained the TCAS Ranking algorithm service with over 40000 students participating",
+				"Helped querying its database for data analysis tasks using MySQL and PostgreSQL for business development",
 				"Automated bots for updating users's data using Selenium",
-				"Implemented end-to-end tests using Cypress",
-				"Maintained Monkey-Monkey websites for both frontend and backend"
+				"Maintained Monkey-Monkey websites for both frontend and backend using VueJS and Firebase",
+				"Implemented end-to-end tests using Cypress"
 			]
 		}
 	],
 	"projects": [
 		{
 			"name": "CU Get Reg",
-			"details": "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and . ",
+			"details": "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and 500 elective courses with over 15,000 maximum users per week. ",
 			"url": "https://github.com/thinc-org/cugetreg",
 			"hide": false
 		},
 		{
 			"name": "CU Get Rekt",
-			"details": "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped designing, developing, deploying, and maintaining its backend using Nestjs and Prisma.",
+			"details": "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped designing, developing, deploying, and maintaining its backend using Nestjs and Prisma. Got the first place from over 50 teams",
 			"url": "https://github.com/Nacnano/cugetrekt",
 			"hide": false
 		},
 		{
 			"name": "E-learning Website",
-			"details": "Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. My role was developing its backend using Nestjs and Prisma and deploying the project using Docker and Google Cloud Run",
+			"details": "Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. Developed its backend using Nestjs and Prisma, and deploying the project using Docker and Google Cloud Run",
 			"url": "https://github.com/thinc-org/hacktoschool-fryingchicken",
 			"hide": false
-		},
-		{
-			"name": "MWIT29 Archive",
-			"details": "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)",
-			"url": "https://github.com/nacnano/mwit29-archive",
-			"hide": true
 		},
 		{
 			"name": "School Computer Science Project",
@@ -91,9 +87,15 @@
 		},
 		{
 			"name": "GFinder",
-			"details": "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. My role was coding and implementing the model using Python",
+			"details": "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. Designed and Implemented the mathematical model using Python, Pandas, and numpy",
 			"url": "https://github.com/Nacnano/IMMC-2021",
 			"hide": false
+		},
+		{
+			"name": "MWIT29 Archive",
+			"details": "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)",
+			"url": "https://github.com/nacnano/mwit29-archive",
+			"hide": true
 		}
 	],
 	"technologies": [
