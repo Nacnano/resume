@@ -106,8 +106,8 @@
 		{
 			"section": "Frameworks:",
 			"details": [
-				"(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL, JavaFX",
-				" (Data Science) Pandas, Numpy, scikit-learn, TensorFlow"
+				"ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL, JavaFX",
+				" Pandas, Numpy, scikit-learn, TensorFlow"
 			]
 		},
 		{
