@@ -8,11 +8,11 @@
 		"website": "nacnano.dev",
 		"phone": "(+66)96-189-6046"
 	},
-	"objective": "An adaptive student specializing in programming, mathematics, and project coordination. Experienced in full stack development, infrastructure, and project management. Eager to advance my studies in computer engineering for resolving more complex and challenging problems. Seeking to leverage skills and knowledge to make impactful contributions in the technology world.",
+	"objective": "An adaptable student specializing in programming, mathematics, and project coordination. Experienced in full stack development, infrastructure, and project management. Eager to advance my studies in computer engineering for resolving more complex and challenging problems. Seeking to leverage skills and knowledge to make impactful contributions in the technology world.",
 	"educations": [
 		{
 			"head": "B.Eng. Computer Engineering",
-			"school": "Chulalongkorn University, Thailand. 2022-Present (Expected June 2026)",
+			"school": "Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)",
 			"details": [
 				"Achieved 4.00 GPA for 3 semesters",
 				"Participated in an exchange program with Guangxi University, China",
@@ -87,7 +87,7 @@
 		},
 		{
 			"name": "GFinder",
-			"details": "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. Designed and Implemented the mathematical model using Python, Pandas, and numpy",
+			"details": "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. Designed and Implemented the mathematical model using Python, Pandas, and Numpy",
 			"url": "https://github.com/Nacnano/IMMC-2021",
 			"hide": false
 		},
@@ -123,7 +123,7 @@
 	"achievements": [
 		{
 			"name": "Thinc's 10 Days in 10 Years Project (2022)",
-			"details": "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implement a project for solving specific problems in 10 day"
+			"details": "Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implementing a project for solving specific problems in 10 day"
 		},
 		{
 			"name": "Computer Olympiad Camp (2019-2022)",
