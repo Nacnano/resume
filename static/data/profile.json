@@ -9,6 +9,52 @@
 		"phone": "(+66)96-189-6046"
 	},
 	"objective": "Adaptive student specializing in programming, mathematics, and project coordination. Experienced in backend development and project management, as demonstrated in projects. Eager to advance my studies in computer engineering for contributing innovative solutions. Seeking to leverage skills and knowledge to make impactful contributions in the technology sector.",
+	"educations": [
+		{
+			"head": "B.Eng. Computer Engineering",
+			"school": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
+			"details": [
+				"Participated in an exchange program with Guangxi University, China",
+				"Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition"
+			]
+		},
+		{
+			"head": "High School",
+			"school": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
+			"hide": true
+		},
+		{
+			"head": "Middle School",
+			"school": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
+			"hide": true
+		}
+	],
+	"workExperiences": [
+		{
+			"position": "Full Stack Developer (Internship)",
+			"company": "Wang Data Market",
+			"url": "https://wang.in.th",
+			"years": ["June, 2023", "August, 2023"],
+			"details": [
+				"Implemented new input types for its form features",
+				"Helped designing and developing new base structures for an upcoming AI features",
+				"Learned new React concepts for maintaining complex projects"
+			]
+		},
+		{
+			"position": "Full Stack Developer and Data Scientist (Internship)",
+			"company": "MonkeyEveryday",
+			"url": "https://monkeyeveryday.com",
+			"years": ["March, 2022", "August, 2022"],
+			"details": [
+				"Designed, implemented, and maintained the TCAS Ranking services",
+				"Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
+				"Automated bots for updating users's data using Selenium",
+				"Implemented end-to-end tests using Cypress",
+				"Maintained Monkey-Monkey websites for both frontend and backend"
+			]
+		}
+	],
 	"projects": [
 		{
 			"name": "CU Get Reg",
@@ -66,52 +112,6 @@
 		{
 			"section": "Services:",
 			"details": ["GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB"]
-		}
-	],
-	"workExperiences": [
-		{
-			"position": "Full Stack Developer (Internship)",
-			"company": "Wang Data Market",
-			"url": "https://wang.in.th",
-			"years": ["June, 2023", "August, 2023"],
-			"details": [
-				"Implemented new input types for its form features",
-				"Helped designing and developing new base structures for an upcoming AI features",
-				"Learned new React concepts for maintaining complex projects"
-			]
-		},
-		{
-			"position": "Full Stack Developer and Data Scientist (Internship)",
-			"company": "MonkeyEveryday",
-			"url": "https://monkeyeveryday.com",
-			"years": ["March, 2022", "August, 2022"],
-			"details": [
-				"Designed, implemented, and maintained the TCAS Ranking services",
-				"Helped querying its database for data analysis tasks using MySQL and PostgreSQL",
-				"Automated bots for updating users's data using Selenium",
-				"Implemented end-to-end tests using Cypress",
-				"Maintained Monkey-Monkey websites for both frontend and backend"
-			]
-		}
-	],
-	"educations": [
-		{
-			"head": "B.Eng. Computer Engineering",
-			"school": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
-			"details": [
-				"Participated in an exchange program with Guangxi University, China",
-				"Coursework: Data Structure, Algorithm Design, Programming Methodology"
-			]
-		},
-		{
-			"head": "High School",
-			"school": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
-			"hide": true
-		},
-		{
-			"head": "Middle School",
-			"school": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
-			"hide": true
 		}
 	],
 

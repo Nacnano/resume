@@ -6,7 +6,7 @@ export interface IProfileResp {
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
 	achievements: IAchievement[];
-	interests: IOther[];
+	others: IOther[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
