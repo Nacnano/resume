@@ -6,6 +6,7 @@
 	export let linkedin: string = 'chotpisit-adunsehawat';
 	export let location: string = 'Bangkok, Thailand';
 	export let website: string = 'nacnano.dev';
+	export let objective: string = '';
 </script>
 
 <div class="flex flex-col items-center justify-center print:flex-col text-sm sm:text-base gap-2">
@@ -16,7 +17,7 @@
 	</h2>
 
 	<div
-		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center text-sm"
+		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center text-xs sm:text-sm"
 	>
 		<p>{location}</p>
 		•
