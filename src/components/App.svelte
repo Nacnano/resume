@@ -17,7 +17,7 @@
 		workExperiences = [],
 		educations = [],
 		achievements = [],
-		interests = [],
+		others = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
 
@@ -57,23 +57,6 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
-			<hr />
-			<ul class="text-left list-disc pl-8">
-				{#each technologies as tech}
-					<Hideable hide={tech.hide}>
-						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
-							<span>{tech.details}</span>
-						</li>
-					</Hideable>
-				{/each}
-			</ul>
-		</Hideable>
-	</section>
-
-	<section>
-		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
 			<hr />
 
@@ -97,6 +80,23 @@
 					<Work {...exp} />
 				</Hideable>
 			{/each}
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each technologies as tech}
+					<Hideable hide={tech.hide}>
+						<li>
+							<span class="w-28 inline-block">{tech.section}</span>
+							<span>{tech.details}</span>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
 		</Hideable>
 	</section>
 
@@ -141,14 +141,14 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Other</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
-				{#each interests as interest}
-					<Hideable>
+				{#each others as other}
+					<Hideable hide={other.hide}>
 						<li>
-							{interest}
+							{other.detail}
 						</li>
 					</Hideable>
 				{/each}

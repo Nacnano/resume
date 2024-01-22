@@ -137,12 +137,18 @@
 			"details": "Achieved the perfect score and first place from the competition at Kasetsart University"
 		}
 	],
-	"interests": [
-		"Langauges: Thai (Native), English (Working Proficient), Chinese (Elementary)",
-		"Areas : Coding, Sports, Piano",
-		"Games : Music games, Puzzle",
-		"Non-tech-related working experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Bio/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science, Got accepted to Faculty of Medicine, Chulalongkorn University",
-		"Extra curricular activities: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022"
+	"others": [
+		{ "detail": "Langauges: Thai (Native), English (Working Proficient), Chinese (Elementary)" },
+		{ "detail": "Areas : Coding, Sports, Piano", "hide": true },
+		{ "detail": "Games : Music games, Puzzle", "hide": true },
+		{
+			"detail": "Non-tech-related working experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Bio/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science, Got accepted to Faculty of Medicine, Chulalongkorn University",
+			"hide": true
+		},
+		{
+			"detail": "Extra curricular activities: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022",
+			"hide": true
+		}
 	],
 	"resumeUrl": {
 		"sourceLink": "https://github.com/nacnano/resume",
