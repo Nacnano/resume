@@ -3,7 +3,6 @@
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
-	import Kofi from './Kofi.svelte';
 	import Work from './Work.svelte';
 
 	let profile: IProfileResp;
@@ -16,6 +15,7 @@
 		technologies = [],
 		workExperiences = [],
 		educations = [],
+		achievements = [],
 		interests = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
@@ -113,6 +113,24 @@
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievement</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each achievements as achievement}
+					<Hideable hide={achievement.hide}>
+						<li>
+							<strong>{achievement.name}</strong>
+							- {achievement.details}
 						</li>
 					</Hideable>
 				{/each}

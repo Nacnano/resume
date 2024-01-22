@@ -5,6 +5,7 @@ export interface IProfileResp {
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
+	achievements: IAchievement[];
 	interests: string[];
 	resumeUrl: {
 		sourceLink: string;
@@ -45,4 +46,10 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+}
+
+export interface IAchievement {
+	name: string;
+	details: string;
+	hide: boolean;
 }
