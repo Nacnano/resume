@@ -29,24 +29,29 @@
 	}
 </script>
 
-<header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
+<header
+	class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
+>
 	<h1 class="text-4xl">Resumette</h1>
 	<h3>
-		<button on:click={() => window.print()} class="underline text-lg">[Print]</button>
+		<button on:click={() => window.print()} class="underline text-lg"
+			>[Print]</button
+		>
 	</h3>
 	<p>
-		Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS class will be hidden
-		on print.
+		Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS
+		class will be hidden on print.
 	</p>
-	<p>You can click at any sections or lines hide some information before printing.</p>
+	<p>
+		You can click at any sections or lines hide some information before
+		printing.
+	</p>
 	<a href={sourceLink} target="_blank" rel="noopener">[Source]</a>
 	<a href={dataLink} target="_blank" rel="noopener">[Data]</a>
 </header>
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
-	<section>
-		<Intro {...intro} />
-	</section>
+	<Intro {...intro} />
 
 	<section>
 		<Hideable>
@@ -72,7 +77,9 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">
+				Work Experience
+			</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -85,7 +92,9 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">
+				Technologies and Languages
+			</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
@@ -155,11 +164,6 @@
 			</ul>
 		</Hideable>
 	</section>
-
-	<footer class="print-only">
-		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
-		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-	</footer>
 </main>
 
 <style lang="postcss">
@@ -214,8 +218,7 @@
 		}
 
 		main {
-			margin: 0 0;
-			padding: 0;
+			margin: 1;
 		}
 	}
 </style>

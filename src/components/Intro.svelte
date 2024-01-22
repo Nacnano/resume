@@ -16,7 +16,7 @@
 	</h2>
 
 	<div
-		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center text-xs sm:text-sm"
+		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center print:text-xs text-xs sm:text-sm"
 	>
 		<p>{location}</p>
 
