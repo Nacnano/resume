@@ -83,13 +83,13 @@
 			"name": "School Computer Science Project",
 			"details": "Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on students' learning efficiency",
 			"url": "https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "GFinder",
 			"details": "Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. Designed and Implemented the mathematical model using Python, Pandas, and Numpy",
 			"url": "https://github.com/Nacnano/IMMC-2021",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "MWIT29 Archive",
