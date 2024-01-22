@@ -33,6 +33,7 @@ export interface IProject {
 export interface ITechnology {
 	section: string;
 	details: string;
+	hide: boolean;
 }
 
 export interface IWorkExperience {
@@ -41,11 +42,13 @@ export interface IWorkExperience {
 	url: string;
 	years: string[];
 	details: string[];
+	hide: boolean;
 }
 
 export interface IEducation {
 	head: string;
 	details: string;
+	hide: boolean;
 }
 
 export interface IAchievement {

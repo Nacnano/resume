@@ -32,7 +32,7 @@
 			"name": "MWIT29 Archive",
 			"details": "A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)",
 			"url": "https://github.com/nacnano/mwit29-archive",
-			"hide": false
+			"hide": true
 		},
 		{
 			"name": "School Computer Science Project",
@@ -101,11 +101,13 @@
 		},
 		{
 			"head": "High School",
-			"details": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)"
+			"details": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
+			"hide": true
 		},
 		{
 			"head": "Middle School",
-			"details": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)"
+			"details": "Suankularb Wittayalai School, TH. 2016-2019 (GPA 3.56)",
+			"hide": true
 		}
 	],
 

@@ -60,7 +60,7 @@
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
-					<Hideable>
+					<Hideable hide={tech.hide}>
 						<li>
 							<span class="w-28 inline-block">{tech.section}</span>
 							<span>{tech.details}</span>
@@ -78,7 +78,7 @@
 
 			<ul class="text-left list-disc pl-8">
 				{#each educations as edu}
-					<Hideable>
+					<Hideable hide={edu.hide}>
 						<li>
 							<strong>{edu.head}</strong>, {edu.details}
 						</li>
@@ -94,14 +94,16 @@
 			<hr />
 
 			{#each workExperiences as exp}
-				<Work {...exp} />
+				<Hideable hide={exp.hide}>
+					<Work {...exp} />
+				</Hideable>
 			{/each}
 		</Hideable>
 	</section>
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Project</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
