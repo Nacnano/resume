@@ -11,13 +11,15 @@
 
 <div class="work-experience">
 	<Hideable>
-		<div class="flex font-bold mb-2 print:mb-1">
-			<div class="flex-1 text-left">{position}</div>
-			<div class="flex flex-wrap gap-2">
-				<a href={url} target="_blank" rel="noreferrer">{company}</a>
-				<p class="font-normal">{location}</p>
+		<div class="flex flex-col mb-2 print:mb-1">
+			<div class="flex-1 text-left w-auto font-bold text-lg">{position}</div>
+			<div class="flex flex-row justify-between items-start">
+				<div class="flex flex-wrap gap-2">
+					<a href={url} target="_blank" class="font-bold" rel="noreferrer">{company}</a>
+					<p class="font-normal">{location}</p>
+				</div>
+				<div class="flex-1 text-right">{years.join('-')}</div>
 			</div>
-			<div class="flex-1 text-right">{years.join('-')}</div>
 		</div>
 		<ul class="text-left list-disc pl-8 print:pl-6">
 			{#each details as detail}
