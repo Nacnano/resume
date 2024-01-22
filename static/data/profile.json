@@ -21,6 +21,7 @@
 		{
 			"head": "High School",
 			"school": "Mahidol Wittayanusorn School, TH. 2019-2022 (GPA 4.00)",
+			"details": "Participated in many exchange programs and international symposiums and competitions",
 			"hide": true
 		},
 		{
@@ -31,8 +32,9 @@
 	],
 	"workExperiences": [
 		{
-			"position": "Full Stack Developer (Internship)",
+			"position": "Full Stack Developer, Intern",
 			"company": "Wang Data Market",
+			"location": "Bangkok, Thailand",
 			"url": "https://wang.in.th",
 			"years": ["June, 2023", "August, 2023"],
 			"details": [
@@ -42,8 +44,9 @@
 			]
 		},
 		{
-			"position": "Full Stack Developer and Data Scientist (Internship)",
+			"position": "Full Stack Developer and Data Scientist, Intern",
 			"company": "MonkeyEveryday",
+			"location": "Bangkok, Thailand",
 			"url": "https://monkeyeveryday.com",
 			"years": ["March, 2022", "August, 2022"],
 			"details": [
@@ -58,13 +61,13 @@
 	"projects": [
 		{
 			"name": "CU Get Reg",
-			"details": "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. As a new member of Thinc, I contributed by developing its Backoffice backend service using NestJS and GraphQL for managing admin's tasks",
+			"details": "Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and . ",
 			"url": "https://github.com/thinc-org/cugetreg",
 			"hide": false
 		},
 		{
 			"name": "CU Get Rekt",
-			"details": "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. My role was designing, developing, deploying, and maintaining its backend using Nestjs and Prisma.",
+			"details": "Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped designing, developing, deploying, and maintaining its backend using Nestjs and Prisma.",
 			"url": "https://github.com/Nacnano/cugetrekt",
 			"hide": false
 		},
@@ -102,7 +105,7 @@
 			"section": "Frameworks:",
 			"details": [
 				"(Software Development) ReactJS, NextJS, VueJS, TailwindCSS, NestJS, ExpressJS, Prisma, GraphQL, JavaFX",
-				"(Data Science) Pandas, Numpy, scikit-learn, TensorFlow"
+				" (Data Science) Pandas, Numpy, scikit-learn, TensorFlow"
 			]
 		},
 		{
@@ -139,14 +142,13 @@
 	],
 	"others": [
 		{ "detail": "Langauges: Thai (Native), English (Working Proficient), Chinese (Elementary)" },
+		{
+			"detail": "Extra curricular activities: President of School International Chess Club, Head of Information Department of High School Yearbook Committee"
+		},
 		{ "detail": "Areas : Coding, Sports, Piano", "hide": true },
 		{ "detail": "Games : Music games, Puzzle", "hide": true },
 		{
 			"detail": "Non-tech-related working experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Bio/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science, Got accepted to Faculty of Medicine, Chulalongkorn University",
-			"hide": true
-		},
-		{
-			"detail": "Extra curricular activities: President of School International Chess Club, Head of Information Department of School Yearbook Committee, Head of IT Staffs at PreMWIT Camp 2022",
 			"hide": true
 		}
 	],

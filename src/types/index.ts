@@ -12,6 +12,7 @@ export interface IProfileResp {
 		fullVersionLink: string;
 	};
 }
+
 export interface IIntro {
 	name: string;
 	nickname: string;
@@ -39,6 +40,7 @@ export interface ITechnology {
 export interface IWorkExperience {
 	position: string;
 	company: string;
+	location: string;
 	url: string;
 	years: string[];
 	details: string[];
