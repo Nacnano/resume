@@ -11,6 +11,7 @@
 	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
+		objective = '',
 		projects = [],
 		technologies = [],
 		workExperiences = [],
@@ -27,8 +28,6 @@
 	}
 </script>
 
-<!-- Remove this is you does not want Kofi widget on your site -->
-
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
 	<h1 class="text-4xl">Resumette</h1>
 	<h3>
@@ -44,7 +43,16 @@
 </header>
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
-	<Intro {...intro} />
+	<section>
+		<Intro {...intro} />
+	</section>
+
+	<section>
+		<Hideable>
+			<hr />
+			{objective}
+		</Hideable>
+	</section>
 
 	<section>
 		<Hideable>
