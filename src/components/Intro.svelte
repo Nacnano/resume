@@ -19,24 +19,31 @@
 		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center text-xs sm:text-sm"
 	>
 		<p>{location}</p>
+
+		•
+		<p><a href={`tel:${phone}`}>{phone}</a></p>
+
+		•
+		<p><a href={`mailto:${email}`}>{email}</a></p>
+
+		•
+		<p>
+			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
+				>linkedin.com/in/{linkedin}</a
+			>
+		</p>
+
 		•
 		<p>
 			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
 				>github.com/{github}</a
 			>
 		</p>
+
 		•
 		<p>
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
 		</p>
-		•
-		<p>
-			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer">Linkedin</a>
-		</p>
-		•
-		<p><a href={`tel:${phone}`}>{phone}</a></p>
-		•
-		<p><a href={`mailto:${email}`}>{email}</a></p>
 	</div>
 </div>
 
