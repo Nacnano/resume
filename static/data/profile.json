@@ -98,7 +98,10 @@
 		{
 			"head": "B.Eng. Computer Engineering",
 			"school": "Chulalongkorn University, TH. 2022-Present (Current GPA 4.00, 3 semesters)",
-			"details": ["Coursework: ", "Participated in exchange program"]
+			"details": [
+				"Participated in an exchange program with Guangxi University, China",
+				"Coursework: Data Structure, Algorithm Design, Programming Methodology"
+			]
 		},
 		{
 			"head": "High School",
