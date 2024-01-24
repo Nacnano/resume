@@ -8,7 +8,6 @@
 
 	let profile: IProfileResp;
 
-	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
 		objective = '',
@@ -20,7 +19,8 @@
 		others = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
-
+	$: dataLink = "https://github.com/nacnano/resume/blob/main/static/data/profile.json";
+	
 	onMount(async () => (profile = await fetchResumeProfile()));
 
 	async function fetchResumeProfile() {
