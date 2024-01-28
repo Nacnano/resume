@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Hideable from './Hideable.svelte';
+
 	export let name: string;
 	// export let nickname: string;
 	export let phone: string;
@@ -41,6 +43,7 @@
 				>github.com/{github}</a
 			>
 		</p>
+
 		<!-- 
 		•
 		<p>
@@ -49,8 +52,10 @@
 	</div>
 
 	<section>
-		<hr />
-		{objective}
+		<Hideable>
+			<hr />
+			{objective}
+		</Hideable>
 	</section>
 </div>
 
