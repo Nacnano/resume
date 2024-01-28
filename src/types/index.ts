@@ -1,18 +1,3 @@
-export interface IProfileResp {
-	intro: IIntro;
-	objective: string;
-	projects: IProject[];
-	technologies: ITechnology[];
-	workExperiences: IWorkExperience[];
-	educations: IEducation[];
-	achievements: IAchievement[];
-	others: IOther[];
-	resumeUrl: {
-		sourceLink: string;
-		fullVersionLink: string;
-	};
-}
-
 export interface IIntro {
 	name: string;
 	nickname: string;
@@ -23,7 +8,11 @@ export interface IIntro {
 	location: string;
 	website: string;
 	objective: string;
-	resumeUrl: { sourceLink: string; fullVersion: string };
+	resumeUrl: {
+		sourceLink: string;
+		fullVersion: string;
+		dataLink: string;
+	};
 }
 
 export interface IProject {
@@ -39,7 +28,7 @@ export interface ITechnology {
 	hide?: boolean;
 }
 
-export interface IWorkExperience {
+export interface IExperience {
 	position: string;
 	company: string;
 	location: string;

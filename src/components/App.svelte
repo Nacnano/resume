@@ -1,32 +1,12 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import type { IProfileResp } from '../types';
+	import { intro, educations, experiences, achievements, projects, technologies, others  } from '../data';
+
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
 	import Work from './Work.svelte';
 	import Education from './Education.svelte';
 
-	let profile: IProfileResp;
-
-	$: ({
-		intro = {} as IProfileResp['intro'],
-		objective = '',
-		projects = [],
-		technologies = [],
-		workExperiences = [],
-		educations = [],
-		achievements = [],
-		others = [],
-		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
-	} = profile || {});
-	$: dataLink = "https://github.com/nacnano/resume/blob/main/static/data/profile.json";
 	
-	onMount(async () => (profile = await fetchResumeProfile()));
-
-	async function fetchResumeProfile() {
-		const resp = await fetch('/data/profile.json');
-		return await resp.json();
-	}
 </script>
 
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
@@ -39,8 +19,8 @@
 		on print.
 	</p>
 	<p>You can click at any sections or lines hide some information before printing.</p>
-	<a href={sourceLink} target="_blank" rel="noopener">[Source]</a>
-	<a href={dataLink} target="_blank" rel="noopener">[Data]</a>
+	<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">[Source]</a>
+	<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">[Data]</a>
 </header>
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
@@ -49,7 +29,7 @@
 	<section>
 		<Hideable>
 			<hr />
-			{objective}
+			{intro.objective}
 		</Hideable>
 	</section>
 
@@ -59,9 +39,9 @@
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
-				{#each educations as edu}
+				{#each educations as education}
 					<Hideable>
-						<Education {...edu} />
+						<Education {...education} />
 					</Hideable>
 				{/each}
 			</ul>
@@ -73,9 +53,9 @@
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
 			<hr />
 
-			{#each workExperiences as exp}
-				<Hideable hide={exp.hide}>
-					<Work {...exp} />
+			{#each experiences as experience}
+				<Hideable hide={experience.hide}>
+					<Work {...experience} />
 				</Hideable>
 			{/each}
 		</Hideable>

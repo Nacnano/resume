@@ -1,6 +1,6 @@
-import type { IWorkExperience } from '../types';
+import type { IExperience } from '../types';
 
-export const experiences: IWorkExperience[] = [
+export const experiences: IExperience[] = [
 	{
 		position: 'Full Stack Developer, Intern',
 		company: 'Wang Data Market',

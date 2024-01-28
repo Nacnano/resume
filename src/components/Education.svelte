@@ -3,8 +3,8 @@
 
 	export let head: string;
 	export let school: string;
-	export let details: string[];
-	export let hide: boolean;
+	export let details: string[] | undefined;
+	export let hide: boolean | undefined;
 </script>
 
 <div class="education">

@@ -1,11 +1,13 @@
 <script lang="ts">
-	export let name: string = 'Chotpisit Adunsehawat';
-	export let phone: string = '(+66)96-189-6046';
-	export let email: string = 'chotpisit.adu@gmail.com';
-	export let github: string = 'nacnano';
-	export let linkedin: string = 'chotpisit-adunsehawat';
-	export let location: string = 'Bangkok, Thailand';
-	// export let website: string = 'nacnano.dev';
+	export let name: string;
+	export let nickname: string
+	export let phone: string;
+	export let email: string
+	export let github: string
+	export let linkedin: string
+	export let location: string
+	export let website: string
+	export let objective: string;
 </script>
 
 <div class="flex flex-col items-center justify-center print:flex-col text-sm sm:text-base gap-2">

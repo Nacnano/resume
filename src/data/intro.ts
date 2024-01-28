@@ -13,6 +13,7 @@ export const intro: IIntro = {
 		'An adaptable student specializing in programming, mathematics, and project coordination. Experienced in full stack development, infrastructure, and project management. Eager to advance my studies in computer engineering for resolving more complex and challenging problems. Seeking to leverage skills and knowledge to make impactful contributions in the technology world.',
 	resumeUrl: {
 		sourceLink: 'https://github.com/nacnano/resume',
-		fullVersion: 'https://resume.nacnano.dev'
+		fullVersion: 'https://resume.nacnano.dev',
+		dataLink: 'https://github.com/nacnano/resume/blob/main/src/data'
 	}
 };
