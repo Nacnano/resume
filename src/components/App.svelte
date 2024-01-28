@@ -1,5 +1,13 @@
 <script lang="ts">
-	import { intro, educations, experiences, achievements, projects, technologies, others  } from '../data';
+	import {
+		intro,
+		educations,
+		experiences,
+		achievements,
+		projects,
+		technologies,
+		others
+	} from '../data';
 
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
