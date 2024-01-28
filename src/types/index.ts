@@ -22,19 +22,21 @@ export interface IIntro {
 	linkedin: string;
 	location: string;
 	website: string;
+	objective: string;
+	resumeUrl: { sourceLink: string; fullVersion: string };
 }
 
 export interface IProject {
 	name: string;
 	details: string;
 	url: string;
-	hide: boolean;
+	hide?: boolean;
 }
 
 export interface ITechnology {
 	section: string;
-	details: string;
-	hide: boolean;
+	details: string | string[];
+	hide?: boolean;
 }
 
 export interface IWorkExperience {
@@ -44,23 +46,23 @@ export interface IWorkExperience {
 	url: string;
 	years: string[];
 	details: string[];
-	hide: boolean;
+	hide?: boolean;
 }
 
 export interface IEducation {
 	head: string;
 	school: string;
-	details: string[];
-	hide: boolean;
+	details?: string[];
+	hide?: boolean;
 }
 
 export interface IAchievement {
 	name: string;
 	details: string;
-	hide: boolean;
+	hide?: boolean;
 }
 
 export interface IOther {
 	detail: string;
-	hide: boolean;
+	hide?: boolean;
 }
