@@ -1,13 +1,13 @@
 export * from './intro';
 
-export * from './education';
+export * from './educations';
 
-export * from './experience';
+export * from './experiences';
 
-export * from './project';
+export * from './projects';
 
-export * from './achievement';
+export * from './achievements';
 
-export * from './technology';
+export * from './technologies';
 
-export * from './other';
+export * from './others';
