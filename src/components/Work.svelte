@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Hideable from './Hideable.svelte';
 
-	export let position: string = '';
-	export let company: string = '';
-	export let location: string = '';
-	export let url: string = '';
-	export let years: string[] = [];
-	export let details: string[] = [];
+	export let position: string;
+	export let company: string;
+	export let location: string;
+	export let url: string;
+	export let years: string[];
+	export let details: string[];
 </script>
 
 <div class="work-experience">

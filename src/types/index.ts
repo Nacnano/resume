@@ -41,8 +41,8 @@ export interface IExperience {
 export interface IEducation {
 	head: string;
 	school: string;
-	details?: string[];
-	hide?: boolean;
+	details: string[];
+	hide: boolean;
 }
 
 export interface IAchievement {

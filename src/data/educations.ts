@@ -8,7 +8,8 @@ export const educations: IEducation[] = [
 			'Achieved 4.00 GPA for 3 semesters',
 			'Participated in an exchange program with Guangxi University, China',
 			'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition'
-		]
+		],
+		hide: false
 	},
 	{
 		head: 'High School',
@@ -21,6 +22,7 @@ export const educations: IEducation[] = [
 	{
 		head: 'Middle School',
 		school: 'Suankularb Wittayalai School, Thailand. 2016-2019 (GPA 3.56)',
+		details: [],
 		hide: true
 	}
 ];

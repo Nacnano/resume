@@ -1,13 +1,13 @@
 <script lang="ts">
 	export let name: string;
-	export let nickname: string
+	// export let nickname: string
 	export let phone: string;
 	export let email: string
 	export let github: string
 	export let linkedin: string
 	export let location: string
-	export let website: string
-	export let objective: string;
+	// export let website: string
+	// export let objective: string;
 </script>
 
 <div class="flex flex-col items-center justify-center print:flex-col text-sm sm:text-base gap-2">

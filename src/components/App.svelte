@@ -5,8 +5,6 @@
 	import Intro from './Intro.svelte';
 	import Work from './Work.svelte';
 	import Education from './Education.svelte';
-
-	
 </script>
 
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
