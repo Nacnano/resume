@@ -54,7 +54,9 @@
 	<section>
 		<Hideable>
 			<hr />
-			{objective}
+			<p class="print:text-xs">
+				{objective}
+			</p>
 		</Hideable>
 	</section>
 </div>
