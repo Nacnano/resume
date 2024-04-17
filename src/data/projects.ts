@@ -14,6 +14,12 @@ export const projects: IProject[] = [
 		url: 'https://github.com/Nacnano/cugetrekt'
 	},
 	{
+		name: 'CU Intania Open House 2024',
+		details:
+			'A website for Open House event at Faculty of Engineering, Chulalongkorn university. Designed and developed its workshop reservation features using NestJS for both frontend and backend and Firestore for its database',
+		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
+	},
+	{
 		name: 'E-learning Website',
 		details:
 			"Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. Developed its backend using Nestjs and Prisma, and deploying the project using Docker and Google Cloud Run",
