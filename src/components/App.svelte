@@ -90,7 +90,7 @@
 						<li>
 							<strong>{project.name}</strong>
 							- {project.details}
-							<a href="https://{project.url}" target="_blank" rel="noreferrer"
+							<a href={project.url} target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
 						</li>
