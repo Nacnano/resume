@@ -21,7 +21,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Designed, implemented, and maintained the TCAS Ranking algorithm service with over 40,000 students participating',
 			'Helped querying its database for data analysis tasks using MySQL and PostgreSQL for business development',
-			"Automated bots for updating users's data using Selenium",
+			'Automated bots for updating user data using Selenium',
 			'Maintained Monkey-Monkey websites for both frontend and backend using VueJS and Firebase',
 			'Implemented end-to-end tests using Cypress'
 		]
