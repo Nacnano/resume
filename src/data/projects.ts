@@ -23,7 +23,15 @@ export const projects: IProject[] = [
 		name: 'E-learning Website',
 		details:
 			"Thinc and Cleverse's 5 days Hack to School project for creating a website by given technical requirements. Developed its backend using Nestjs and Prisma, and deploying the project using Docker and Google Cloud Run",
-		url: 'https://github.com/thinc-org/hacktoschool-fryingchicken'
+		url: 'https://github.com/thinc-org/hacktoschool-fryingchicken',
+		hide: true
+	},
+	{
+		name: 'Stock Return Prediction',
+		details:
+			'Developed machine learning models to predict stock returns using historical S&P 500 data, achieving 42.52% annual returns with LSTM from back-tesing with risk management. Implemented feature importance for multiple models',
+		url: 'https://github.com/Nacnano/stock-machine-learning-project/',
+		hide: true
 	},
 	{
 		name: 'School Computer Science Project',
