@@ -52,7 +52,7 @@
 	</div>
 
 	<section>
-		<Hideable>
+		<Hideable hide={true}>
 			<hr />
 			<p class="print:text-xs">
 				{objective}
