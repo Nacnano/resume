@@ -8,8 +8,9 @@ export const experiences: IExperience[] = [
 		url: 'https://www.agoda.com',
 		years: ['June, 2024', 'Now'],
 		details: [
-			'Migrating .NET and Scala backend services to Kotlin',
-			'Building a new internal tool for managing accounts data for both customers and employers'
+			'Migrated .NET and Scala services to Kotlin',
+			'Built an internal tool for managing accounts data for both customers and employers',
+			'Integrated OPA and Okta Oauth2 Proxy for authorization'
 		]
 	},
 	{
@@ -30,11 +31,10 @@ export const experiences: IExperience[] = [
 		url: 'https://monkeyeveryday.com',
 		years: ['March, 2022', 'August, 2022'],
 		details: [
-			'Designed, implemented, and maintained the TCAS Ranking algorithm service with over 40,000 students participating',
+			'Designed, implemented, and maintained the TCAS Ranking service with over 40,000 students participating',
 			'Helped querying its database for data analysis tasks using MySQL and PostgreSQL for business development',
-			'Automated bots for updating user data using Selenium',
-			'Maintained Monkey-Monkey websites for both frontend and backend using VueJS and Firebase',
-			'Implemented end-to-end tests using Cypress'
+			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress',
+			'Maintained websites for both frontend and backend using VueJS and Firebase'
 		]
 	}
 ];

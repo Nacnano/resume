@@ -16,7 +16,7 @@ export const projects: IProject[] = [
 	{
 		name: 'CU Intania Open House 2024',
 		details:
-			'A website for the Open House event at Faculty of Engineering, Chulalongkorn University used by over 9000 students. Developed its workshop reservation features using NextJS for both frontend and backend and Firestore for its database',
+			'A website for the Open House event at Faculty of Engineering, Chulalongkorn University used by over 9,000 students. Developed its workshop reservation features using NextJS for both frontend and backend and Firestore for its database',
 		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
 	},
 	{
