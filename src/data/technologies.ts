@@ -16,10 +16,10 @@ export const technologies: ITechnology[] = [
 	},
 	{
 		section: 'Tools:',
-		details: ['Git, GitHub, GitLab, Docker, Selenium, Cypress, Markdown']
+		details: ['Git, GitHub, GitLab, Docker, Selenium, Cypress']
 	},
 	{
 		section: 'Services:',
-		details: ['GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB']
+		details: ['GCP, Firebase, Github Actions, Vercel, Netlify, MongoDB, AWS']
 	}
 ];
