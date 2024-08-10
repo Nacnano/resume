@@ -4,7 +4,7 @@ export const projects: IProject[] = [
 	{
 		name: 'CU Get Reg',
 		details:
-			"Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and 500 elective courses with over 15,000 maximum users per week. ",
+			"Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and 500 elective courses with over 15,000 maximum users per week",
 		url: 'https://github.com/thinc-org/cugetreg'
 	},
 	{
@@ -12,6 +12,12 @@ export const projects: IProject[] = [
 		details:
 			"Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped designing, developing, deploying, and maintaining its backend using Nestjs and Prisma. Got the first place from over 50 teams",
 		url: 'https://github.com/Nacnano/cugetrekt'
+	},
+	{
+		name: 'CU First Date and Rub Puen Kao Mai 2024',
+		details:
+			'A website developed for CU First Date and Rub Puen Kao Mai activities at Chulalongkorn University, featuring functionalities such as House Selection, Walk Rally QR code scanning, etc. Developed the registration and profile editing pages, as well as key components for this large-scale event management platform',
+		url: 'https://github.com/isd-sgcu/firstdate-rpkm67-frontend/'
 	},
 	{
 		name: 'CU Intania Open House 2024',
