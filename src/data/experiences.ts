@@ -2,11 +2,19 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
+		position: 'Software Engineer, Part-time Intern',
+		company: 'Agoda',
+		location: 'Bangkok, Thailand',
+		url: 'https://www.agoda.com',
+		years: ['August, 2024', 'Present'],
+		details: []
+	},
+	{
 		position: 'Software Engineer, Intern',
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
 		url: 'https://www.agoda.com',
-		years: ['June, 2024', 'Now'],
+		years: ['June, 2024', 'August, 2024'],
 		details: [
 			'Migrated .NET and Scala services to Kotlin',
 			'Built an internal tool for managing accounts data for both customers and employers',
