@@ -1,7 +1,10 @@
 import type { IOther } from '../types';
 
 export const others: IOther[] = [
-	{ detail: 'Languages: Thai (Native), English (Working Proficient), Chinese (Elementary)' },
+	{
+		detail:
+			'Languages: Thai (Native), English (Working Proficient / IELTS 7.5), Chinese (Elementary)'
+	},
 	{
 		detail:
 			'Extra curricular activities: President of School International Chess Club, Head of Information Department of High School Yearbook Committee'
