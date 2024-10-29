@@ -2,20 +2,32 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
-		position: 'Frontend Developer, Part-time',
-		company: 'CU NEX',
-		location: 'Bangkok, Thailand',
-		url: 'https://www.facebook.com/CUNEX.Official/',
-		years: ['August, 2024', 'Present'],
-		details: []
-	},
-	{
 		position: 'Software Engineer, Part-time Intern',
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
 		url: 'https://www.agoda.com',
 		years: ['August, 2024', 'Present'],
-		details: []
+		details: ['Added Hadoop logs for user signup service']
+	},
+	{
+		position: 'Frontend Developer, Part-time',
+		company: 'CU NEX',
+		location: 'Bangkok, Thailand',
+		url: 'https://www.facebook.com/CUNEX.Official/',
+		years: ['August, 2024', 'Present'],
+		details: [
+			"Designing and implementing Chulalongkorn's Election Management System for Student Government Committee"
+		]
+	},
+	{
+		position: 'Full Stack Developer, Part Time',
+		company: 'MonkeyEveryday',
+		location: 'Bangkok, Thailand',
+		url: 'https://monkeyeveryday.com',
+		years: ['August, 2022', 'Present'],
+		details: [
+			'Maintained and created new websites using NextJS, VueJS, NestJS with GraphQL and Prisma'
+		]
 	},
 	{
 		position: 'Software Engineer, Intern',
@@ -49,8 +61,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Designed, implemented, and maintained the TCAS Ranking service with over 40,000 students participating',
 			'Helped querying its database for data analysis tasks using MySQL and PostgreSQL for business development',
-			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress',
-			'Maintained websites for both frontend and backend using VueJS and Firebase'
+			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress'
 		]
 	}
 ];
