@@ -29,7 +29,7 @@
 	<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">[Data]</a>
 </header>
 
-<main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
+<main class="text-center p-0 m-0 md:my-2 md:mx-6 xl:mx-auto max-w-screen-xl">
 	<section>
 		<Intro {...intro} />
 	</section>
@@ -90,9 +90,9 @@
 						<li>
 							<strong>{project.name}</strong>
 							- {project.details}
-							<a href={project.url} target="_blank" rel="noreferrer"
+							<!-- <a href={project.url} target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
-							>
+							> -->
 						</li>
 					</Hideable>
 				{/each}
