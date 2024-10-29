@@ -42,7 +42,7 @@ export interface IEducation {
 	head: string;
 	school: string;
 	details: string[];
-	hide: boolean;
+	hide?: boolean;
 }
 
 export interface IAchievement {
