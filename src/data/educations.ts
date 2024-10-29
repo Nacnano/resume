@@ -7,16 +7,16 @@ export const educations: IEducation[] = [
 		details: [
 			'Achieved 4.00 GPA for 4 semesters',
 			// 'Participated in an exchange program with Guangxi University, China',
-			'Teaching Assistant: Computer Engineering Essential (Backend)',
+			'Teaching Assistant: Computer Engineering Essential (Backend Course)',
 			'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition'
-		],
-		hide: false
+		]
 	},
 	{
 		head: 'High School',
 		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)',
-		details: ['Participated in many exchange programs, international symposiums and competitions'],
-		hide: false
+		details: [
+			'Participated in many high school exchange programs, international symposiums and competitions'
+		]
 	},
 	{
 		head: 'Middle School',
