@@ -33,6 +33,13 @@ export const projects: IProject[] = [
 		hide: true
 	},
 	{
+		name: 'Thai Context Understanding of LLMs',
+		details:
+			'To benchmark Thai context understanding in LLMs, use Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
+		url: 'https://github.com/Nacnano/indiv',
+		hide: true
+	},
+	{
 		name: 'Stock Return Prediction',
 		details:
 			'Developed machine learning models to predict stock returns using historical S&P 500 data, achieving 42.52% annual returns with LSTM from back-tesing with risk management. Implemented feature importance for multiple models',

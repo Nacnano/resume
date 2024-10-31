@@ -16,5 +16,9 @@ export const others: IOther[] = [
 		hide: true
 	},
 	{ detail: 'Areas : Badmianton, Football, Table Tennis, Piano', hide: true },
-	{ detail: 'Games : Music games, Puzzle, Strategy games', hide: true }
+	{ detail: 'Games : Music games, Puzzle, Strategy games', hide: true },
+	{
+		detail: 'Laboratory List: 1. Natthawut Lab \n 2. Shirai Lab \n 3. Racharak Lab',
+		hide: true
+	}
 ];
