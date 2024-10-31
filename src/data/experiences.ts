@@ -2,12 +2,17 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
-		position: 'Software Engineer, Part-time Intern',
+		position: 'Software Engineer, Intern',
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
 		url: 'https://www.agoda.com',
-		years: ['August, 2024', 'Present'],
-		details: ['Added Hadoop logs for user signup service']
+		years: ['June, 2024', 'Present'],
+		details: [
+			'Migrated .NET and Scala services to Kotlin',
+			'Built an internal tool for managing accounts data for both customers and employers',
+			'Integrated OPA and Okta Oauth2 Proxy for authorization',
+			'Added Hadoop logs for user signup service'
+		]
 	},
 	{
 		position: 'Frontend Developer, Part-time',
@@ -30,18 +35,6 @@ export const experiences: IExperience[] = [
 		]
 	},
 	{
-		position: 'Software Engineer, Intern',
-		company: 'Agoda',
-		location: 'Bangkok, Thailand',
-		url: 'https://www.agoda.com',
-		years: ['June, 2024', 'August, 2024'],
-		details: [
-			'Migrated .NET and Scala services to Kotlin',
-			'Built an internal tool for managing accounts data for both customers and employers',
-			'Integrated OPA and Okta Oauth2 Proxy for authorization'
-		]
-	},
-	{
 		position: 'Full Stack Developer, Intern',
 		company: 'Wang Data Market',
 		location: 'Bangkok, Thailand',
@@ -50,7 +43,8 @@ export const experiences: IExperience[] = [
 		details: [
 			'Implemented various input types for its form feature using React and creating new API endpoints using ExpressJS',
 			'Helped designing and developing new base structures for an upcoming main AI feature'
-		]
+		],
+		hide: true
 	},
 	{
 		position: 'Full Stack Developer and Data Scientist, Intern',
