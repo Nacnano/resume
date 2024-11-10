@@ -21,10 +21,10 @@
 		<button on:click={() => window.print()} class="underline text-lg">[Print]</button>
 	</h3>
 	<p>
-		Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS class will be hidden
+		Printer-friendly standard résumé. any HTML tags with <code>web-only</code> CSS class will be hidden
 		on print.
 	</p>
-	<p>You can click at any sections or lines hide some information before printing.</p>
+	<p>You can click on any sections or lines hide some information before printing.</p>
 	<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">[Source]</a>
 	<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">[Data]</a>
 </header>
