@@ -19,7 +19,8 @@
 			</div>
 			<div class="flex flex-row justify-between items-start">
 				<div class="flex flex-wrap gap-2">
-					<a href={url} target="_blank" class="font-semibold" rel="noreferrer">{company}</a>
+					<p class="font-semibold">{company}</p>
+					<a href={url} target="_blank" class="font-semibold" rel="noreferrer">{url.replace("https://", "")}</a>
 					<p class="font-normal">{location}</p>
 				</div>
 				<div class="flex-1 text-right">{years.join('-')}</div>

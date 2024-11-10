@@ -5,7 +5,7 @@ export const experiences: IExperience[] = [
 		position: 'Data Engineer, Part Time',
 		company: 'People\'s Party',
 		location: 'Bangkok, Thailand',
-		url: 'https://peoplesparty.or.th/',
+		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'Present'],
 		details: [
 			'Creating data pipelines using GCP BigQuery using Apache Airflow',
@@ -16,7 +16,7 @@ export const experiences: IExperience[] = [
 		position: 'Software Engineer, Intern',
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
-		url: 'https://www.agoda.com',
+		url: 'https://agoda.com',
 		years: ['June, 2024', 'November, 2024'],
 		details: [
 			'Migrated .NET and Scala services to Kotlin',
@@ -29,7 +29,7 @@ export const experiences: IExperience[] = [
 		position: 'Frontend Developer, Part-time',
 		company: 'CU NEX',
 		location: 'Bangkok, Thailand',
-		url: 'https://www.facebook.com/CUNEX.Official/',
+		url: 'https://facebook.com/CUNEX.Official',
 		years: ['August, 2024', 'Present'],
 		details: [
 			"Designing and implementing Chulalongkorn's Election Management System for Student Government Committee"
@@ -54,7 +54,7 @@ export const experiences: IExperience[] = [
 		years: ['June, 2023', 'August, 2023'],
 		details: [
 			'Implemented various input types for its form feature using React and creating new API endpoints using ExpressJS',
-			'Helped designing and developing new base structures for an upcoming main AI feature'
+			'Designed and developed new base structures for an upcoming main AI feature'
 		],
 		hide: true
 	},
