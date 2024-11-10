@@ -4,7 +4,7 @@ export const achievements: IAchievement[] = [
 	{
 		name: "Thinc's 10 Days in 10 Years Project (2022)",
 		details:
-			"Won the first place in Thinc's 10 Days in 10 Year Project, a competition for implementing a project for solving specific problems in 10 days"
+			"Won the first place from over 50 teams in Thinc's 10 Days in 10 Year Project, a competition for implementing a web application for solving specific problems in 10 days"
 	},
 	{
 		name: 'Computer Olympiad Camp (2019-2022)',
