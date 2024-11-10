@@ -2,11 +2,22 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
+		position: 'Data Engineer, Part Time',
+		company: 'People\'s Party',
+		location: 'Bangkok, Thailand',
+		url: 'https://peoplesparty.or.th/',
+		years: ['November, 2024', 'Present'],
+		details: [
+			'Creating data pipelines using GCP BigQuery using Apache Airflow',
+			'Integrating data using Krayin CRM via its APIs as an internal tool for managing data'
+		]
+	},
+	{
 		position: 'Software Engineer, Intern',
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
 		url: 'https://www.agoda.com',
-		years: ['June, 2024', 'Present'],
+		years: ['June, 2024', 'November, 2024'],
 		details: [
 			'Migrated .NET and Scala services to Kotlin',
 			'Built an internal tool for managing accounts data for both customers and employers',
@@ -22,7 +33,8 @@ export const experiences: IExperience[] = [
 		years: ['August, 2024', 'Present'],
 		details: [
 			"Designing and implementing Chulalongkorn's Election Management System for Student Government Committee"
-		]
+		],
+		hide: true
 	},
 	{
 		position: 'Full Stack Developer, Part Time',
@@ -31,7 +43,7 @@ export const experiences: IExperience[] = [
 		url: 'https://monkeyeveryday.com',
 		years: ['August, 2022', 'Present'],
 		details: [
-			'Maintained and created new websites using NextJS, VueJS, NestJS with GraphQL and Prisma'
+			'Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma'
 		]
 	},
 	{
