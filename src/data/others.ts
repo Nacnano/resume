@@ -15,7 +15,7 @@ export const others: IOther[] = [
 			'Non-tech experiences/achievements: Academic Tutor (Math/Physics/Chemistry/Biology/English), Qualified for the Thai Scholarship (ทุนกระทรวงวิทยฯ) for studying Computer Science worldwide, Got accepted to Faculty of Medicine, Chulalongkorn University',
 		hide: true
 	},
-	{ detail: 'Areas : Badmianton, Football, Table Tennis, Piano', hide: true },
+	{ detail: 'Areas : Badminton, Football, Table Tennis, Piano', hide: true },
 	{ detail: 'Games : Music games, Puzzle, Strategy games', hide: true },
 	{
 		detail: 'Laboratory List: 1. Natthawut Lab \n 2. Shirai Lab \n 3. Racharak Lab',
