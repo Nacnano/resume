@@ -7,7 +7,7 @@ export const intro: IIntro = {
 	github: 'nacnano',
 	linkedin: 'chotpisit-adunsehawat',
 	location: 'Bangkok, Thailand',
-	website: 'nacnano.dev',
+	website: 'resume.nacnano.dev',
 	phone: '(+66)96-189-6046',
 	objective:
 		'An adaptable student specializing in programming, mathematics, and project coordination. Experienced in full stack development, infrastructure, and project management. Eager to advance my studies in computer engineering for resolving more complex and challenging problems. Seeking to leverage skills and knowledge to make impactful contributions in the technology world.',
