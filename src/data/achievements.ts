@@ -4,12 +4,12 @@ export const achievements: IAchievement[] = [
 	{
 		name: "Thinc's 10 Days in 10 Years Project (2022)",
 		details:
-			"Won the first place from over 50 teams in Thinc's 10 Days in 10 Year Project, a competition for implementing a web application for solving specific problems in 10 days"
+			"Won the first place from over 50 teams in a competition for implementing a web application for solving specific problems in 10 days for faciliating student's withdrawal. My role was to designed and developed its backend service and database"
 	},
 	{
 		name: 'Computer Olympiad Camp (2019-2022)',
 		details:
-			'Qualified to the POSN Computer Olympiad second camp at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021). Placed the first reserved (สำรองอันดับหนึ่ง) to be participating in the 17th Thailand Olympiad in Informatics. Attempted the competition unofficially with the same problemset and time control and scored between Silver to Gold medal award.'
+			'Qualified to the POSN Computer Olympiad camp at Kasetsart University (2019) and Mahidol Wittayansorn School (2020, 2021)'
 	},
 	{
 		name: 'Meta Hacker Cup (2022) ',
