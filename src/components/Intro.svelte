@@ -8,7 +8,7 @@
 	export let github: string;
 	export let linkedin: string;
 	export let location: string;
-	// export let website: string;
+	export let website: string;
 	export let objective: string;
 </script>
 
@@ -44,11 +44,10 @@
 			>
 		</p>
 
-		<!-- 
 		•
 		<p>
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
-		</p> -->
+		</p>
 	</div>
 
 	<section>
