@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'Present'],
 		details: [
-			'Creating data pipelines using Google BigQuery using Apache Airflow',
+			'Creating data pipelines with Google BigQuery using Apache Airflow',
 			'Integrating data using Krayin CRM via its APIs as an internal tool for managing data'
 		]
 	},
