@@ -3,12 +3,12 @@ import type { IExperience } from '../types';
 export const experiences: IExperience[] = [
 	{
 		position: 'Data Engineer, Part Time',
-		company: 'People\'s Party',
+		company: "People's Party",
 		location: 'Bangkok, Thailand',
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'Present'],
 		details: [
-			'Creating data pipelines using GCP BigQuery using Apache Airflow',
+			'Creating data pipelines using Google BigQuery using Apache Airflow',
 			'Integrating data using Krayin CRM via its APIs as an internal tool for managing data'
 		]
 	},
@@ -19,10 +19,10 @@ export const experiences: IExperience[] = [
 		url: 'https://agoda.com',
 		years: ['June, 2024', 'November, 2024'],
 		details: [
-			'Migrated .NET and Scala services to Kotlin',
-			'Built an internal tool for managing accounts data for both customers and employers',
-			'Integrated OPA and Okta Oauth2 Proxy for authorization',
-			'Added Hadoop logs for user signup service'
+			'Migrated .NET and Scala internal tool to Kotlin',
+			// 'Built an internal tool for managing accounts data for both customers and employers',
+			'Integrated OPA and Okta Oauth2 Proxy for authorization'
+			// 'Added Hadoop logs for user signup service'
 		]
 	},
 	{
@@ -42,9 +42,7 @@ export const experiences: IExperience[] = [
 		location: 'Bangkok, Thailand',
 		url: 'https://monkeyeveryday.com',
 		years: ['August, 2022', 'Present'],
-		details: [
-			'Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma'
-		]
+		details: ['Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma']
 	},
 	{
 		position: 'Full Stack Developer, Intern',
@@ -59,15 +57,15 @@ export const experiences: IExperience[] = [
 		hide: true
 	},
 	{
-		position: 'Full Stack Developer and Data Scientist, Intern',
+		position: 'Full Stack Developer and Data Analyst, Intern',
 		company: 'MonkeyEveryday',
 		location: 'Bangkok, Thailand',
 		url: 'https://monkeyeveryday.com',
 		years: ['March, 2022', 'August, 2022'],
 		details: [
 			'Designed, implemented, and maintained the TCAS Ranking service with over 40,000 students participating',
-			'Helped querying its database for data analysis tasks using MySQL and PostgreSQL for business development',
-			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress'
+			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress',
+			'Queried MySQL and PostgreSQL databases for data analysis tasks for business development'
 		]
 	}
 ];
