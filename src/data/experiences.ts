@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'Present'],
 		details: [
-			'Implementing and deploying RAG LLM answering party policies and documents using Google Vertex AI and BigQuery for vector database', 
+			'Implementing and deploying RAG LLM answering party policies and documents using Google Vertex AI and BigQuery for vector database',
 			'Created data pipelines with Google BigQuery using Apache Airflow',
 			'Integrated data using Krayin CRM via its APIs as an internal tool for managing data'
 		]
@@ -18,7 +18,7 @@ export const experiences: IExperience[] = [
 		company: 'Agoda',
 		location: 'Bangkok, Thailand',
 		url: 'https://agoda.com',
-		years: ['June, 2024', 'November, 2024'],
+		years: ['June', 'November, 2024'],
 		details: [
 			'Migrated .NET and Scala internal tool to Kotlin',
 			'Integrated OPA and Okta Oauth2 Proxy for authorization'
@@ -49,7 +49,7 @@ export const experiences: IExperience[] = [
 		company: 'Wang Data Market',
 		location: 'Bangkok, Thailand',
 		url: 'https://wang.in.th',
-		years: ['June, 2023', 'August, 2023'],
+		years: ['June', 'August, 2023'],
 		details: [
 			'Implemented various input types for its form feature using React and creating new API endpoints using ExpressJS',
 			'Designed and developed new base structures for an upcoming main AI feature'
@@ -61,7 +61,7 @@ export const experiences: IExperience[] = [
 		company: 'MonkeyEveryday',
 		location: 'Bangkok, Thailand',
 		url: 'https://monkeyeveryday.com',
-		years: ['March, 2022', 'August, 2022'],
+		years: ['March', 'August, 2022'],
 		details: [
 			'Designed, implemented, and maintained the TCAS Ranking service with over 40,000 students participating',
 			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress',
