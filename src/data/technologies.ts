@@ -8,11 +8,14 @@ export const technologies: ITechnology[] = [
 		]
 	},
 	{
-		section: 'Frameworks:',
+		section: 'Software:',
 		details: [
-			'ReactJS, NextJS, VueJS, TailwindCSS, NestJS, SvelteJS, ExpressJS, Prisma, GraphQL, FastAPI, Ktor',
-			' Pandas, Numpy, scikit-learn, PyTorch, TensorFlow'
+			'ReactJS, NextJS, VueJS, TailwindCSS, NestJS, SvelteJS, ExpressJS, Prisma, GraphQL, FastAPI, Ktor'
 		]
+	},
+	{
+		section: 'Data Science:',
+		details: ['Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch']
 	},
 	{
 		section: 'Tools:',
