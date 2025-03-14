@@ -8,8 +8,9 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'Present'],
 		details: [
-			'Creating data pipelines with Google BigQuery using Apache Airflow',
-			'Integrating data using Krayin CRM via its APIs as an internal tool for managing data'
+			'Implementing and deploying RAG LLM answering party policies and documents using Google Vertex AI and BigQuery for vector database', 
+			'Created data pipelines with Google BigQuery using Apache Airflow',
+			'Integrated data using Krayin CRM via its APIs as an internal tool for managing data'
 		]
 	},
 	{
@@ -20,7 +21,6 @@ export const experiences: IExperience[] = [
 		years: ['June, 2024', 'November, 2024'],
 		details: [
 			'Migrated .NET and Scala internal tool to Kotlin',
-			// 'Built an internal tool for managing accounts data for both customers and employers',
 			'Integrated OPA and Okta Oauth2 Proxy for authorization'
 			// 'Added Hadoop logs for user signup service'
 		]
