@@ -47,7 +47,8 @@ export const projects: IProject[] = [
 	{
 		name: "Soul Seasons",
 		details: 'An interactive website for promoting a exhibition of the same name. Developed its seemless frontend using NextJS with framer motion and deployed it using Vercel having over 5,000 visiting users',
-		url: 'https://github.com/CBC-soul-seasons/soul-seasons'
+		url: 'https://github.com/CBC-soul-seasons/soul-seasons',
+		hide: true
 	},
 	{
 		name: 'E-learning Website',
