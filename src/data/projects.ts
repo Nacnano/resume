@@ -45,6 +45,11 @@ export const projects: IProject[] = [
 		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
 	},
 	{
+		name: "Soul Seasons",
+		details: 'An interactive website for promoting a exhibition of the same name. Developed its seemless frontend using NextJS with framer motion and deployed it using Vercel',
+		url: 'https://github.com/CBC-soul-seasons/soul-seasons'
+	},
+	{
 		name: 'E-learning Website',
 		details:
 			"Thinc and Cleverse's 5 days Hack to School project for creating a website by following given technical requirements. Developed its backend using Nestjs and Prisma, and deploying the project using Docker and Google Cloud Run",
