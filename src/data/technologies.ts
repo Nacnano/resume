@@ -10,16 +10,16 @@ export const technologies: ITechnology[] = [
 	{
 		section: 'Frameworks:',
 		details: [
-			'ReactJS, NextJS, VueJS, TailwindCSS, NestJS, SvelteJS, ExpressJS, Prisma, GraphQL, JavaFX, Ktor',
+			'ReactJS, NextJS, VueJS, TailwindCSS, NestJS, SvelteJS, ExpressJS, Prisma, GraphQL, FastAPI, Ktor',
 			' Pandas, Numpy, scikit-learn, PyTorch, TensorFlow'
 		]
 	},
 	{
 		section: 'Tools:',
-		details: ['Git, GitHub, GitLab, Docker, Selenium, Cypress, Apache Airflow']
+		details: ['Git, Docker, Selenium, Cypress, Grafana, Apache Airflow, MLflow']
 	},
 	{
 		section: 'Services:',
-		details: ['GCP, BigQuery, Firebase, Github Actions, GitLab CI/CD, Vercel, Netlify, Redis, MongoDB, AWS']
+		details: ['GCP, BigQuery, Firebase, Github Actions, GitLab CI/CD, Vercel, Redis, MongoDB, AWS']
 	}
 ];
