@@ -5,7 +5,7 @@ export const experiences: IExperience[] = [
 		position: 'Incoming AI Technology Risk Analyst, Intern',
 		company: 'SCBX',
 		location: 'Bangkok, Thailand',
-		url: 'scbx.com',
+		url: 'https://scbx.com',
 		years: ['Starting August', 'December, 2025'],
 		details: []
 	},
@@ -13,7 +13,7 @@ export const experiences: IExperience[] = [
 		position: 'Incoming AI Researcher, Intern',
 		company: 'Japan Advanced Institute of Science and Technology (JAIST)',
 		location: 'Nomi, Japan',
-		url: 'jaist.ac.jp',
+		url: 'https://jaist.ac.jp',
 		years: ['Starting June', 'August, 2025'],
 		details: []
 	},
