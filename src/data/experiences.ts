@@ -2,6 +2,14 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
+		position: 'Incoming AI Technology Risk Analyst, Intern',
+		company: 'SCBX',
+		location: 'Bangkok, Thailand',
+		url: 'https://www.scbx.com/th/',
+		years: ['Starting August', 'December, 2025'],
+		details: []
+	},
+	{
 		position: 'Incoming AI Researcher, Intern',
 		company: 'Japan Advanced Institute of Science and Technology (JAIST)',
 		location: 'Nomi, Japan',
