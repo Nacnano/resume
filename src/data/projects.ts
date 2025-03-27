@@ -45,8 +45,9 @@ export const projects: IProject[] = [
 		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
 	},
 	{
-		name: "Soul Seasons",
-		details: 'An interactive website for promoting a exhibition of the same name. Developed its seemless frontend using NextJS with framer motion and deployed it using Vercel having over 5,000 visiting users',
+		name: 'Soul Seasons',
+		details:
+			'An interactive website for promoting a exhibition of the same name. Developed its seemless frontend using NextJS with framer motion and deployed it using Vercel having over 5,000 visiting users',
 		url: 'https://github.com/CBC-soul-seasons/soul-seasons',
 		hide: true
 	},
