@@ -18,6 +18,17 @@ export const experiences: IExperience[] = [
 		details: []
 	},
 	{
+		position: "Software Engineer, Part Time",
+		company: 'Ayasan Holding',
+		location: 'Remote',
+		url: 'https://www.ayasan-service.com/en',
+		years: ['May, 2025', 'Present'],
+		details: [
+			'maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
+			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
+		]
+	},
+	{
 		position: 'Data Engineer, Part Time',
 		company: "People's Party",
 		location: 'Bangkok, Thailand',
@@ -38,19 +49,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Migrated .NET and Scala internal tool to Kotlin',
 			'Integrated OPA and Okta Oauth2 Proxy for authorization'
-			// 'Added Hadoop logs for user signup service'
 		]
-	},
-	{
-		position: 'Frontend Developer, Part-time',
-		company: 'CU NEX',
-		location: 'Bangkok, Thailand',
-		url: 'https://facebook.com/CUNEX.Official',
-		years: ['August, 2024', 'Present'],
-		details: [
-			"Designing and implementing Chulalongkorn's Election Management System for Student Government Committee"
-		],
-		hide: true
 	},
 	{
 		position: 'Full Stack Developer, Part Time',
