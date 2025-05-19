@@ -21,7 +21,7 @@ export const experiences: IExperience[] = [
 		position: "Software Engineer, Part Time",
 		company: 'Ayasan Holding',
 		location: 'Remote',
-		url: 'https://www.ayasan-service.com/en',
+		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'Present'],
 		details: [
 			'maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
