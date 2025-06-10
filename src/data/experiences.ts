@@ -10,11 +10,11 @@ export const experiences: IExperience[] = [
 		details: []
 	},
 	{
-		position: 'Incoming AI Researcher, Intern',
+		position: 'AI Researcher, Intern',
 		company: 'Japan Advanced Institute of Science and Technology (JAIST)',
 		location: 'Nomi, Japan',
 		url: 'https://jaist.ac.jp',
-		years: ['Starting June', 'August, 2025'],
+		years: ['June', 'August, 2025'],
 		details: []
 	},
 	{
@@ -24,18 +24,25 @@ export const experiences: IExperience[] = [
 		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'Present'],
 		details: [
-			'maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
+			'Maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
 		]
+	},
+		{
+		position: 'Full Stack Developer, Part Time',
+		company: 'MonkeyEveryday',
+		location: 'Bangkok, Thailand',
+		url: 'https://monkeyeveryday.com',
+		years: ['August, 2022', 'Present'],
+		details: ['Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma']
 	},
 	{
 		position: 'Data Engineer, Part Time',
 		company: "People's Party",
 		location: 'Bangkok, Thailand',
 		url: 'https://peoplesparty.or.th',
-		years: ['November, 2024', 'Present'],
+		years: ['November, 2024', 'June, 2025'],
 		details: [
-			'Implementing and deploying RAG LLM answering party policies and documents using Google Vertex AI and BigQuery for vector database',
 			'Created data pipelines with Google BigQuery using Apache Airflow',
 			'Integrated data using Krayin CRM via its APIs as an internal tool for managing data'
 		]
@@ -50,14 +57,6 @@ export const experiences: IExperience[] = [
 			'Migrated .NET and Scala internal tool to Kotlin',
 			'Integrated OPA and Okta Oauth2 Proxy for authorization'
 		]
-	},
-	{
-		position: 'Full Stack Developer, Part Time',
-		company: 'MonkeyEveryday',
-		location: 'Bangkok, Thailand',
-		url: 'https://monkeyeveryday.com',
-		years: ['August, 2022', 'Present'],
-		details: ['Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma']
 	},
 	{
 		position: 'Full Stack Developer, Intern',

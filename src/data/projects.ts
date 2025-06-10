@@ -4,8 +4,8 @@ export const projects: IProject[] = [
 	{
 		name: 'Thai Context Understanding of LLMs',
 		details:
-			'To benchmark Thai context understanding in LLMs, use Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
-		url: 'https://github.com/Nacnano/indiv'
+			'Created a benchmark for Thai context understanding in LLMs, use Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
+		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
 		name: 'Stock Return Prediction',
