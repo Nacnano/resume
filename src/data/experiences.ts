@@ -15,7 +15,10 @@ export const experiences: IExperience[] = [
 		location: 'Nomi, Japan',
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
-		details: ["AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University", "Mechanistic interpretability of large language models (LLMs) for chain of thought (CoT) reasoning and randomness in LLMs"],
+		details: [
+			"Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University", 
+			"Researched cases on the mechanistic interpretability of large language models (LLMs) for chain of thought (CoT) reasoning and randomness in LLMs"
+		],
 	},
 	{
 		position: "Software Engineer, Part Time",
