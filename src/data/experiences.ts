@@ -26,7 +26,8 @@ export const experiences: IExperience[] = [
 		details: [
 			'Maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
-		]
+		],
+		hide: true
 	},
 		{
 		position: 'Full Stack Developer, Part Time',
