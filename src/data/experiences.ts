@@ -2,11 +2,11 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
-		position: 'Incoming AI Technology Risk Analyst, Intern',
+		position: 'AI Technology Risk Analyst, Intern',
 		company: 'SCBX',
 		location: 'Bangkok, Thailand',
 		url: 'https://scbx.com',
-		years: ['Starting August', 'December, 2025'],
+		years: ['August', 'December, 2025'],
 		details: []
 	},
 	{
@@ -15,7 +15,7 @@ export const experiences: IExperience[] = [
 		location: 'Nomi, Japan',
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
-		details: []
+		details: ["AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University", "Mechanistic interpretability of large language models (LLMs) for chain of thought (CoT) reasoning and randomness in LLMs"],
 	},
 	{
 		position: "Software Engineer, Part Time",
