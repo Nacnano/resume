@@ -19,7 +19,7 @@ export const technologies: ITechnology[] = [
 	},
 	{
 		section: 'Tools:',
-		details: ['Git, Docker, Selenium, Cypress, Grafana, Apache Airflow, MLflow', 'PySpark', 'Kafka']
+		details: ['Git, Docker, Selenium, Cypress, Grafana, Apache Airflow, MLflow, PySpark, Kafka']
 	},
 	{
 		section: 'Services:',
