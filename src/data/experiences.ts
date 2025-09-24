@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August, 2025', 'Present'],
 		details: [
-			"Assisted in managing AI techonology and cybersecurity risks within the organizations", 
+			"Assisted in managing AI technology and cybersecurity risks within the organizations", 
 			"Evaluated CVSS controls risk for cloud-based applications and services"
 		],
 	},
