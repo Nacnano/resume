@@ -34,14 +34,6 @@ export const experiences: IExperience[] = [
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
 		],
 	},
-		{
-		position: 'Full Stack Developer, Part Time',
-		company: 'MonkeyEveryday',
-		location: 'Bangkok, Thailand',
-		url: 'https://monkeyeveryday.com',
-		years: ['August, 2022', 'Present'],
-		details: ['Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma']
-	},
 	{
 		position: 'Data Engineer, Part Time',
 		company: "People's Party",
@@ -77,15 +69,16 @@ export const experiences: IExperience[] = [
 		hide: true
 	},
 	{
-		position: 'Full Stack Developer and Data Analyst, Intern',
+		position: 'Full Stack Developer and Data Analyst, Part Time',
 		company: 'MonkeyEveryday',
 		location: 'Bangkok, Thailand',
 		url: 'https://monkeyeveryday.com',
-		years: ['March', 'August, 2022'],
+		years: ['March, 2022', 'Present'],
 		details: [
 			'Designed, implemented, and maintained the TCAS Ranking service with over 40,000 students participating',
+			'Maintained websites using NextJS, VueJS, NestJS with GraphQL and Prisma with PostgreSQL databases',
 			'Automated bots for updating user data and implemented e2e tests using Selenium and Cypress',
-			'Queried MySQL and PostgreSQL databases for data analysis tasks for business development'
+			'Investigated and fixed technical debts and performance issues caused by low-level OS problems'
 		]
 	}
 ];
