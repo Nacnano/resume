@@ -28,7 +28,7 @@ export const experiences: IExperience[] = [
 		company: 'Ayasan Holding',
 		location: 'Remote',
 		url: 'https://ayasan-service.com',
-		years: ['May, 2025', 'Present'],
+		years: ['May, 2025', 'July, 2025'],
 		details: [
 			'Maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
