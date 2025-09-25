@@ -7,7 +7,8 @@ export const educations: IEducation[] = [
 		details: [
 			'Achieved 3.98 GPA for 5 semesters',
 			// 'Participated in an exchange program with Guangxi University, China',
-			'Teaching Assistant: Computer Engineering Essentials (Backend Course)'
+			'Teaching Assistant: Computer Engineering Essentials (Backend Course)',
+			'Representative in an university-level Integration Bee Competition for Faculty of Engineering',
 			// 'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition'
 		]
 	},
