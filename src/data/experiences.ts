@@ -2,15 +2,15 @@ import type { IExperience } from '../types';
 
 export const experiences: IExperience[] = [
 	{
-		position: 'Technology Risk Analyst, Intern',
+		position: 'Technology Risk, Intern',
 		company: 'SCBX',
 		location: 'Bangkok, Thailand',
 		url: 'https://scbx.com',
 		years: ['August, 2025', 'Present'],
 		details: [
-			"Assisted in managing AI technology and cybersecurity risks within the organizations", 
-			"Evaluated CVSS controls risk for cloud-based applications and services"
-		],
+			'Assisted in managing AI technology and cybersecurity risks within the organizations',
+			'Evaluated CVSS controls risk for cloud-based applications and services'
+		]
 	},
 	{
 		position: 'AI Researcher, Intern',
@@ -19,12 +19,12 @@ export const experiences: IExperience[] = [
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
 		details: [
-			"Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University", 
-			"Researched cases on the mechanistic interpretability of large language models for chain of thought faithfulness and randomness in LLMs"
-		],
+			'Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University',
+			'Researched cases on the mechanistic interpretability of large language models for chain of thought faithfulness and randomness in LLMs'
+		]
 	},
 	{
-		position: "Software Engineer, Part Time",
+		position: 'Software Engineer, Part Time',
 		company: 'Ayasan Holding',
 		location: 'Remote',
 		url: 'https://ayasan-service.com',
@@ -32,7 +32,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
-		],
+		]
 	},
 	{
 		position: 'Data Engineer, Part Time',
