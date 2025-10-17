@@ -55,9 +55,8 @@
 			<hr />
 
 			{#each experiences as experience}
-				<Hideable hide={experience.hide}>
-					<Work {...experience} />
-				</Hideable>
+				<!-- NOTE: The Work component already have Hideable inside -->
+				<Work {...experience} />
 			{/each}
 		</Hideable>
 	</section>
