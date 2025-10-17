@@ -46,7 +46,7 @@ export interface IExperience {
 export interface IEducation {
 	head: string;
 	school: string;
-	details: string[];
+	details: Array<string | { text: string; hide?: boolean }>;
 	hide?: boolean;
 }
 
