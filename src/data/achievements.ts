@@ -24,7 +24,7 @@ export const achievements: IAchievement[] = [
 	{
 		name: 'Computer Olympiad Camp (2019–2022)',
 		details:
-			'Qualified for the POSN Computer Olympiad Camp at Kasetsart University (2019) and Mahidol Wittayanusorn School (2020, 2021).'
+			'Qualified for the POSN Computer Olympiad Camps at Kasetsart University (2019) and Mahidol Wittayanusorn School (2020, 2021).'
 	},
 	{
 		name: 'Meta Hacker Cup (2022)',
