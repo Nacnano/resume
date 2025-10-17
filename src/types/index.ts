@@ -22,9 +22,14 @@ export interface IProject {
 	hide?: boolean;
 }
 
+export interface ITechnologyDetail {
+	text: string;
+	hide?: boolean;
+}
+
 export interface ITechnology {
 	section: string;
-	details: string | string[];
+	details: ITechnologyDetail[];
 	hide?: boolean;
 }
 

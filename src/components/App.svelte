@@ -10,6 +10,7 @@
 	} from '../data';
 
 	import Hideable from './Hideable.svelte';
+	import InlineHideable from './InlineHideable.svelte';
 	import Intro from './Intro.svelte';
 	import Work from './Work.svelte';
 	import Education from './Education.svelte';
@@ -68,9 +69,15 @@
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
 					<Hideable hide={tech.hide}>
-						<li>
+						<li class="inline">
 							<span class="w-28 inline-block">{tech.section}</span>
-							<span>{tech.details}</span>
+							<span class="inline">
+								{#each tech.details as detail, i (detail.text)}
+									<InlineHideable hide={detail.hide}>
+										<span class="inline mr-2">{detail.text}</span>
+									</InlineHideable>
+								{/each}
+							</span>
 						</li>
 					</Hideable>
 				{/each}
