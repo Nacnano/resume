@@ -73,8 +73,10 @@
 							<span class="w-28 inline-block">{tech.section}</span>
 							<span class="inline">
 								{#each tech.details as detail, i (detail.text)}
-									<InlineHideable hide={detail.hide}>
-										<span class="inline mr-2">{detail.text}</span>
+									<InlineHideable hide={detail.hide}
+										><span class="inline"
+											>{detail.text}{i < tech.details.length - 1 ? ',\u00A0\u00A0' : ''}</span
+										>
 									</InlineHideable>
 								{/each}
 							</span>
