@@ -7,10 +7,11 @@
 	export let url: string;
 	export let years: string[];
 	export let details: string[];
+	export let hide: boolean;
 </script>
 
 <div class="work-experience">
-	<Hideable>
+	<Hideable {hide}>
 		<div class="flex flex-col mb-2 print:mb-1">
 			<div class="flex-1 text-left w-auto font-bold">
 				<p>
