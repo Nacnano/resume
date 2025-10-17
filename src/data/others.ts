@@ -6,7 +6,7 @@ export const others: IOther[] = [
 			'Languages: Thai (Native), English (Working Proficient / IELTS 7.5), Chinese (Elementary)'
 	},
 	{
-		detail: "Got accepted to SCB Data Scientist Internship Program 2025",
+		detail: "Accepted into the SCB Data Scientist Internship Program 2025 (Declined the offer)",
 		hide: true
 	},
 	{
