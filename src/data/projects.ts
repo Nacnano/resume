@@ -4,13 +4,13 @@ export const projects: IProject[] = [
 	{
 		name: 'Thai Context Understanding of LLMs',
 		details:
-			'Created a benchmark for Thai context understanding in LLMs, use Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
+			'Created a benchmark for Thai context understanding in LLMs, using Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
 		name: 'Stock Return Prediction',
 		details:
-			'Developed machine learning models to predict stock returns using historical S&P 500 data, achieving 42.52% annual returns with LSTM from back-tesing with risk management. Implemented feature importance for multiple models',
+			'Developed machine learning models to predict stock returns using historical S&P 500 data, achieving 42.52% annual returns with LSTM from back-testing with risk management. Implemented feature importance analysis for multiple models.',
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{
@@ -47,7 +47,7 @@ export const projects: IProject[] = [
 	{
 		name: 'Soul Seasons',
 		details:
-			'An interactive website for promoting a exhibition of the same name. Developed its seemless frontend using NextJS with framer motion and deployed it using Vercel having over 5,000 visiting users',
+			'An interactive website for promoting an exhibition of the same name. Developed its seamless frontend using NextJS with Framer Motion and deployed it using Vercel, attracting over 5,000 users',
 		url: 'https://github.com/CBC-soul-seasons/soul-seasons',
 		hide: true
 	},
@@ -68,7 +68,7 @@ export const projects: IProject[] = [
 	{
 		name: 'MWIT29 Archive',
 		details:
-			'A website for archiving memorable information from my high school by allowing the students to edit their data using NextJS with MongoDB and Google Cloud Storage (Working in Process)',
+			'A website for archiving memorable information from my high school by allowing students to edit their data using NextJS with MongoDB and Google Cloud Storage (Work in Progress)',
 		url: 'https://github.com/nacnano/mwit29-archive',
 		hide: true
 	}
