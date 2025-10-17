@@ -8,8 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August, 2025', 'Present'],
 		details: [
-			'Assisted in managing AI technology and cybersecurity risks within the organizations',
-			'Evaluated CVSS controls risk for cloud-based applications and services'
+			'Assisted in testing an internal Chatbot for managing AI technology and cybersecurity risks within the organization',
 		]
 	},
 	{
@@ -19,7 +18,7 @@ export const experiences: IExperience[] = [
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
 		details: [
-			'Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University',
+			'Conducted AI Safety and Alignment research under the joint supervision of JAIST and Chulalongkorn University',
 			'Researched cases on the mechanistic interpretability of large language models for chain of thought faithfulness and randomness in LLMs'
 		]
 	},
@@ -30,7 +29,7 @@ export const experiences: IExperience[] = [
 		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'July, 2025'],
 		details: [
-			'Maintaining and developing new features for the Ayasan website using NextJS and NuxtJS',
+			'Maintained and developed new features for the Ayasan website using NextJS and NuxtJS',
 			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
 		]
 	},
