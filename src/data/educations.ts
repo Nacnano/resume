@@ -16,7 +16,7 @@ export const educations: IEducation[] = [
 		head: 'High School',
 		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)',
 		details: [
-			'Participated in many high school exchange programs, international symposiums, and competitions'
+			'Participated in numerous high school exchange programs, international symposium, and competitions'
 		]
 	},
 	{
