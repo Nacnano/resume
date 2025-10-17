@@ -692,12 +692,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-static@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@sveltejs/adapter-static@npm:3.0.1"
+"@sveltejs/adapter-static@npm:^3.0.10":
+  version: 3.0.10
+  resolution: "@sveltejs/adapter-static@npm:3.0.10"
   peerDependencies:
     "@sveltejs/kit": ^2.0.0
-  checksum: c8bb26dd33baa61bb7e59c0b4601575ecfaf77e05e689082142dd0f4cac5ac3cff25c53ea99a357741a94e72e958c1abc5f97c80e3ae214d0e926a04e5d8080b
+  checksum: 5d0b92d62b43fd06be792efd864e2fce583889edbc7c38b238aa27113d43df51c351d4421a784700ffa64c6c94cca411e06e9ded3a0ef13b408aad34401e8ea4
   languageName: node
   linkType: hard
 
@@ -4356,7 +4356,7 @@ __metadata:
   resolution: "resume-new@workspace:."
   dependencies:
     "@playwright/test": ^1.28.1
-    "@sveltejs/adapter-static": ^3.0.1
+    "@sveltejs/adapter-static": ^3.0.10
     "@sveltejs/kit": 2.0.6
     "@sveltejs/vite-plugin-svelte": ^3.0.1
     "@tailwindcss/typography": 0.5.10
