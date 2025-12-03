@@ -58,5 +58,6 @@ export interface IAchievement {
 
 export interface IOther {
 	detail: string;
+	details?: Array<string | { text: string; hide?: boolean }>;
 	hide?: boolean;
 }

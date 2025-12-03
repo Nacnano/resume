@@ -136,6 +136,19 @@
 					<Hideable hide={other.hide}>
 						<li>
 							{other.detail}
+							{#if other.details && other.details.length > 0}
+								<ul class="list-disc pl-6">
+									{#each other.details as subDetail}
+										{#if typeof subDetail === 'string'}
+											<li>{subDetail}</li>
+										{:else}
+											<Hideable hide={subDetail.hide}>
+												<li>{subDetail.text}</li>
+											</Hideable>
+										{/if}
+									{/each}
+								</ul>
+							{/if}
 						</li>
 					</Hideable>
 				{/each}
