@@ -20,7 +20,7 @@ export const others: IOther[] = [
 	},
 	{
 		detail:
-			'Extra-curricular activities: President of School International Chess Club, Head of Information Department of High School Yearbook Committee',
+			'Extra-curricular activities: President of High School International Chess Club, Head of Information Department of High School Yearbook Committee',
 		hide: true
 	},
 	{
