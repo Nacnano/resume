@@ -11,7 +11,6 @@ export const technologies: ITechnology[] = [
 			{ text: 'CSS', hide: false },
 			{ text: 'Javascript', hide: false },
 			{ text: 'TypeScript', hide: false },
-			{ text: 'Node.js', hide: false },
 			{ text: 'Java', hide: false },
 			{ text: 'Scala', hide: false },
 			{ text: 'Kotlin', hide: false },
@@ -21,6 +20,7 @@ export const technologies: ITechnology[] = [
 	{
 		section: 'Software:',
 		details: [
+			{ text: 'Node.js', hide: false },
 			{ text: 'ReactJS', hide: false },
 			{ text: 'NextJS', hide: false },
 			{ text: 'VueJS', hide: false },
@@ -30,6 +30,7 @@ export const technologies: ITechnology[] = [
 			{ text: 'ExpressJS', hide: false },
 			{ text: 'Prisma', hide: false },
 			{ text: 'GraphQL', hide: false },
+			{ text: 'gRPC', hide: false },
 			{ text: 'FastAPI', hide: false },
 			{ text: 'Ktor', hide: false }
 		]
@@ -44,11 +45,18 @@ export const technologies: ITechnology[] = [
 			{ text: 'PyTorch', hide: false }
 		]
 	},
+
 	{
 		section: 'Tools:',
 		details: [
 			{ text: 'Git', hide: false },
 			{ text: 'Docker', hide: false },
+			{ text: 'Kubernetes', hide: false },
+			{ text: 'Terraform', hide: false },
+			{ text: 'PostgreSQL', hide: false },
+			{ text: 'MongoDB', hide: false },
+			{ text: 'Redis', hide: false },
+			{ text: 'RabbitMQ', hide: false },
 			{ text: 'Selenium', hide: false },
 			{ text: 'Cypress', hide: false },
 			{ text: 'Grafana', hide: false },
@@ -62,14 +70,12 @@ export const technologies: ITechnology[] = [
 		section: 'Services:',
 		details: [
 			{ text: 'GCP', hide: false },
-			{ text: 'BigQuery', hide: false },
+			{ text: 'AWS', hide: false },
+			{ text: 'Azure', hide: false },
 			{ text: 'Firebase', hide: false },
 			{ text: 'Github Actions', hide: false },
 			{ text: 'GitLab CI/CD', hide: false },
-			{ text: 'Vercel', hide: false },
-			{ text: 'Redis', hide: false },
-			{ text: 'MongoDB', hide: false },
-			{ text: 'AWS', hide: false }
+			{ text: 'Vercel', hide: false }
 		]
 	}
 ];
