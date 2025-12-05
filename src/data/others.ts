@@ -6,10 +6,13 @@ export const others: IOther[] = [
 			'Languages: Thai (Native), English (Working Proficient / IELTS 7.5), Chinese (Elementary)'
 	},
 	{
-		detail: 'Accepted programs (declined the offers):',
+		detail: 'Accepted Programs (Declined):',
 		details: [
 			{ text: 'SCB Data Scientist Internship Program 2025', hide: false },
-			{ text: 'Thai Scholarship (ทุนกระทรวงวิทยฯ) from the Ministry of Science and Technology for studying Computer Science worldwide', hide: false },
+			{
+				text: 'Thai Scholarship or ทุนกระทรวงวิทย์ from the Ministry of Science and Technology',
+				hide: false
+			},
 			{ text: 'Faculty of Medicine, Chulalongkorn University', hide: false }
 		],
 		hide: true
@@ -20,7 +23,7 @@ export const others: IOther[] = [
 	},
 	{
 		detail:
-			'Extra-curricular activities: President of High School International Chess Club, Head of Information Department of High School Yearbook Committee',
+			'Extra-curricular activities: President of the High School International Chess Club; Head of Information Department for the Yearbook Committee',
 		hide: true
 	},
 	{

@@ -4,71 +4,71 @@ export const projects: IProject[] = [
 	{
 		name: 'Thai Context Understanding of LLMs',
 		details:
-			'Created a benchmark for Thai context understanding in LLMs, using Visual Genome data to generate Thai-language questions based on object attributes and relationships for evaluating model performance.',
+			'Established a benchmark for Thai context understanding in LLMs, utilizing Visual Genome data to generate questions for model evaluation.',
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
 		name: 'Stock Return Prediction',
 		details:
-			'Developed machine learning models to predict stock returns using historical S&P 500 data, achieving 42.52% annual returns with LSTM from back-testing with risk management. Implemented feature importance analysis for multiple models.',
+			'Developed ML models to predict S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{
 		name: 'Multimedia Learning Efficiency Prediction in Student using MASK R-CNN',
 		details:
-			"Usage of MASK R-CNN model for Image Segmentation and Random Forest model for Factor Identification to analyse multimedia effects on students' learning efficiency",
+			'Utilized Mask R-CNN for image segmentation and Random Forest for factor identification to analyze multimedia effects on learning efficiency.',
 		url: 'https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-'
 	},
 	{
 		name: 'CU Get Reg',
 		details:
-			"Thinc's open source project to provide courses data to Chulalongkorn students and plan their enrollments. Contributed by developing its Backoffice backend service using NestJS and GraphQL for managing over 700 reviews and 500 elective courses with over 15,000 maximum users per week",
+			'Open-source project providing course data to Chulalongkorn students. Developed the back-office service using NestJS and GraphQL to manage 700+ reviews and 500+ elective courses, serving 15,000+ max weekly users.',
 		url: 'https://github.com/thinc-org/cugetreg'
 	},
 	{
 		name: 'CU Get Rekt',
 		details:
-			"Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped design, develop, deploy, and maintain its backend using Nestjs and Prisma. Got the first place from over 50 teams",
+			'Award-winning hackathon project facilitating student withdrawals. Designed and maintained the backend using NestJS and Prisma, featuring automated PDF generation and score prediction.',
 		url: 'https://github.com/Nacnano/cugetrekt',
 		hide: true
 	},
 	{
 		name: 'CU First Date and Rub Puen Kao Mai 2024',
 		details:
-			'A website developed for CU First Date and Rub Puen Kao Mai activities at Chulalongkorn University, featuring functionalities such as House Selection, Walk Rally QR code scanning, etc. Developed the registration and profile editing pages, components for this event management platform',
+			'Developed the registration and profile editing modules for the CU First Date and Rub Puen Kao Mai event platform, featuring house selection and QR code activities.',
 		url: 'https://github.com/isd-sgcu/firstdate-rpkm67-frontend/'
 	},
 	{
 		name: 'CU Intania Open House 2024',
 		details:
-			'A website for the Open House event at Faculty of Engineering, Chulalongkorn University used by over 9,000 students. Developed its workshop reservation features using NextJS for both frontend and backend and Firestore for its database',
+			'Developed the workshop reservation system for the Engineering Faculty Open House with over 9,000 users using Next.js and Firestore.',
 		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
 	},
 	{
 		name: 'Soul Seasons',
 		details:
-			'An interactive website for promoting an exhibition of the same name. Developed its seamless frontend using NextJS with Framer Motion and deployed it using Vercel, attracting over 5,000 users',
+			'Built an interactive exhibition website using Next.js and Framer Motion, attracting 5,000+ users.',
 		url: 'https://github.com/CBC-soul-seasons/soul-seasons',
 		hide: true
 	},
 	{
 		name: 'E-learning Website',
 		details:
-			"Thinc and Cleverse's 5 days Hack to School project for creating a website by following given technical requirements. Developed its backend using Nestjs and Prisma, and deploying the project using Docker and Google Cloud Run",
+			'Developed the backend for a hackathon e-learning project using NestJS and Prisma; deployed via Docker and Google Cloud Run.',
 		url: 'https://github.com/thinc-org/hacktoschool-fryingchicken',
 		hide: true
 	},
 	{
 		name: 'GFinder',
 		details:
-			'Mathematical Model and Paper for finding the Greatest Of All Time player in Tennis sport by analyzing major Tennis tournament data for competing in the International Mathematical Model Competition 2021. Designed and Implemented the mathematical model using Python, Pandas, and Numpy',
+			'Designed a mathematical model to identify the Tennis GOAT using Python, Pandas, and NumPy for the IMMC 2021 competition.',
 		url: 'https://github.com/Nacnano/IMMC-2021',
 		hide: true
 	},
 	{
 		name: 'MWIT29 Archive',
 		details:
-			'A website for archiving memorable information from my high school by allowing students to edit their data using NextJS with MongoDB and Google Cloud Storage (Work in Progress)',
+			'Developing a high school archive website using Next.js, MongoDB, and Google Cloud Storage (Work in Progress).',
 		url: 'https://github.com/nacnano/mwit29-archive',
 		hide: true
 	}
