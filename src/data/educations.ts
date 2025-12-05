@@ -8,7 +8,7 @@ export const educations: IEducation[] = [
 			'Achieved 3.98 GPA for 5 semesters',
 			{ text: 'Participated in an exchange program with Guangxi University, China', hide: true },
 			'Teaching Assistant: Computer Engineering Essentials (Backend Course)',
-			'Representative in an university-level Integration Bee Competition',
+			'Representative for a university-level Integration Bee Competition',
 			{
 				text: 'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition, Natural Language Processing',
 				hide: true
@@ -19,9 +19,9 @@ export const educations: IEducation[] = [
 		head: 'High School',
 		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)',
 		details: [
-			'Participated in numerous high school exchange programs, international symposium, and competitions',
+			'Participated in numerous high school exchange programs, international symposiums, and competitions',
 			{
-				text: "Won First Degree Diploma from 21st Kolmogorov Readings International Conference, Russia",
+				text: 'Won First Degree Diploma from 21st Kolmogorov Readings International Conference, Russia',
 				hide: true
 			}
 		]

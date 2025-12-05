@@ -28,7 +28,7 @@ export const projects: IProject[] = [
 	{
 		name: 'CU Get Rekt',
 		details:
-			"Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped designing, developing, deploying, and maintaining its backend using Nestjs and Prisma. Got the first place from over 50 teams",
+			"Thinc's 10 days project for making student's withdrawals and resignations more efficient and easier by using its automated pdf generator and score prediction features. Helped design, develop, deploy, and maintain its backend using Nestjs and Prisma. Got the first place from over 50 teams",
 		url: 'https://github.com/Nacnano/cugetrekt',
 		hide: true
 	},

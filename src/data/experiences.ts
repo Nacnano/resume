@@ -7,9 +7,7 @@ export const experiences: IExperience[] = [
 		location: 'Bangkok, Thailand',
 		url: 'https://scb.co.th',
 		years: ['January, 2026', 'April, 2026'],
-		details: [
-			'Starting January, 2026'
-		]
+		details: ['Starting January, 2026']
 	},
 	{
 		position: 'R&D and Technology Risk, Intern',
@@ -19,7 +17,7 @@ export const experiences: IExperience[] = [
 		years: ['August, 2025', 'Present'],
 		details: [
 			'Conducted financial and AI research for USA and Thailand stock markets using transfer learning with ESG data',
-			'Assisted in testing an internal chatbot for managing AI technology and cybersecurity risks within the organization',
+			'Assisted in testing an internal chatbot for managing AI technology and cybersecurity risks within the organization'
 		]
 	},
 	{
@@ -41,7 +39,7 @@ export const experiences: IExperience[] = [
 		years: ['May, 2025', 'July, 2025'],
 		details: [
 			'Maintained and developed new features for the Ayasan website using NextJS and NuxtJS',
-			'Implementing new features and fixing bugs in the Ayasan mobile app using React Native.'
+			'Implemented new features and fixed bugs in the Ayasan mobile app using React Native.'
 		]
 	},
 	{

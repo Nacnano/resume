@@ -4,7 +4,7 @@ export const achievements: IAchievement[] = [
 	{
 		name: 'Chula LegalTech Year 6 (2025)',
 		details:
-			'Won first place and a 50,000 Baht prize for designing and developing a web application that facilitates job matching for youth. My role was to develop the frontend and OCR backend service using Next.js and Flask API.'
+			'Won first place and a 50,000 Baht prize for designing and developing a web application that facilitates job matching for youth. My role was to develop the frontend, and OCR backend service using Next.js and Flask API.'
 	},
 	{
 		name: 'JUMP Thailand Hackathon by AIS Academy (2025)',
