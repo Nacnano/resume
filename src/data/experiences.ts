@@ -6,8 +6,8 @@ export const experiences: IExperience[] = [
 		company: 'SCB',
 		location: 'Bangkok, Thailand',
 		url: 'https://scb.co.th',
-		years: ['January, 2026', 'April, 2026'],
-		details: ['Starting January, 2026']
+		years: ['Starting January, 2026', 'April, 2026'],
+		details: ['SCB Cooperative Internship Program 2026']
 	},
 	{
 		position: 'R&D and Technology Risk, Intern',
