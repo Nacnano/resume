@@ -16,7 +16,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August, 2025', 'Present'],
 		details: [
-			'Conducted a quantitative financial and AI research on U.S. and Thai stock markets using transfer learning and ESG metrics',
+			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning and ESG metrics in cooperation with Stanford University',
 			'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management'
 		]
 	},
