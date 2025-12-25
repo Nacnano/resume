@@ -14,7 +14,7 @@
 
 <div class="flex flex-col items-center justify-center print:flex-col text-sm sm:text-base gap-2">
 	<h2
-		class="flex-none order-first sm:order-none print:order-none text-4xl sm:text-2xl md:text-3xl lg:text-6xl text-centerprint:pt-0"
+		class="flex-none order-first sm:order-none print:order-none text-2xl sm:text-2xl md:text-3xl lg:text-6xl text-center print:pt-0"
 	>
 		{name}
 	</h2>

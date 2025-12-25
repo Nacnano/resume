@@ -21,16 +21,13 @@
 	<h3>
 		<button on:click={() => window.print()} class="underline text-lg">[Print]</button>
 	</h3>
-	<p>
-		Printer-friendly standard résumé. any HTML tags with <code>web-only</code> CSS class will be hidden
-		on print.
-	</p>
+	<p>Printer-friendly resume.</p>
 	<p>You can click on any section or line to hide some information before printing.</p>
 	<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">[Source]</a>
 	<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">[Data]</a>
 </header>
 
-<main class="text-center p-0 m-0 md:my-2 md:mx-6 xl:mx-auto max-w-screen-xl">
+<main class="text-center p-0 m-0 md:my-2 md:mx-6 xl:mx-auto max-w-screen-xl px-4 md:px-0">
 	<section>
 		<Intro {...intro} />
 	</section>
@@ -69,12 +66,12 @@
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
 					<Hideable hide={tech.hide}>
-						<li class="inline">
-							<span class="w-28 inline-block">{tech.section}</span>
-							<span class="inline">
+						<li class="flex flex-col sm:flex-row items-start">
+							<span class="w-full sm:w-28 font-bold mb-1 sm:mb-0">{tech.section}</span>
+							<span class="flex-1 text-left">
 								{#each tech.details as detail, i (detail.text)}
 									<InlineHideable hide={detail.hide}
-										><span class="inline"
+										><span class="inline-block"
 											>{detail.text}{i < tech.details.length - 1 ? ',\u00A0\u00A0' : ''}</span
 										>
 									</InlineHideable>

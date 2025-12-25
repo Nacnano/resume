@@ -13,20 +13,24 @@
 <div class="work-experience">
 	<Hideable {hide}>
 		<div class="flex flex-col mb-2 print:mb-1">
-			<div class="flex-1 text-left w-auto font-bold">
-				<p>
-					{position}
-				</p>
-			</div>
-			<div class="flex flex-row justify-between items-start">
-				<div class="flex flex-wrap gap-2">
-					<p class="font-semibold">{company}</p>
-					<a href={url} target="_blank" class="font-semibold" rel="noreferrer"
-						>{url.replace('https://', '')}</a
-					>
-					<p class="font-normal">{location}</p>
+			<div class="flex flex-col sm:flex-row sm:justify-between sm:items-start">
+				<div class="flex-1 text-left w-auto font-bold mb-1 sm:mb-0">
+					<p>
+						{position}
+					</p>
 				</div>
-				<div class="flex-1 text-right">{years.join(' - ')}</div>
+				<div class="flex-1 text-left sm:text-right font-medium sm:font-normal text-sm sm:text-base">
+					{years.join(' - ')}
+				</div>
+			</div>
+			<div class="flex flex-wrap gap-2 items-center text-sm sm:text-base">
+				<p class="font-semibold">{company}</p>
+				{#if url}
+					<a href={url} target="_blank" class="font-semibold break-all" rel="noreferrer"
+						>{url.replace('https://', '').replace(/\/$/, '')}</a
+					>
+				{/if}
+				<p class="font-normal">{location}</p>
 			</div>
 		</div>
 		<ul class="text-left list-disc pl-8 print:pl-6">
