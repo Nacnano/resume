@@ -3,7 +3,7 @@ import type { IOther } from '../types';
 export const others: IOther[] = [
 	{
 		detail:
-			'Languages: Thai (Native), English (Working Proficient / IELTS 7.5), Chinese (Elementary)'
+			'Languages: Thai (Native), English (Professional Working Proficiency / IELTS 7.5), Chinese (Elementary)'
 	},
 	{
 		detail: 'Accepted Programs (Declined):',
