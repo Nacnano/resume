@@ -8,7 +8,7 @@ export const projects: IProject[] = [
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
-		name: 'NanoLLaDA : Fine-tuning Diffusion Language Model for Thai Text Summarization',
+		name: 'Fine-tuning Diffusion Language Model for Thai Text Summarization',
 		details:
 			'Supervised fine-tuned and evaluated LLaDA, a diffusion-based language model, for Thai text summarization using the ThaiSum dataset. Benchmarked against SOTA LLMs using DeepEval and LangChain to analyze trade-offs.',
 		url: 'https://github.com/pupipatsk/NanoLLaDA'
