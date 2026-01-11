@@ -14,7 +14,7 @@ export const experiences: IExperience[] = [
 		company: 'SCBX',
 		location: 'Bangkok, Thailand',
 		url: 'https://scbx.com',
-		years: ['August, 2025', 'December, 2025'],
+		years: ['August', 'December, 2025'],
 		details: [
 			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning and ESG metrics in cooperation with Stanford University',
 			'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management'
