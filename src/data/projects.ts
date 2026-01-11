@@ -8,6 +8,12 @@ export const projects: IProject[] = [
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
+		name: 'Chess Move Detection Transfer Learning using CNN',
+		details:
+			'Engineered a computer vision pipeline to transcribe chess videos into Chess Notation format using Transfer Learning with CNN. Achieved 100% occupancy and 96.94% classification accuracy by fine-tuning ResNet and InceptionV3.',
+		url: 'https://github.com/athensclub/chess-video-move-detection'
+	},
+	{
 		name: 'Stock Return Prediction',
 		details:
 			'Developed ML models to predict S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
