@@ -2,9 +2,9 @@ import type { IProject } from '../types';
 
 export const projects: IProject[] = [
 	{
-		name: 'Thai Context Understanding of LLMs',
+		name: 'Thai Context Understanding Benchmark of Multimodal LLMs',
 		details:
-			'Established a benchmark for Thai context understanding in LLMs, utilizing Visual Genome data to generate questions for model evaluation.',
+			'Established a benchmark for Thai context understanding in multimodal LLMs, utilizing Visual Genome data to generate questions for model evaluation.',
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
