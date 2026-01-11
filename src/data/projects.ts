@@ -48,13 +48,15 @@ export const projects: IProject[] = [
 		name: 'CU First Date and Rub Puen Kao Mai 2024',
 		details:
 			'Developed the registration and profile editing modules for the CU First Date and Rub Puen Kao Mai event platform, featuring house selection and QR code activities.',
-		url: 'https://github.com/isd-sgcu/firstdate-rpkm67-frontend/'
+		url: 'https://github.com/isd-sgcu/firstdate-rpkm67-frontend/',
+		hide: true
 	},
 	{
 		name: 'CU Intania Open House 2024',
 		details:
 			'Developed the workshop reservation system for the Engineering Faculty Open House with over 9,000 users using Next.js and Firestore.',
-		url: 'https://github.com/esc-chula/intania-openhouse-2024/'
+		url: 'https://github.com/esc-chula/intania-openhouse-2024/',
+		hide: true
 	},
 	{
 		name: 'Soul Seasons',
