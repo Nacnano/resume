@@ -22,7 +22,7 @@ export const projects: IProject[] = [
 	{
 		name: 'Stock Return Prediction',
 		details:
-			'Developed ML models to predict S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
+			'Developed various ML models to predict S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{
