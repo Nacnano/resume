@@ -8,7 +8,13 @@ export const projects: IProject[] = [
 		url: 'https://github.com/Nacnano/thai-context-llm-benchmark'
 	},
 	{
-		name: 'Chess Move Detection Transfer Learning using CNN',
+		name: 'NanoLLaDA : Fine-tuning Diffusion Language Model for Thai Text Summarization',
+		details:
+			'Supervised fine-tuned and evaluated LLaDA, a diffusion-based language model, for Thai text summarization using the ThaiSum dataset. Benchmarked against SOTA LLMs using DeepEval and LangChain to analyze trade-offs.',
+		url: 'https://github.com/pupipatsk/NanoLLaDA'
+	},
+	{
+		name: 'Chess Move Detection using Transfer Learning with CNN',
 		details:
 			'Engineered a computer vision pipeline to transcribe chess videos into Chess Notation format using Transfer Learning with CNN. Achieved 100% occupancy and 96.94% classification accuracy by fine-tuning ResNet and InceptionV3.',
 		url: 'https://github.com/athensclub/chess-video-move-detection'
