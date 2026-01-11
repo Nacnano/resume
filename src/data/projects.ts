@@ -20,9 +20,9 @@ export const projects: IProject[] = [
 		url: 'https://github.com/athensclub/chess-video-move-detection'
 	},
 	{
-		name: 'Stock Return Prediction',
+		name: 'Stock Return Forecasting with Portfolio Optimization',
 		details:
-			'Developed various ML models to predict S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
+			'Developed various ML models and integrated optimization techniques to forecast S&P 500 stock returns, achieving 42.52% annual returns via LSTM back-testing with risk management. Implemented feature importance analysis.',
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{
