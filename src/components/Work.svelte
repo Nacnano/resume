@@ -12,19 +12,21 @@
 
 <div class="work-experience">
 	<Hideable {hide}>
-		<div class="flex flex-col mb-2 print:mb-1">
+		<div class="flex flex-col mb-2 print:mb-1 print:text-sm">
 			<div class="flex flex-col sm:flex-row sm:justify-between sm:items-start">
 				<div class="flex-1 text-left w-auto font-bold mb-1 sm:mb-0">
 					<p>
 						{position}
 					</p>
 				</div>
-				<div class="flex-1 text-left sm:text-right font-medium sm:font-normal text-sm sm:text-base">
+				<div
+					class="flex-1 text-left sm:text-right font-medium sm:font-normal print:text-sm sm:text-base"
+				>
 					{years.join(' - ')}
 				</div>
 			</div>
 			<div
-				class="flex flex-col sm:flex-row print:flex-row flex-wrap gap-1 sm:gap-2 items-start sm:items-center text-sm sm:text-base"
+				class="flex flex-col sm:flex-row sm:gap-2 items-start sm:items-center print:text-sm sm:text-base"
 			>
 				<p class="font-semibold">{company}</p>
 				{#if url}
