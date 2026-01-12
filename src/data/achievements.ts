@@ -9,12 +9,13 @@ export const achievements: IAchievement[] = [
 	{
 		name: 'JUMP Thailand Hackathon by AIS Academy (2025)',
 		details:
-			'Secured 2nd Runner-up and a 40,000 Baht prize among 700+ teams for developing an AI-assisted massage teaching system for the visually impaired. Developed and deployed the instructor model using multimodal LLMs and computer vision to provide real-time feedback on muscle and posture.'
+			'Secured 2nd Runner-up and a 40,000 Baht prize among 700+ teams for developing an AI-assisted massage teaching system. Developed and deployed the instructor model using multimodal LLMs and computer vision to provide real-time feedback on muscle and posture.'
 	},
 	{
 		name: 'AI Hackathon Powered by MITR PHOL (2025)',
 		details:
-			'Secured 2nd Runner-up among 156 teams for developing a predictive maintenance system for sugar harvesting machinery. Developed forecasting models from sensor data using various machine learning techniques.'
+			'Secured 2nd Runner-up among 156 teams for developing a predictive maintenance system for sugar harvesting machinery. Developed forecasting models from sensor data using various machine learning techniques.',
+		hide: true
 	},
 	{
 		name: "Thinc's 10 Days in 10 Years Project (2022)",

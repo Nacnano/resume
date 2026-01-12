@@ -40,7 +40,8 @@ export const experiences: IExperience[] = [
 		details: [
 			'Maintained and developed features for the Ayasan website using Next.js and Nuxt.js',
 			'Implemented features and resolved bugs in the Ayasan mobile app using React Native'
-		]
+		],
+		hide: true
 	},
 	{
 		position: 'Data Engineer, Part Time',
