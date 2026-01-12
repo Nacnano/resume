@@ -14,37 +14,37 @@
 
 <div class="flex flex-col items-center justify-center print:flex-col text-sm sm:text-base gap-2">
 	<h2
-		class="flex-none order-first sm:order-none print:order-none text-2xl sm:text-2xl md:text-3xl lg:text-6xl text-center print:pt-0"
+		class="flex-none order-first sm:order-none print:order-none text-2xl sm:text-2xl md:text-3xl lg:text-6xl print:text-4xl text-center print:pt-0"
 	>
 		{name}
 	</h2>
 
 	<div
-		class="w-full flex flex-col sm:flex-row flex-wrap justify-center items-center gap-1 text-center print:text-center print:text-xs text-xs sm:text-sm"
+		class="w-full flex flex-col sm:flex-row print:flex-row flex-wrap justify-center items-center gap-1 text-center print:text-center print:text-xs text-xs sm:text-sm"
 	>
 		<p>{location}</p>
 
-		<span class="hidden sm:inline">•</span>
+		<span class="hidden sm:inline print:inline">•</span>
 		<p><a href={`tel:${phone}`}>{phone}</a></p>
 
-		<span class="hidden sm:inline">•</span>
+		<span class="hidden sm:inline print:inline">•</span>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
 
-		<span class="hidden sm:inline">•</span>
+		<span class="hidden sm:inline print:inline">•</span>
 		<p>
 			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
 				>linkedin.com/in/{linkedin}</a
 			>
 		</p>
 
-		<span class="hidden sm:inline">•</span>
+		<span class="hidden sm:inline print:inline">•</span>
 		<p>
 			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
 				>github.com/{github}</a
 			>
 		</p>
 
-		<span class="hidden sm:inline">•</span>
+		<span class="hidden sm:inline print:inline">•</span>
 		<p>
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
 		</p>

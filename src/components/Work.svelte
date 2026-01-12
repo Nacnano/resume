@@ -7,7 +7,7 @@
 	export let url: string;
 	export let years: string[];
 	export let details: string[];
-	export let hide: boolean;
+	export let hide: boolean = false;
 </script>
 
 <div class="work-experience">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div
-				class="flex flex-col sm:flex-row flex-wrap gap-1 sm:gap-2 items-start sm:items-center text-sm sm:text-base"
+				class="flex flex-col sm:flex-row print:flex-row flex-wrap gap-1 sm:gap-2 items-start sm:items-center text-sm sm:text-base"
 			>
 				<p class="font-semibold">{company}</p>
 				{#if url}

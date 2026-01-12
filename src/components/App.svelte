@@ -34,7 +34,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Education</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -49,7 +49,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Work Experience</h2>
 			<hr />
 
 			{#each experiences as experience}
@@ -61,7 +61,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
@@ -86,7 +86,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Project</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Project</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -107,7 +107,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Achievement</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Achievement</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -125,7 +125,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Other</h2>
+			<h2 class="text-2xl print:text-xl uppercase text-left">Other</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -181,8 +181,8 @@
 	}
 
 	@media print {
-		* {
-			@apply text-xs;
+		:global(body) {
+			@apply text-sm;
 		}
 
 		a {
