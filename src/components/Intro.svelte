@@ -20,31 +20,31 @@
 	</h2>
 
 	<div
-		class="w-full flex flex-wrap justify-center items-center gap-1 text-center print:text-center print:text-xs text-xs sm:text-sm"
+		class="w-full flex flex-col sm:flex-row flex-wrap justify-center items-center gap-1 text-center print:text-center print:text-xs text-xs sm:text-sm"
 	>
 		<p>{location}</p>
 
-		•
+		<span class="hidden sm:inline">•</span>
 		<p><a href={`tel:${phone}`}>{phone}</a></p>
 
-		•
+		<span class="hidden sm:inline">•</span>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
 
-		•
+		<span class="hidden sm:inline">•</span>
 		<p>
 			<a href={`https://linkedin.com/in/${linkedin}`} target="_blank" rel="noreferrer"
 				>linkedin.com/in/{linkedin}</a
 			>
 		</p>
 
-		•
+		<span class="hidden sm:inline">•</span>
 		<p>
 			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
 				>github.com/{github}</a
 			>
 		</p>
 
-		•
+		<span class="hidden sm:inline">•</span>
 		<p>
 			<a href={`https://${website}`} target="_blank" rel="noreferrer">{website}</a>
 		</p>

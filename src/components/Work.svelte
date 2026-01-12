@@ -23,7 +23,9 @@
 					{years.join(' - ')}
 				</div>
 			</div>
-			<div class="flex flex-wrap gap-2 items-center text-sm sm:text-base">
+			<div
+				class="flex flex-col sm:flex-row flex-wrap gap-1 sm:gap-2 items-start sm:items-center text-sm sm:text-base"
+			>
 				<p class="font-semibold">{company}</p>
 				{#if url}
 					<a href={url} target="_blank" class="font-semibold break-all" rel="noreferrer"
