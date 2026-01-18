@@ -24,7 +24,8 @@ export const educations: IEducation[] = [
 				text: 'Won First Degree Diploma from 21st Kolmogorov Readings International Conference, Russia',
 				hide: true
 			}
-		]
+		],
+		hide: true
 	},
 	{
 		head: 'Secondary School',
