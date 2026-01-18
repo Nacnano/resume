@@ -19,7 +19,10 @@ export const experiences: IExperience[] = [
 		years: ['August', 'December, 2025'],
 		details: [
 			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning on ESG data',
-			'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management'
+			{
+				text: 'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management',
+				hide: true
+			}
 		]
 	},
 	{

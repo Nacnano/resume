@@ -6,7 +6,8 @@
 	export let location: string;
 	export let url: string;
 	export let years: string[];
-	export let details: string[];
+
+	export let details: Array<string | { text: string; hide?: boolean }>;
 	export let hide: boolean = false;
 </script>
 
@@ -39,11 +40,19 @@
 		</div>
 		<ul class="text-left list-disc pl-8 print:pl-6">
 			{#each details as detail}
-				<Hideable>
-					<li>
-						{detail}
-					</li>
-				</Hideable>
+				{#if typeof detail === 'string'}
+					<Hideable>
+						<li>
+							{detail}
+						</li>
+					</Hideable>
+				{:else}
+					<Hideable hide={detail.hide}>
+						<li>
+							{detail.text}
+						</li>
+					</Hideable>
+				{/if}
 			{/each}
 		</ul>
 	</Hideable>

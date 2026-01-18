@@ -39,7 +39,7 @@ export interface IExperience {
 	location: string;
 	url: string;
 	years: string[];
-	details: string[];
+	details: Array<string | { text: string; hide?: boolean }>;
 	hide?: boolean;
 }
 
