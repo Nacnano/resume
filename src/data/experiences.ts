@@ -7,7 +7,9 @@ export const experiences: IExperience[] = [
 		location: 'Bangkok, Thailand',
 		url: 'https://scb.co.th',
 		years: ['January, 2026', 'Present'],
-		details: []
+		details: [
+			'Researching market sentiment methods using NLP to quantify financial reports, news, and meeting transcripts into features to improve predictive power of models'
+		]
 	},
 	{
 		position: 'AI Researcher and Technology Risk, Intern',
@@ -16,7 +18,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August', 'December, 2025'],
 		details: [
-			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning and ESG metrics in cooperation with Stanford University',
+			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning on ESG data',
 			'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management'
 		]
 	},
