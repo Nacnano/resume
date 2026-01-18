@@ -69,7 +69,7 @@ export const experiences: IExperience[] = [
 		url: 'https://agoda.com',
 		years: ['June', 'November, 2024'],
 		details: [
-			'Migrated internal tools from .NET and Scala to Kotlin',
+			'Migrated internal role management tools from .NET and Scala to Kotlin',
 			'Integrated OPA and Okta OAuth2 Proxy for enhancing authorization'
 		]
 	},
