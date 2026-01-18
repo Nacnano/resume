@@ -17,7 +17,7 @@ export const educations: IEducation[] = [
 	},
 	{
 		head: 'High School',
-		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)',
+		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00/4.00)',
 		details: [
 			'Participants in exchange programs, symposiums, and competitions',
 			{
@@ -29,7 +29,7 @@ export const educations: IEducation[] = [
 	},
 	{
 		head: 'Secondary School',
-		school: 'Suankularb Wittayalai School, Thailand. 2016-2019 (GPA 3.56)',
+		school: 'Suankularb Wittayalai School, Thailand. 2016-2019 (GPA 3.56/4.00)',
 		details: [],
 		hide: true
 	}

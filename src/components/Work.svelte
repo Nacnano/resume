@@ -60,7 +60,7 @@
 
 <style lang="postcss">
 	.work-experience {
-		@apply my-4;
+		@apply my-4 pl-8;
 	}
 
 	a {
@@ -69,7 +69,7 @@
 
 	@media print {
 		.work-experience {
-			@apply my-1;
+			@apply my-1 pl-6;
 		}
 	}
 </style>
