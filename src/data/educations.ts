@@ -6,9 +6,9 @@ export const educations: IEducation[] = [
 		school: 'Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)',
 		details: [
 			'Achieved 3.93 GPA for 7 semesters',
-			{ text: 'Participated in an exchange program with Guangxi University, China', hide: true },
-			'Teaching Assistant: Computer Engineering Essentials (Backend Course)',
 			'Representative for a university-level Integration Bee Competition',
+			{ text: 'Participated in an exchange program with Guangxi University, China', hide: true },
+			{ text: 'Teaching Assistant: Computer Engineering Essentials (Backend Course)', hide: true },
 			{
 				text: 'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition, Natural Language Processing',
 				hide: true
