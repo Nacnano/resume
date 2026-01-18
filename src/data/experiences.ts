@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scb.co.th',
 		years: ['January, 2026', 'Present'],
 		details: [
-			'Researching market sentiment methods using NLP to quantify financial reports, news, and meeting transcripts into features to improve predictive power of models'
+			'Researching NLP market sentiment analysis on financial reports, news, and meeting transcripts to improve predictive modeling.'
 		]
 	},
 	{
@@ -18,9 +18,9 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August', 'December, 2025'],
 		details: [
-			'Conducted quantitative finance and AI research on U.S. and Thai stock markets using transfer learning on ESG data',
+			'Researched US and Thai stock market prediction using transfer learning on ESG data',
 			{
-				text: 'Assisted in testing an internal chatbot for AI technology and cybersecurity risk management',
+				text: 'Tested internal cybersecurity and AI risk management chatbot',
 				hide: true
 			}
 		]
@@ -32,9 +32,9 @@ export const experiences: IExperience[] = [
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
 		details: [
-			'Investigated mechanistic interpretability in LLMs, focusing on cases of Chain-of-Thought faithfulness and randomness',
+			'Investigated LLM mechanistic interpretability, focusing on Chain-of-Thought faithfulness and randomness',
 			{
-				text: 'Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University',
+				text: 'Researched AI Safety and Alignment under JAIST and Chulalongkorn University supervision',
 				hide: true
 			}
 		]
@@ -46,8 +46,8 @@ export const experiences: IExperience[] = [
 		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'July, 2025'],
 		details: [
-			'Maintained and developed features for the Ayasan website using Next.js and Nuxt.js',
-			'Implemented features and resolved bugs in the Ayasan mobile app using React Native'
+			'Developed Ayasan website features (Next.js, Nuxt.js)',
+			'Built features and fixed bugs for Ayasan mobile app (React Native)'
 		],
 		hide: true
 	},
@@ -58,8 +58,8 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'June, 2025'],
 		details: [
-			'Engineered data pipelines in Google BigQuery using Apache Airflow',
-			'Integrated data via Krayin CRM APIs for an internal leads management tool'
+			'Built Google BigQuery data pipelines via Apache Airflow',
+			'Integrated Krayin CRM APIs for an internal leads management tool'
 		]
 	},
 	{
@@ -69,7 +69,7 @@ export const experiences: IExperience[] = [
 		url: 'https://agoda.com',
 		years: ['June', 'November, 2024'],
 		details: [
-			'Migrated internal role management tools from .NET and Scala to Kotlin',
+			'Migrated internal role management tools from .NET/Scala to Kotlin',
 			'Integrated OPA and Okta OAuth2 Proxy for enhancing authorization'
 		]
 	},
@@ -80,8 +80,8 @@ export const experiences: IExperience[] = [
 		url: 'https://wang.in.th',
 		years: ['June', 'August, 2023'],
 		details: [
-			'Implemented diverse form input types using React and developed API endpoints with Express.js',
-			'Architected and developed core structures for a major upcoming AI feature'
+			'Implemented multiple-input React forms and Express.js API endpoints',
+			'Architected core structures for new AI features'
 		],
 		hide: true
 	},
@@ -92,10 +92,10 @@ export const experiences: IExperience[] = [
 		url: 'https://monkeyeveryday.com',
 		years: ['March, 2022', 'Present'],
 		details: [
-			'Architected and maintained the TCAS Ranking service, serving over 40,000 students',
-			'Maintained internal web platforms using Next.js, Vue.js, and NestJS with GraphQL, Prisma, and PostgreSQL',
-			'Developed automated bots for data synchronization and implemented E2E tests with Selenium and Cypress',
-			'Resolved technical debt and performance bottlenecks related to low-level OS issues on VM deployments'
+			'Architected and implemented TCAS Ranking service for40k+ users',
+			'Maintained internal platforms using Next.js, Vue.js, NestJS, GraphQL, Prisma, PostgreSQL',
+			'Automated data synchronization bots and E2E tests with Selenium and Cypress',
+			'Optimized VM deployments, resolving OS-level issues'
 		],
 		hide: true
 	}

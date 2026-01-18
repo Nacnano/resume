@@ -6,11 +6,11 @@ export const educations: IEducation[] = [
 		school: 'Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)',
 		details: [
 			'Achieved 3.93/4.00 GPA for 7 semesters',
-			'Representative for a university-level Integration Bee Competition',
-			{ text: 'Participated in an exchange program with Guangxi University, China', hide: true },
-			{ text: 'Teaching Assistant: Computer Engineering Essentials (Backend Course)', hide: true },
+			'Integration Bee Competition Representative',
+			{ text: 'Exchange Program: Guangxi University, China', hide: true },
+			{ text: 'Teaching Assistant: Backend Course (Computer Engineering Essentials)', hide: true },
 			{
-				text: 'Related Coursework: Data Structures, Algorithm Design, Programming Methodology, Pattern Recognition, Natural Language Processing',
+				text: 'Coursework: Data Structures, Algorithms, Natural Language Processing, Pattern Recognition, Programming Methodology',
 				hide: true
 			}
 		]
@@ -19,9 +19,9 @@ export const educations: IEducation[] = [
 		head: 'High School',
 		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00)',
 		details: [
-			'Participated in numerous high school exchange programs, international symposiums, and competitions',
+			'Participants in exchange programs, symposiums, and competitions',
 			{
-				text: 'Won First Degree Diploma from 21st Kolmogorov Readings International Conference, Russia',
+				text: 'Won 1st Degree Diploma from 21st Kolmogorov Readings Conference, Russia',
 				hide: true
 			}
 		],

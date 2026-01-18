@@ -2,13 +2,12 @@ import type { IOther } from '../types';
 
 export const others: IOther[] = [
 	{
-		detail:
-			'Languages: Thai (Native), English (Professional Working Proficiency / IELTS 7.5), Chinese (Elementary)'
+		detail: 'Languages: Thai (Native), English (Professional / IELTS 7.5), Chinese (Elementary)'
 	},
 	{
-		detail: 'Accepted Programs (Declined):',
+		detail: 'Accepted (Declined):',
 		details: [
-			{ text: 'SCB Data Scientist Internship Program 2025', hide: false },
+			{ text: 'SCB Data Scientist Intern (2025)', hide: false },
 			{
 				text: 'Thai Scholarship or ทุนกระทรวงวิทย์ from the Ministry of Science and Technology',
 				hide: false
@@ -18,7 +17,7 @@ export const others: IOther[] = [
 		hide: true
 	},
 	{
-		detail: 'Part-time Academic Tutor (Math/Computer/Physics/Chemistry/Biology/English)',
+		detail: 'Academic Tutor (Math/Computer/Physics/Chemistry/Biology/English)',
 		hide: true
 	},
 	{
