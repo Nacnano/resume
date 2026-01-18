@@ -90,6 +90,7 @@ export const experiences: IExperience[] = [
 			'Maintained internal web platforms using Next.js, Vue.js, and NestJS with GraphQL, Prisma, and PostgreSQL',
 			'Developed automated bots for data synchronization and implemented E2E tests with Selenium and Cypress',
 			'Resolved technical debt and performance bottlenecks related to low-level OS issues on VM deployments'
-		]
+		],
+		hide: true
 	}
 ];
