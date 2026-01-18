@@ -20,7 +20,8 @@ export const achievements: IAchievement[] = [
 	{
 		name: "Thinc's 10 Days in 10 Years Project (2022)",
 		details:
-			'Won 1st place among 50+ teams by developing a web application to streamline student withdrawals. Designed and implemented the backend service and database.'
+			'Won 1st place among 50+ teams by developing a web application to streamline student withdrawals. Designed and implemented the backend service and database.',
+		hide: true
 	},
 	{
 		name: 'Computer Olympiad Camp (2019–2022)',
