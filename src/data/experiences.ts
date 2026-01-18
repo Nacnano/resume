@@ -32,8 +32,11 @@ export const experiences: IExperience[] = [
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
 		details: [
-			'Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University',
-			'Investigated mechanistic interpretability in LLMs, focusing on cases of Chain-of-Thought faithfulness and randomness'
+			'Investigated mechanistic interpretability in LLMs, focusing on cases of Chain-of-Thought faithfulness and randomness',
+			{
+				text: 'Conducted AI Safety and Alignment research under joint supervision of JAIST and Chulalongkorn University',
+				hide: true
+			}
 		]
 	},
 	{
@@ -56,7 +59,7 @@ export const experiences: IExperience[] = [
 		years: ['November, 2024', 'June, 2025'],
 		details: [
 			'Engineered data pipelines in Google BigQuery using Apache Airflow',
-			'Integrated data via Krayin CRM APIs for internal data management'
+			'Integrated data via Krayin CRM APIs for an internal leads management tool'
 		]
 	},
 	{
