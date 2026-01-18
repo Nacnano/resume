@@ -5,7 +5,7 @@ export const educations: IEducation[] = [
 		head: 'B.Eng. Computer Engineering',
 		school: 'Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)',
 		details: [
-			'Achieved 3.93 GPA for 7 semesters',
+			'Achieved 3.93/4.00 GPA for 7 semesters',
 			'Representative for a university-level Integration Bee Competition',
 			{ text: 'Participated in an exchange program with Guangxi University, China', hide: true },
 			{ text: 'Teaching Assistant: Computer Engineering Essentials (Backend Course)', hide: true },
