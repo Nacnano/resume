@@ -29,7 +29,8 @@ export const projects: IProject[] = [
 		name: 'Multimedia Learning Efficiency Prediction in Student using MASK R-CNN',
 		details:
 			'Utilized Mask R-CNN for image segmentation and Random Forest for factor identification to analyze multimedia effects on learning efficiency.',
-		url: 'https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-'
+		url: 'https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-',
+		hide: true
 	},
 	{
 		name: 'CU Get Reg',
