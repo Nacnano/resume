@@ -70,7 +70,7 @@ export const experiences: IExperience[] = [
 		years: ['June', 'November, 2024'],
 		details: [
 			'Migrated internal tools from .NET and Scala to Kotlin',
-			'Integrated OPA and Okta OAuth2 Proxy for enhanced authorization'
+			'Integrated OPA and Okta OAuth2 Proxy for enhancing authorization'
 		]
 	},
 	{
