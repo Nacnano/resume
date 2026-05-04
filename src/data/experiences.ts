@@ -18,9 +18,9 @@ export const experiences: IExperience[] = [
 		url: 'https://quanxai.com',
 		years: ['January, 2026', 'March, 2026'],
 		details: [
-			'Developed an AI agent chatbot for retail via LangChain, LiteLLM, and AWS services',
+			'Developed an AI agent chatbot for retail using LangChain, LiteLLM, and AWS services',
 			{
-				text: 'Designed an ML-based fraud detection POC for mule account detection using transactional data',
+				text: 'Designed an ML-based fraud-detection POC for mule account detection using transactional data',
 				hide: true
 			}
 		]
@@ -34,7 +34,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Researched US and Thai stock market prediction using transfer learning on ESG data',
 			{
-				text: 'Tested internal cybersecurity and AI risk management chatbots',
+				text: 'Tested internal cybersecurity and AI risk-management chatbots',
 				hide: true
 			}
 		]
@@ -61,7 +61,7 @@ export const experiences: IExperience[] = [
 		years: ['May, 2025', 'July, 2025'],
 		details: [
 			'Developed website features using Next.js and Nuxt.js',
-			'Built and fixed mobile app features using React Native'
+			'Built and improved mobile app features using React Native'
 		],
 		hide: true
 	},

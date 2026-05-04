@@ -5,7 +5,7 @@ export const others: IOther[] = [
 		detail: 'Languages: Thai (Native), English (Professional/IELTS 7.5), Chinese (Elementary)'
 	},
 	{
-		detail: 'Accepted (Declined):',
+		detail: 'Offers Received (Declined):',
 		details: [
 			{ text: 'SCB Data Scientist Intern (2025)', hide: false },
 			{

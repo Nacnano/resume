@@ -4,12 +4,12 @@ export const achievements: IAchievement[] = [
 	{
 		name: 'Chula LegalTech Year 6 (2025)',
 		details:
-			'Won 1st place (50,000 THB) for a youth job-matching web app. Built frontend and OCR backend via Next.js and Flask.'
+			'Won 1st place (50,000 THB) for a youth job-matching web app. Built the frontend and OCR backend using Next.js and Flask.'
 	},
 	{
 		name: 'JUMP Thailand Hackathon by AIS Academy (2025)',
 		details:
-			'2nd Runner-up (40,000 THB) among 700+ teams for an AI massage-teaching system using CV and Multimodal LLMs.'
+			'2nd Runner-up (40,000 THB) among 700+ teams for an AI massage-teaching system using CV and multimodal LLMs.'
 	},
 	{
 		name: 'AI Hackathon Powered by MITR PHOL (2025)',
