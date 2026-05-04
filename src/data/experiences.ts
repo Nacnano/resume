@@ -100,16 +100,16 @@ export const experiences: IExperience[] = [
 		hide: true
 	},
 	{
-		position: 'Full Stack Developer and Data Analyst, Part Time',
+		position: 'Software Engineer and Data Analyst, Part Time',
 		company: 'MonkeyEveryday',
 		location: 'Bangkok, Thailand',
 		url: 'https://monkeyeveryday.com',
-		years: ['March, 2022', 'Present'],
+		years: ['March, 2022', 'December, 2025'],
 		details: [
-			'Architected and implemented TCAS Ranking service for40k+ users',
+			'Architected and implemented TCAS Ranking Simulation service for 40k+ users',
 			'Maintained internal platforms using Next.js, Vue.js, NestJS, GraphQL, Prisma, PostgreSQL',
 			'Automated data synchronization bots and E2E tests with Selenium and Cypress',
-			'Optimized VM deployments, resolving OS-level issues'
+			'Optimized VM deployments, resolved OS-level Inode issues'
 		],
 		hide: true
 	}
