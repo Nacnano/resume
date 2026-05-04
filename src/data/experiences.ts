@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scb.co.th',
 		years: ['January, 2026', 'April, 2026'],
 		details: [
-			'Researched market sentiment analysis on FOMC Minutes using NLP techniques to improve macroeconomic forecasting'
+			'Researched market sentiment on FOMC Minutes using NLP techniques to improve macroeconomic forecasting'
 		]
 	},
 	{
