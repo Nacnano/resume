@@ -16,13 +16,13 @@ export const projects: IProject[] = [
 	{
 		name: 'Chess Move Detection using Transfer Learning with CNN',
 		details:
-			'Engineered a computer-vision pipeline (96.94% accuracy) for chess video-to-notation by fine-tuning ResNet and InceptionV3.',
+			'Engineered a computer vision pipeline (96.94% accuracy) for chess video-to-notation by fine-tuning ResNet and InceptionV3.',
 		url: 'https://github.com/athensclub/chess-video-move-detection'
 	},
 	{
 		name: 'Stock Return Forecasting with Portfolio Optimization',
 		details:
-			'Forecasted S&P 500 returns (42.52% YoY) using various ML models and portfolio-optimization techniques.',
+			'Forecasted S&P 500 returns (42.52% YoY) using various ML models and portfolio optimization techniques.',
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{

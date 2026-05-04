@@ -20,7 +20,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Developed an AI agent chatbot for retail using LangChain, LiteLLM, and AWS services',
 			{
-				text: 'Designed an ML-based fraud-detection POC for mule account detection using transactional data',
+				text: 'Designed an ML-based fraud detection POC for mule account detection using transactional data',
 				hide: true
 			}
 		]

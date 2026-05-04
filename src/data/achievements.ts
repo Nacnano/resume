@@ -9,12 +9,12 @@ export const achievements: IAchievement[] = [
 	{
 		name: 'JUMP Thailand Hackathon by AIS Academy (2025)',
 		details:
-			'2nd Runner-up (40,000 THB) among 700+ teams for an AI massage-teaching system using CV and multimodal LLMs.'
+			'2nd Runner-up (40,000 THB) among 700+ teams for an AI massage teaching system using CV and multimodal LLMs.'
 	},
 	{
 		name: 'AI Hackathon Powered by MITR PHOL (2025)',
 		details:
-			'2nd Runner-up among 156 teams for a predictive maintenance system using sensor-data forecasting models.',
+			'2nd Runner-up among 156 teams for a predictive maintenance system using sensor data forecasting models.',
 		hide: true
 	},
 	{
