@@ -12,6 +12,20 @@ export const experiences: IExperience[] = [
 		]
 	},
 	{
+		position: 'AI Engineer, Part Time',
+		company: 'QuanXAI',
+		location: 'Bangkok, Thailand',
+		url: 'https://quanxai.com',
+		years: ['January, 2026', 'March, 2026'],
+		details: [
+			'Developed AI agents chatbot for a retail client using LangChain and LiteLLM via AWS Services, e.g. AWS AgentCore and AWS Lambda',
+			{
+				text: 'Designed and POCed a fraud detection system for mule account detection from transactional data with ML models',
+				hide: true
+			}
+		]
+	},
+	{
 		position: 'AI Researcher and Technology Risk, Intern',
 		company: 'SCBX',
 		location: 'Bangkok, Thailand',
