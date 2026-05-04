@@ -26,7 +26,7 @@ export const projects: IProject[] = [
 		url: 'https://github.com/Nacnano/stock-machine-learning-project/'
 	},
 	{
-		name: 'Multimedia Learning Efficiency Prediction in Student using MASK R-CNN',
+		name: 'Multimedia Learning Efficiency in Student Analysis using MASK R-CNN',
 		details:
 			'Analyzed multimedia learning efficiency using Mask R-CNN (segmentation) and Random Forest for feature importances.',
 		url: 'https://github.com/Nacnano/predicting-and-comparing-learners-interest-in-note-taking-from-multimedia-using-a-machine-learning-',
