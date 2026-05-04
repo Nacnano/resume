@@ -18,9 +18,9 @@ export const experiences: IExperience[] = [
 		url: 'https://quanxai.com',
 		years: ['January, 2026', 'March, 2026'],
 		details: [
-			'Developed AI agents chatbot for a retail client using LangChain and LiteLLM via AWS Services, e.g. AWS AgentCore and AWS Lambda',
+			'Developed an AI agent chatbot for retail using LangChain and LiteLLM via AWS Services',
 			{
-				text: 'Designed and POCed a fraud detection system for mule account detection from transactional data with ML models',
+				text: 'Designed an ML-based fraud detection POC for mule account detection using transactional data',
 				hide: true
 			}
 		]
@@ -34,7 +34,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Researched US and Thai stock market prediction using transfer learning on ESG data',
 			{
-				text: 'Tested internal cybersecurity and AI risk management chatbot',
+				text: 'Tested internal cybersecurity and AI risk management chatbots',
 				hide: true
 			}
 		]
@@ -48,7 +48,7 @@ export const experiences: IExperience[] = [
 		details: [
 			'Investigated LLM mechanistic interpretability, focusing on Chain-of-Thought faithfulness and randomness',
 			{
-				text: 'Researched AI Safety and Alignment under JAIST and Chulalongkorn University supervision',
+				text: 'Researched AI Safety and Alignment under the supervision of JAIST and Chulalongkorn University',
 				hide: true
 			}
 		]
@@ -60,8 +60,8 @@ export const experiences: IExperience[] = [
 		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'July, 2025'],
 		details: [
-			'Developed Ayasan website features (Next.js, Nuxt.js)',
-			'Built features and fixed bugs for Ayasan mobile app (React Native)'
+			'Developed website features (Next.js, Nuxt.js)',
+			'Built and fixed mobile app features (React Native)'
 		],
 		hide: true
 	},
@@ -72,8 +72,7 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'June, 2025'],
 		details: [
-			'Built Google BigQuery data pipelines via Apache Airflow',
-			'Integrated Krayin CRM APIs for an internal leads management tool'
+			'Built Google BigQuery data pipelines via Apache Airflow and integrated Krayin CRM APIs for internal leads management'
 		]
 	},
 	{
@@ -83,8 +82,7 @@ export const experiences: IExperience[] = [
 		url: 'https://agoda.com',
 		years: ['June', 'November, 2024'],
 		details: [
-			'Migrated internal role management tools from .NET/Scala to Kotlin',
-			'Integrated OPA and Okta OAuth2 Proxy for enhancing authorization'
+			'Migrated role management tools to Kotlin and integrated OPA and Okta OAuth2 Proxy for authorization'
 		]
 	},
 	{
@@ -94,8 +92,8 @@ export const experiences: IExperience[] = [
 		url: 'https://wang.in.th',
 		years: ['June', 'August, 2023'],
 		details: [
-			'Implemented multiple-input React forms and Express.js API endpoints',
-			'Architected core structures for new AI features'
+			'Implemented React forms and Express.js API endpoints',
+			'Architected core structures for AI features'
 		],
 		hide: true
 	},
@@ -109,7 +107,7 @@ export const experiences: IExperience[] = [
 			'Architected and implemented TCAS Ranking Simulation service for 40k+ users',
 			'Maintained internal platforms using Next.js, Vue.js, NestJS, GraphQL, Prisma, PostgreSQL',
 			'Automated data synchronization bots and E2E tests with Selenium and Cypress',
-			'Optimized VM deployments, resolved OS-level Inode issues'
+			'Optimized VM deployments by resolving OS-level inode issues'
 		],
 		hide: true
 	}
