@@ -6,9 +6,9 @@ export const experiences: IExperience[] = [
 		company: 'SCB',
 		location: 'Bangkok, Thailand',
 		url: 'https://scb.co.th',
-		years: ['January, 2026', 'Present'],
+		years: ['January, 2026', 'April, 2026'],
 		details: [
-			'Researching NLP market sentiment analysis on financial reports, news, and meeting transcripts to improve predictive modeling.'
+			'Researched market sentiment analysis on FOMC Minutes using NLP techniques to improve macroeconomic forecasting'
 		]
 	},
 	{
