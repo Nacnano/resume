@@ -9,7 +9,7 @@ export const others: IOther[] = [
 		details: [
 			{ text: 'SCB Data Scientist Intern (2025)', hide: false },
 			{
-				text: 'Thai Scholarship or ทุนกระทรวงวิทย์ from the Ministry of Science and Technology',
+				text: 'Thai Scholarship (ทุนกระทรวงวิทย์) from the Ministry of Science and Technology',
 				hide: false
 			},
 			{ text: 'Faculty of Medicine, Chulalongkorn University', hide: false }
