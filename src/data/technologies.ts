@@ -9,7 +9,7 @@ export const technologies: ITechnology[] = [
 			{ text: 'Python', hide: false },
 			{ text: 'HTML', hide: false },
 			{ text: 'CSS', hide: false },
-			{ text: 'Javascript', hide: false },
+			{ text: 'JavaScript', hide: false },
 			{ text: 'TypeScript', hide: false },
 			{ text: 'Java', hide: false },
 			{ text: 'Scala', hide: false },
@@ -21,9 +21,9 @@ export const technologies: ITechnology[] = [
 		section: 'Software:',
 		details: [
 			{ text: 'Node.js', hide: false },
-			{ text: 'ReactJS', hide: false },
-			{ text: 'NextJS', hide: false },
-			{ text: 'VueJS', hide: false },
+			{ text: 'React', hide: false },
+			{ text: 'Next.js', hide: false },
+			{ text: 'Vue.js', hide: false },
 			{ text: 'TailwindCSS', hide: false },
 			{ text: 'NestJS', hide: false },
 			{ text: 'SvelteJS', hide: false },
@@ -73,7 +73,7 @@ export const technologies: ITechnology[] = [
 			{ text: 'AWS', hide: false },
 			{ text: 'Azure', hide: false },
 			{ text: 'Firebase', hide: false },
-			{ text: 'Github Actions', hide: false },
+			{ text: 'GitHub Actions', hide: false },
 			{ text: 'GitLab CI/CD', hide: false },
 			{ text: 'Vercel', hide: false }
 		]

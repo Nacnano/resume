@@ -8,7 +8,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scb.co.th',
 		years: ['January, 2026', 'April, 2026'],
 		details: [
-			'Researched market sentiment on FOMC Minutes using NLP techniques to improve macroeconomic forecasting'
+			'Researched market sentiment in FOMC minutes using NLP techniques to improve macroeconomic forecasting'
 		]
 	},
 	{
@@ -18,7 +18,7 @@ export const experiences: IExperience[] = [
 		url: 'https://quanxai.com',
 		years: ['January, 2026', 'March, 2026'],
 		details: [
-			'Developed an AI agent chatbot for retail via LangChain, LiteLLM, and AWS Services',
+			'Developed an AI agent chatbot for retail via LangChain, LiteLLM, and AWS services',
 			{
 				text: 'Designed an ML-based fraud detection POC for mule account detection using transactional data',
 				hide: true
@@ -32,7 +32,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August', 'December, 2025'],
 		details: [
-			'Researched US and Thai stock market prediction via transfer learning on ESG data',
+			'Researched US and Thai stock market prediction using transfer learning on ESG data',
 			{
 				text: 'Tested internal cybersecurity and AI risk management chatbots',
 				hide: true
@@ -46,7 +46,7 @@ export const experiences: IExperience[] = [
 		url: 'https://jaist.ac.jp',
 		years: ['June', 'August, 2025'],
 		details: [
-			'Investigated LLM mechanistic interpretability, focusing on Chain-of-Thought faithfulness and randomness',
+			'Investigated mechanistic interpretability of LLMs, focusing on chain-of-thought faithfulness and randomness',
 			{
 				text: 'Researched AI Safety and Alignment under the supervision of JAIST and Chulalongkorn University',
 				hide: true
@@ -60,8 +60,8 @@ export const experiences: IExperience[] = [
 		url: 'https://ayasan-service.com',
 		years: ['May, 2025', 'July, 2025'],
 		details: [
-			'Developed website features (Next.js, Nuxt.js)',
-			'Built and fixed mobile app features (React Native)'
+			'Developed website features using Next.js and Nuxt.js',
+			'Built and fixed mobile app features using React Native'
 		],
 		hide: true
 	},
@@ -72,7 +72,7 @@ export const experiences: IExperience[] = [
 		url: 'https://peoplesparty.or.th',
 		years: ['November, 2024', 'June, 2025'],
 		details: [
-			'Built Google BigQuery data pipelines via Apache Airflow and integrated Krayin CRM APIs for internal leads management'
+			'Built Google BigQuery data pipelines using Apache Airflow and integrated Krayin CRM APIs for internal lead management'
 		]
 	},
 	{
@@ -82,7 +82,7 @@ export const experiences: IExperience[] = [
 		url: 'https://agoda.com',
 		years: ['June', 'November, 2024'],
 		details: [
-			'Migrated role management tools to Kotlin and integrated OPA and Okta OAuth2 Proxy for authorization'
+			'Migrated role-management tools to Kotlin and integrated OPA and Okta OAuth2 Proxy for authorization'
 		]
 	},
 	{
@@ -104,9 +104,9 @@ export const experiences: IExperience[] = [
 		url: 'https://monkeyeveryday.com',
 		years: ['March, 2022', 'December, 2025'],
 		details: [
-			'Architected TCAS Ranking Simulation service for 40k+ users',
-			'Maintained internal platform via Next.js, NestJS, GraphQL, Prisma, PostgreSQL',
-			'Automated data synchronization bots and E2E tests via Selenium and Cypress',
+			'Architected a TCAS ranking simulation service for 40k+ users',
+			'Maintained internal platform using Next.js, NestJS, GraphQL, Prisma, and PostgreSQL',
+			'Automated data synchronization bots and end-to-end tests using Selenium and Cypress',
 			'Optimized VM deployments and resolved OS-level inode issues'
 		],
 		hide: true

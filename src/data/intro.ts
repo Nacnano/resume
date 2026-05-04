@@ -10,7 +10,7 @@ export const intro: IIntro = {
 	website: 'resume.nacnano.dev',
 	phone: '(+66)96-189-6046',
 	objective:
-		'Computer Engineering student specializing in Full Stack, Infrastructure, and Data Science. Passionate about solving complex challenges through engineering and research.',
+		'Computer Engineering student specializing in Software Engineering, Infrastructure, and Data Science. Passionate about solving complex challenges through engineering and research.',
 	resumeUrl: {
 		sourceLink: 'https://github.com/nacnano/resume',
 		fullVersion: 'https://resume.nacnano.dev',

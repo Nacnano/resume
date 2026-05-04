@@ -5,7 +5,7 @@ export const educations: IEducation[] = [
 		head: 'B.Eng. Computer Engineering',
 		school: 'Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)',
 		details: [
-			'Achieved 3.93/4.00 GPA for 7 semesters',
+			'Achieved 3.93/4.00 GPA (7 semesters)',
 			{
 				text: 'Integration Bee Competition Representative',
 				hide: true
@@ -20,9 +20,9 @@ export const educations: IEducation[] = [
 	},
 	{
 		head: 'High School',
-		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00/4.00)',
+		school: 'Mahidol Wittayanusorn School, Thailand. 2019–2022 (GPA 4.00/4.00)',
 		details: [
-			'Participated in exchange programs, symposiums, and competitions',
+			'Participated in exchange programs, symposia, and competitions',
 			{
 				text: 'Won 1st Degree Diploma from 21st Kolmogorov Readings Conference, Russia',
 				hide: true
