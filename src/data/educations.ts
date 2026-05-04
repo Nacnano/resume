@@ -22,7 +22,7 @@ export const educations: IEducation[] = [
 		head: 'High School',
 		school: 'Mahidol Wittayanusorn School, Thailand. 2019-2022 (GPA 4.00/4.00)',
 		details: [
-			'Participants in exchange programs, symposiums, and competitions',
+			'Participated in exchange programs, symposiums, and competitions',
 			{
 				text: 'Won 1st Degree Diploma from 21st Kolmogorov Readings Conference, Russia',
 				hide: true

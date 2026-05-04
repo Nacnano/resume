@@ -18,7 +18,7 @@ export const experiences: IExperience[] = [
 		url: 'https://quanxai.com',
 		years: ['January, 2026', 'March, 2026'],
 		details: [
-			'Developed an AI agent chatbot for retail using LangChain and LiteLLM via AWS Services',
+			'Developed an AI agent chatbot for retail via LangChain, LiteLLM, and AWS Services',
 			{
 				text: 'Designed an ML-based fraud detection POC for mule account detection using transactional data',
 				hide: true
@@ -32,7 +32,7 @@ export const experiences: IExperience[] = [
 		url: 'https://scbx.com',
 		years: ['August', 'December, 2025'],
 		details: [
-			'Researched US and Thai stock market prediction using transfer learning on ESG data',
+			'Researched US and Thai stock market prediction via transfer learning on ESG data',
 			{
 				text: 'Tested internal cybersecurity and AI risk management chatbots',
 				hide: true
@@ -104,10 +104,10 @@ export const experiences: IExperience[] = [
 		url: 'https://monkeyeveryday.com',
 		years: ['March, 2022', 'December, 2025'],
 		details: [
-			'Architected and implemented TCAS Ranking Simulation service for 40k+ users',
-			'Maintained internal platforms using Next.js, Vue.js, NestJS, GraphQL, Prisma, PostgreSQL',
-			'Automated data synchronization bots and E2E tests with Selenium and Cypress',
-			'Optimized VM deployments by resolving OS-level inode issues'
+			'Architected TCAS Ranking Simulation service for 40k+ users',
+			'Maintained internal platform via Next.js, NestJS, GraphQL, Prisma, PostgreSQL',
+			'Automated data synchronization bots and E2E tests via Selenium and Cypress',
+			'Optimized VM deployments and resolved OS-level inode issues'
 		],
 		hide: true
 	}
