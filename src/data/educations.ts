@@ -3,9 +3,8 @@ import type { IEducation } from '../types';
 export const educations: IEducation[] = [
 	{
 		head: 'B.Eng. Computer Engineering',
-		school: 'Chulalongkorn University, Thailand. 2022-Present (Expected Graduation: June 2026)',
+		school: 'Chulalongkorn University, Thailand. 2022–2026 (GPA 3.93/4.00)',
 		details: [
-			'Achieved 3.93/4.00 GPA (7 semesters)',
 			{
 				text: 'Integration Bee Competition Representative',
 				hide: true
