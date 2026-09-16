@@ -12,6 +12,9 @@
 >
 	<span
 		on:click|stopPropagation={toggleHide}
+		on:keydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleHide()}
+		role="button"
+		tabindex="0"
 		class="cursor-pointer"
 		class:cursor-copy={hide}
 		aria-label="Hide Content"

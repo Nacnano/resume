@@ -46,7 +46,8 @@ export const projects: IProject[] = [
 	},
 	{
 		name: 'CU First Date and Rub Puen Kao Mai 2024',
-		details: 'Developed the registration module for CU First Date (House selection, QR activities).',
+		details:
+			'Developed the registration module for CU First Date (House selection, QR activities).',
 		url: 'https://github.com/isd-sgcu/firstdate-rpkm67-frontend/',
 		hide: true
 	},
@@ -70,7 +71,8 @@ export const projects: IProject[] = [
 	},
 	{
 		name: 'GFinder',
-		details: 'Researched a math model for Tennis GOAT identification using Python and Pandas (IMMC 2021).',
+		details:
+			'Researched a math model for Tennis GOAT identification using Python and Pandas (IMMC 2021).',
 		url: 'https://github.com/Nacnano/IMMC-2021',
 		hide: true
 	},
