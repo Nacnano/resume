@@ -2,9 +2,9 @@ import { expect, test } from '@playwright/test';
 
 test('renders the resume editor and primary action', async ({ page }) => {
 	await page.goto('/');
-	await expect(page.getByRole('heading', { name: 'Resume editor' })).toBeVisible();
+	await expect(page.getByRole('heading', { name: 'Choose what to print' })).toBeVisible();
 	await expect(page.getByRole('heading', { name: 'Chotpisit Adunsehawat' })).toBeVisible();
-	await expect(page.getByRole('button', { name: 'Print resume' })).toBeVisible();
+	await expect(page.getByRole('button', { name: 'Print or save PDF' })).toBeVisible();
 });
 
 for (const viewport of [

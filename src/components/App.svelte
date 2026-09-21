@@ -19,16 +19,16 @@
 <header class="editor-header web-only">
 	<div class="editor-header__inner">
 		<div class="editor-header__copy">
-			<h1>Resume editor</h1>
-			<p>Tap any section or line to exclude it, then print your tailored resume.</p>
+			<h1>Choose what to print</h1>
+			<p>Faded items won’t appear in the PDF. Tap any line to change it.</p>
 		</div>
 
 		<nav class="editor-header__actions" aria-label="Resume actions">
 			<button type="button" on:click={() => window.print()} class="print-button"
-				>Print resume</button
+				>Print or save PDF</button
 			>
-			<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">Source</a>
-			<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">Data</a>
+			<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">View source</a>
+			<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">Resume data</a>
 		</nav>
 	</div>
 </header>
@@ -154,10 +154,10 @@
 
 <style lang="postcss">
 	.editor-header {
-		color: #111827;
-		background: #ffffff;
-		border-bottom: 1px solid #e5e7eb;
-		padding: max(0.875rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 0.875rem
+		color: #292524;
+		background: #fafaf9;
+		border-bottom: 1px solid #e7e5e4;
+		padding: max(0.625rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 0.625rem
 			max(1rem, env(safe-area-inset-left));
 	}
 
@@ -171,22 +171,25 @@
 	}
 
 	.editor-header__copy {
+		display: flex;
 		min-width: 0;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
 		text-align: left;
 	}
 
 	.editor-header h1 {
-		font-size: clamp(1.125rem, 3vw, 1.375rem);
+		font-size: 1rem;
 		font-weight: 600;
-		line-height: 1.2;
-		letter-spacing: -0.015em;
+		line-height: 1.35;
+		letter-spacing: -0.01em;
 	}
 
 	.editor-header p {
-		max-width: 58ch;
-		margin-top: 0.2rem;
-		color: #6b7280;
-		font-size: 0.875rem;
+		max-width: 60ch;
+		color: #78716c;
+		font-size: 0.8125rem;
 		line-height: 1.45;
 	}
 
@@ -203,29 +206,33 @@
 		min-height: 44px;
 		align-items: center;
 		justify-content: center;
-		border-radius: 0.375rem;
-		padding: 0.65rem 0.8rem;
-		font-weight: 600;
+		border-radius: 0.25rem;
+		padding: 0.6rem 0.75rem;
+		font-weight: 500;
 		line-height: 1;
 		text-decoration: none;
 	}
 
 	.editor-header__actions a {
-		color: #4b5563;
+		color: #57534e;
+		text-decoration: underline;
+		text-decoration-color: #d6d3d1;
+		text-underline-offset: 0.2em;
 	}
 
 	.editor-header__actions a:hover {
-		color: #111827;
-		background: #f3f4f6;
+		color: #1c1917;
+		background: #f5f5f4;
+		text-decoration-color: #a8a29e;
 	}
 
 	.print-button {
 		color: #ffffff;
-		background: #166534;
+		background: #292524;
 	}
 
 	.print-button:hover {
-		background: #14532d;
+		background: #44403c;
 	}
 
 	.resume-sheet {
@@ -273,15 +280,27 @@
 		.editor-header__inner {
 			align-items: flex-start;
 			flex-direction: column;
-			gap: 0.75rem;
+			gap: 0.625rem;
+		}
+
+		.editor-header__copy {
+			display: block;
+		}
+
+		.editor-header p {
+			margin-top: 0.125rem;
 		}
 
 		.editor-header__actions {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
 			width: 100%;
+			gap: 0.25rem 0.5rem;
 		}
 
 		.print-button {
-			flex: 1;
+			grid-column: 1 / -1;
+			width: 100%;
 		}
 
 		.editor-header__actions a {
