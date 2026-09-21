@@ -12,7 +12,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest --environment jsdom"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -30,6 +30,7 @@
 		"eslint-plugin-prettier": "5.1.2",
 		"eslint-plugin-simple-import-sort": "10.0.0",
 		"eslint-plugin-svelte": "2.35.1",
+		"jsdom": "^24.0.0",
 		"postcss": "8.4.33",
 		"postcss-load-config": "5.0.2",
 		"prettier": "3.1.1",

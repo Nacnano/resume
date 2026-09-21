@@ -1,26 +1,24 @@
-import Work from '../src/components/Work.svelte';
 import { render } from '@testing-library/svelte';
+import { describe, expect, test } from 'vitest';
+
+import Work from '../src/components/Work.svelte';
 
 describe('Work Component', () => {
-	test('it exists', async () => {
-		const { component } = render(Work, {});
-
-		expect(component).toBeDefined();
-	});
-
-	test('it renders the info from attributes', async () => {
+	test('renders the supplied experience information', () => {
 		const { getByText } = render(Work, {
 			position: 'Web Developer',
 			company: 'My Company',
+			location: 'Remote',
 			url: 'https://example.com',
-			years: [2019, 2021],
+			years: ['2019', '2021'],
 			details: ['Developed A', 'Lead team B']
 		});
 
-		expect(getByText('Web Developer')).toBeInTheDocument();
-		expect(getByText('My Company')).toBeInTheDocument();
-		expect(getByText('2019-2021')).toBeInTheDocument();
-		expect(getByText('Developed A')).toBeInTheDocument();
-		expect(getByText('Lead team B')).toBeInTheDocument();
+		expect(getByText('Web Developer')).toBeTruthy();
+		expect(getByText('My Company')).toBeTruthy();
+		expect(getByText('Remote')).toBeTruthy();
+		expect(getByText('2019 - 2021')).toBeTruthy();
+		expect(getByText('Developed A')).toBeTruthy();
+		expect(getByText('Lead team B')).toBeTruthy();
 	});
 });

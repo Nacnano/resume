@@ -16,18 +16,24 @@
 	import Education from './Education.svelte';
 </script>
 
-<header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
-	<h1 class="text-4xl">Resume</h1>
-	<h3>
-		<button on:click={() => window.print()} class="underline text-lg">[Print]</button>
-	</h3>
-	<p>Printer-friendly resume.</p>
-	<p>You can click on any section or line to hide some information before printing.</p>
-	<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">[Source]</a>
-	<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">[Data]</a>
+<header class="editor-header web-only">
+	<div class="editor-header__inner">
+		<div class="editor-header__copy">
+			<h1>Choose what to print</h1>
+			<p>Faded items won’t appear in the PDF. Tap any line to change it.</p>
+		</div>
+
+		<nav class="editor-header__actions" aria-label="Resume actions">
+			<button type="button" on:click={() => window.print()} class="print-button"
+				>Print or save PDF</button
+			>
+			<a href={intro.resumeUrl.sourceLink} target="_blank" rel="noopener">View source</a>
+			<a href={intro.resumeUrl.dataLink} target="_blank" rel="noopener">Resume data</a>
+		</nav>
+	</div>
 </header>
 
-<main class="text-center p-0 m-0 md:my-2 md:mx-6 xl:mx-auto max-w-screen-xl px-4 md:px-0">
+<main class="resume-sheet text-center">
 	<section>
 		<Intro {...intro} />
 	</section>
@@ -37,11 +43,9 @@
 			<h2 class="text-2xl print:text-xl uppercase text-left">Education</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			<ul class="resume-list text-left list-disc">
 				{#each educations as education}
-					<Hideable>
-						<Education {...education} />
-					</Hideable>
+					<Education {...education} />
 				{/each}
 			</ul>
 		</Hideable>
@@ -63,10 +67,10 @@
 		<Hideable>
 			<h2 class="text-2xl print:text-xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
-			<ul class="text-left list-disc pl-8">
+			<ul class="resume-list text-left list-disc">
 				{#each technologies as tech}
-					<Hideable hide={tech.hide}>
-						<li class="flex flex-col sm:flex-row items-start">
+					<Hideable as="li" hide={tech.hide}>
+						<div class="flex flex-col sm:flex-row items-start">
 							<span class="w-full sm:w-28 font-bold mb-1 sm:mb-0">{tech.section}</span>
 							<span class="flex-1 text-left">
 								{#each tech.details as detail, i (detail.text)}
@@ -77,7 +81,7 @@
 									</InlineHideable>
 								{/each}
 							</span>
-						</li>
+						</div>
 					</Hideable>
 				{/each}
 			</ul>
@@ -89,16 +93,14 @@
 			<h2 class="text-2xl print:text-xl uppercase text-left">Project</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			<ul class="resume-list text-left list-disc">
 				{#each projects as project}
-					<Hideable hide={project.hide}>
-						<li>
-							<strong>{project.name}</strong>
-							- {project.details}
-							<!-- <a href={project.url} target="_blank" rel="noreferrer"
+					<Hideable as="li" hide={project.hide}>
+						<strong>{project.name}</strong>
+						- {project.details}
+						<!-- <a href={project.url} target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							> -->
-						</li>
 					</Hideable>
 				{/each}
 			</ul>
@@ -110,13 +112,11 @@
 			<h2 class="text-2xl print:text-xl uppercase text-left">Achievement</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			<ul class="resume-list text-left list-disc">
 				{#each achievements as achievement}
-					<Hideable hide={achievement.hide}>
-						<li>
-							<strong>{achievement.name}</strong>
-							- {achievement.details}
-						</li>
+					<Hideable as="li" hide={achievement.hide}>
+						<strong>{achievement.name}</strong>
+						- {achievement.details}
 					</Hideable>
 				{/each}
 			</ul>
@@ -128,25 +128,23 @@
 			<h2 class="text-2xl print:text-xl uppercase text-left">Other</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			<ul class="resume-list text-left list-disc">
 				{#each others as other}
-					<Hideable hide={other.hide}>
-						<li>
-							{other.detail}
-							{#if other.details && other.details.length > 0}
-								<ul class="list-disc pl-6">
-									{#each other.details as subDetail}
-										{#if typeof subDetail === 'string'}
-											<li>{subDetail}</li>
-										{:else}
-											<Hideable hide={subDetail.hide}>
-												<li>{subDetail.text}</li>
-											</Hideable>
-										{/if}
-									{/each}
-								</ul>
-							{/if}
-						</li>
+					<Hideable as="li" hide={other.hide}>
+						{other.detail}
+						{#if other.details && other.details.length > 0}
+							<ul class="nested-list list-disc">
+								{#each other.details as subDetail}
+									{#if typeof subDetail === 'string'}
+										<li>{subDetail}</li>
+									{:else}
+										<Hideable as="li" hide={subDetail.hide}>
+											{subDetail.text}
+										</Hideable>
+									{/if}
+								{/each}
+							</ul>
+						{/if}
 					</Hideable>
 				{/each}
 			</ul>
@@ -155,8 +153,94 @@
 </main>
 
 <style lang="postcss">
-	main {
-		overflow-x: hidden;
+	.editor-header {
+		color: #292524;
+		background: #fafaf9;
+		border-bottom: 1px solid #e7e5e4;
+		padding: max(0.625rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 0.625rem
+			max(1rem, env(safe-area-inset-left));
+	}
+
+	.editor-header__inner {
+		display: flex;
+		width: min(100%, 64rem);
+		margin-inline: auto;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.5rem;
+	}
+
+	.editor-header__copy {
+		display: flex;
+		min-width: 0;
+		align-items: baseline;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		text-align: left;
+	}
+
+	.editor-header h1 {
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.35;
+		letter-spacing: -0.01em;
+	}
+
+	.editor-header p {
+		max-width: 60ch;
+		color: #78716c;
+		font-size: 0.8125rem;
+		line-height: 1.45;
+	}
+
+	.editor-header__actions {
+		display: flex;
+		flex: none;
+		align-items: center;
+		gap: 0.25rem;
+	}
+
+	.editor-header__actions a,
+	.print-button {
+		display: inline-flex;
+		min-height: 44px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0.25rem;
+		padding: 0.6rem 0.75rem;
+		font-weight: 500;
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	.editor-header__actions a {
+		color: #57534e;
+		text-decoration: underline;
+		text-decoration-color: #d6d3d1;
+		text-underline-offset: 0.2em;
+	}
+
+	.editor-header__actions a:hover {
+		color: #1c1917;
+		background: #f5f5f4;
+		text-decoration-color: #a8a29e;
+	}
+
+	.print-button {
+		color: #ffffff;
+		background: #292524;
+	}
+
+	.print-button:hover {
+		background: #44403c;
+	}
+
+	.resume-sheet {
+		width: min(100%, 64rem);
+		margin: 0 auto;
+		padding: clamp(1.25rem, 4vw, 3rem) clamp(1rem, 5vw, 3.5rem);
+		background: white;
+		overflow-wrap: anywhere;
 	}
 
 	a {
@@ -164,7 +248,7 @@
 	}
 
 	section {
-		@apply my-4;
+		margin-block: clamp(1.25rem, 3vw, 2rem);
 	}
 
 	section h2 {
@@ -172,8 +256,61 @@
 	}
 
 	section hr {
-		@apply mt-0 mb-2;
+		@apply mt-0 mb-3;
 		border-color: darkgrey;
+	}
+
+	.resume-list {
+		padding-left: clamp(1.25rem, 4vw, 2rem);
+	}
+
+	.nested-list {
+		padding-left: clamp(1.125rem, 4vw, 1.5rem);
+	}
+
+	@media (min-width: 640px) {
+		.resume-sheet {
+			margin-block: 1.5rem;
+			border: 1px solid #e5e7eb;
+			box-shadow: 0 18px 45px -28px rgb(17 24 39 / 35%);
+		}
+	}
+
+	@media (max-width: 767px) {
+		.editor-header__inner {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0.625rem;
+		}
+
+		.editor-header__copy {
+			display: block;
+		}
+
+		.editor-header p {
+			margin-top: 0.125rem;
+		}
+
+		.editor-header__actions {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			width: 100%;
+			gap: 0.25rem 0.5rem;
+		}
+
+		.print-button {
+			grid-column: 1 / -1;
+			width: 100%;
+		}
+
+		.editor-header__actions a {
+			padding-inline: 0.65rem;
+		}
+
+		section h2 {
+			font-size: 1.25rem;
+			line-height: 1.2;
+		}
 	}
 
 	:global(.print-only) {
@@ -209,8 +346,13 @@
 			@apply mt-0 mb-1;
 		}
 
-		main {
-			margin: 1;
+		.resume-sheet {
+			width: auto;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			box-shadow: none;
+			overflow-wrap: normal;
 		}
 	}
 </style>

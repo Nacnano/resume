@@ -13,7 +13,7 @@
 
 <div class="work-experience">
 	<Hideable {hide}>
-		<div class="flex flex-col mb-2 print:mb-1 print:text-sm">
+		<div class="flex flex-col gap-1 mb-2 print:mb-1 print:text-sm">
 			<div class="flex flex-col sm:flex-row sm:justify-between sm:items-start">
 				<div class="flex-1 text-left w-auto font-bold mb-1 sm:mb-0">
 					<p>
@@ -26,9 +26,7 @@
 					{years.join(' - ')}
 				</div>
 			</div>
-			<div
-				class="flex flex-col sm:flex-row sm:gap-2 items-start sm:items-center print:text-sm sm:text-base"
-			>
+			<div class="work-meta print:text-sm sm:text-base">
 				<p class="font-semibold">{company}</p>
 				{#if url}
 					<a href={url} target="_blank" class="font-semibold break-all" rel="noreferrer"
@@ -38,19 +36,15 @@
 				<p class="font-normal">{location}</p>
 			</div>
 		</div>
-		<ul class="text-left list-disc pl-8 print:pl-6">
+		<ul class="work-details text-left list-disc print:pl-6">
 			{#each details as detail}
 				{#if typeof detail === 'string'}
-					<Hideable>
-						<li>
-							{detail}
-						</li>
+					<Hideable as="li">
+						{detail}
 					</Hideable>
 				{:else}
-					<Hideable hide={detail.hide}>
-						<li>
-							{detail.text}
-						</li>
+					<Hideable as="li" hide={detail.hide}>
+						{detail.text}
 					</Hideable>
 				{/if}
 			{/each}
@@ -60,7 +54,25 @@
 
 <style lang="postcss">
 	.work-experience {
-		@apply my-4 pl-8;
+		margin-block: 1rem;
+		padding-left: clamp(0rem, 3vw, 2rem);
+	}
+
+	.work-meta {
+		display: flex;
+		min-width: 0;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.2rem 0.5rem;
+		text-align: left;
+	}
+
+	.work-meta > * {
+		min-width: 0;
+	}
+
+	.work-details {
+		padding-left: clamp(1.25rem, 4vw, 2rem);
 	}
 
 	a {
