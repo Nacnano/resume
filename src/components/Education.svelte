@@ -7,30 +7,34 @@
 	export let hide: boolean = false;
 </script>
 
-<div class="education">
-	<Hideable bind:hide>
+<Hideable as="li" bind:hide>
+	<div class="education">
 		<strong>{head}</strong>, {school}
 		{#if Array.isArray(details) && details.length > 0}
-			<ul class="text-left list-disc pl-8 print:pl-6">
+			<ul class="education-details text-left list-disc print:pl-6">
 				{#each details as detail}
 					{#if typeof detail === 'string'}
-						<Hideable>
-							<li>{detail}</li>
+						<Hideable as="li">
+							{detail}
 						</Hideable>
 					{:else}
-						<Hideable hide={detail.hide}>
-							<li>{detail.text}</li>
+						<Hideable as="li" hide={detail.hide}>
+							{detail.text}
 						</Hideable>
 					{/if}
 				{/each}
 			</ul>
 		{/if}
-	</Hideable>
-</div>
+	</div>
+</Hideable>
 
 <style lang="postcss">
 	.education {
 		@apply my-4;
+	}
+
+	.education-details {
+		padding-left: clamp(1.25rem, 4vw, 2rem);
 	}
 
 	@media print {

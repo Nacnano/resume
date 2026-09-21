@@ -2,3 +2,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	html {
+		min-width: 320px;
+		background: #f3f4f6;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	body {
+		min-width: 320px;
+		min-height: 100vh;
+		margin: 0;
+		color: #111827;
+		background: #f3f4f6;
+	}
+
+	button,
+	a {
+		-webkit-tap-highlight-color: rgb(21 128 61 / 16%);
+	}
+
+	a {
+		text-underline-offset: 0.16em;
+	}
+
+	:focus-visible {
+		outline: 3px solid #15803d;
+		outline-offset: 3px;
+		border-radius: 2px;
+	}
+
+	::selection {
+		color: #052e16;
+		background: #bbf7d0;
+	}
+
+	@media (max-width: 639px) {
+		html,
+		body {
+			background: #ffffff;
+		}
+	}
+
+	@media print {
+		html,
+		body {
+			min-width: 0;
+			background: #ffffff;
+		}
+	}
+}
