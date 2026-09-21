@@ -5,7 +5,7 @@
 	const toggleHide = () => (hide = !hide);
 </script>
 
-<svelte:element this={as} class="hideable" class:web-only={hide} class:text-gray-500={hide}>
+<svelte:element this={as} class="hideable" class:web-only={hide} class:excluded={hide}>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
@@ -42,6 +42,18 @@
 	.hideable-content {
 		display: block;
 		border-radius: 0.125rem;
+		transition:
+			opacity 140ms cubic-bezier(0.16, 1, 0.3, 1),
+			color 140ms cubic-bezier(0.16, 1, 0.3, 1);
+	}
+
+	.hideable.excluded > .hideable-content {
+		color: #6b7280;
+		opacity: 0.42;
+	}
+
+	.hideable.excluded:focus-within > .hideable-content {
+		opacity: 0.78;
 	}
 
 	.visibility-toggle {
@@ -52,11 +64,11 @@
 		width: 2rem;
 		height: 2rem;
 		place-items: center;
-		border: 1px solid #d1d5db;
+		border: 1px solid #e5e7eb;
 		border-radius: 9999px;
-		color: #374151;
+		color: #6b7280;
 		background: #ffffff;
-		box-shadow: 0 5px 14px -8px rgb(17 24 39 / 55%);
+		box-shadow: 0 3px 10px -8px rgb(17 24 39 / 35%);
 		opacity: 0;
 		pointer-events: none;
 		transition:
@@ -86,7 +98,11 @@
 
 	@media (hover: hover) {
 		.hideable-content:hover:not(:has(.hideable-content:hover)) {
-			background: rgb(22 163 74 / 7%);
+			background: rgb(22 163 74 / 4%);
+		}
+
+		.hideable.excluded > .hideable-content:hover {
+			opacity: 0.78;
 		}
 
 		.hideable-content:hover:not(:has(.hideable-content:hover)) + .visibility-toggle,
@@ -116,6 +132,7 @@
 	}
 
 	@media (prefers-reduced-motion: reduce) {
+		.hideable-content,
 		.visibility-toggle {
 			transition: none;
 		}

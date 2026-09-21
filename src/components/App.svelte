@@ -154,9 +154,10 @@
 
 <style lang="postcss">
 	.editor-header {
-		color: white;
-		background: #15803d;
-		padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 1rem
+		color: #111827;
+		background: #ffffff;
+		border-bottom: 1px solid #e5e7eb;
+		padding: max(0.875rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) 0.875rem
 			max(1rem, env(safe-area-inset-left));
 	}
 
@@ -175,17 +176,17 @@
 	}
 
 	.editor-header h1 {
-		font-size: clamp(1.5rem, 4vw, 2rem);
-		font-weight: 700;
-		line-height: 1.1;
-		letter-spacing: -0.025em;
+		font-size: clamp(1.125rem, 3vw, 1.375rem);
+		font-weight: 600;
+		line-height: 1.2;
+		letter-spacing: -0.015em;
 	}
 
 	.editor-header p {
 		max-width: 58ch;
-		margin-top: 0.35rem;
-		color: #f0fdf4;
-		font-size: 0.9375rem;
+		margin-top: 0.2rem;
+		color: #6b7280;
+		font-size: 0.875rem;
 		line-height: 1.45;
 	}
 
@@ -193,7 +194,7 @@
 		display: flex;
 		flex: none;
 		align-items: center;
-		gap: 0.5rem;
+		gap: 0.25rem;
 	}
 
 	.editor-header__actions a,
@@ -210,20 +211,21 @@
 	}
 
 	.editor-header__actions a {
-		color: white;
+		color: #4b5563;
 	}
 
 	.editor-header__actions a:hover {
-		background: rgb(255 255 255 / 12%);
+		color: #111827;
+		background: #f3f4f6;
 	}
 
 	.print-button {
-		color: #14532d;
-		background: white;
+		color: #ffffff;
+		background: #166534;
 	}
 
 	.print-button:hover {
-		background: #f0fdf4;
+		background: #14532d;
 	}
 
 	.resume-sheet {
@@ -271,7 +273,7 @@
 		.editor-header__inner {
 			align-items: flex-start;
 			flex-direction: column;
-			gap: 0.9rem;
+			gap: 0.75rem;
 		}
 
 		.editor-header__actions {

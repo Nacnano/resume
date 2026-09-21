@@ -4,7 +4,11 @@
 	const toggleHide = () => (hide = !hide);
 </script>
 
-<span class="group relative inline-block" class:web-only={hide} class:text-gray-500={hide}>
+<span
+	class="inline-hideable-wrapper group relative inline-block"
+	class:web-only={hide}
+	class:excluded={hide}
+>
 	<span
 		on:click|stopPropagation={toggleHide}
 		on:keydown|stopPropagation={(e) => (e.key === 'Enter' || e.key === ' ') && toggleHide()}
@@ -21,11 +25,27 @@
 	<style lang="postcss">
 		.inline-hideable {
 			border-radius: 0.125rem;
+			transition:
+				opacity 140ms cubic-bezier(0.16, 1, 0.3, 1),
+				color 140ms cubic-bezier(0.16, 1, 0.3, 1);
+		}
+
+		.inline-hideable-wrapper.excluded > .inline-hideable {
+			color: #6b7280;
+			opacity: 0.42;
+		}
+
+		.inline-hideable-wrapper.excluded > .inline-hideable:focus {
+			opacity: 0.78;
 		}
 
 		@media (hover: hover) {
 			.inline-hideable:hover {
-				background: rgb(22 163 74 / 7%);
+				background: rgb(22 163 74 / 4%);
+			}
+
+			.inline-hideable-wrapper.excluded > .inline-hideable:hover {
+				opacity: 0.78;
 			}
 		}
 
@@ -40,6 +60,12 @@
 		@media print {
 			.inline-hideable {
 				min-height: 0;
+			}
+		}
+
+		@media (prefers-reduced-motion: reduce) {
+			.inline-hideable {
+				transition: none;
 			}
 		}
 	</style>
