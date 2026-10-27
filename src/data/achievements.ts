@@ -2,6 +2,12 @@ import type { IAchievement } from '../types';
 
 export const achievements: IAchievement[] = [
 	{
+		name: 'Hult Prize at Chula (2026)',
+		details:
+			'Semi-finalist for an AI massage teaching system using CV and multimodal LLMs.',
+		hide: true
+	},
+	{
 		name: 'Chula LegalTech Year 6 (2025)',
 		details:
 			'Won 1st place (50,000 THB) for a youth job-matching web app. Built the frontend and OCR backend using Next.js and Flask.'
