@@ -8,7 +8,8 @@ export const experiences: IExperience[] = [
 		url: 'https://nansen.ai',
 		years: ['August, 2026', 'Present'],
 		details: [
-			'Developed blockchain analytics and AI trading features using QuickNode, LiteLLM, and Langfuse'
+			'Developed blockchain analytics and AI trading features using QuickNode, LiteLLM, and Langfuse',
+			'Improved service reliability and monitoring using Kubernetes, Helm, Terraform, and Grafana'
 		]
 	},
 	{
